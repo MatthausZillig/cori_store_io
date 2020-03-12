@@ -96,54 +96,22 @@
 /* HOME */
 .paragraph--insta-Home {
   margin: 0;
+
   :first-child {
     text-decoration: none;
     font-size: 20px;
     color: #777272;
   }
 }
+
 .container--shelfTitle {
   margin-top: 15px;
+
   .paragraph--shelfTitle {
     font-weight: 600;
   }
 }
 
-.paragraph--su-estilo {
-  &::before {
-    content: "";
-    height: 1px;
-    width: 400px;
-    background-color: #fff;
-    margin: auto;
-    margin-right: 25px;
-  }
-  margin-top: 0;
-  line-height: 2;
-  font-size: 24px;
-  color: #fff;
-  text-transform: uppercase;
-  display: flex;
-  &::after {
-    content: "";
-    height: 1px;
-    width: 400px;
-    background-color: #fff;
-    margin: auto;
-    margin-left: 10px;
-  }
-  @media (max-width: 768px) {
-    &::before {
-      width: 80px;
-      margin-right: 25px;
-    }
-    font-size: 18px;
-    &::after {
-      width: 80px;
-      margin-left: 10px;
-    }
-  }
-}
 /* FOOTER */
 .paragraph--footer-copyright {
   font-weight: 700;
@@ -189,12 +157,14 @@
   letter-spacing: 0.5px;
   color: $orange;
 }
+
 .paragraph--text-seo {
   font-size: 15px;
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0.3px;
   color: #666;
+
   :first-child {
     text-decoration: none;
     color: $orange;
@@ -207,6 +177,7 @@
 
 .paragraph--mobile-contacto {
   margin: 10px 30px;
+
   :first-child {
     text-decoration: none;
     color: #3f3f40;

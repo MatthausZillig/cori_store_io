@@ -1,40 +1,4 @@
 {
-    "flex-layout.row#su-estilo-mobile": {
-        "children": [
-            "flex-layout.col#su-estilo-mobile"
-        ],
-        "props": {
-            "blockClass": "su-estilo"
-        }
-    },
-    "flex-layout.col#su-estilo-mobile": {
-        "children": [
-            "rich-text#su-estilo",
-            "slider-layout#shopbystyle"
-        ],
-        "props": {
-            "blockClass": "su-estilo"
-        }
-    },
-    "slider-layout#shopbystyle": {
-        "children": [
-            "flex-layout.col#estilos-1",
-            "flex-layout.col#estilos-2",
-            "flex-layout.col#estilos-3",
-            "flex-layout.col#estilos-4"
-        ],
-        "props": {
-            "autoplay": {
-                "timeout": 10000,
-                "stopOnHover": false
-            },
-            "itemsPerPage": {
-                "tablet": 3,
-                "phone": 2
-            },
-            "blockClass": "shopbystyle"
-        }
-    },
     "flex-layout.row#mosaico": {
         "children": [
             "flex-layout.col#mosaico-1",

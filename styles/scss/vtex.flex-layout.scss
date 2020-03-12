@@ -6,6 +6,7 @@
 }
 
 @media screen and (min-width: 40em) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
@@ -13,6 +14,7 @@
 }
 
 @media screen and (min-width: 80rem) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 0.25rem;
@@ -79,68 +81,40 @@
 .flexCol--switcherMobileCol {
   width: 20%;
 }
+
 .flexRowContent--3-mobile {
   :first-child {
     margin: 0 auto;
   }
 }
+
 /* HOME */
-.flexRow--su-estilo {
-  margin-bottom: 15px;
-  background-image: url("/arquivos/shopbystyle.png");
-  min-height: 340px;
-  padding: 35px 0;
-  .flexRow--estilos {
-    margin: 0 auto;
-    .flexCol {
-      padding: 0 25px;
-      @media (max-width: 768px) {
-        padding: 20px;
-      }
-    }
-    .flexColChild {
-      &:first-child {
-        height: 130px !important;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        :first-child {
-          width: 169px;
-          &:hover {
-            transform: scale(1.2);
-            transition: 0.3s;
-          }
-        }
-      }
-      &:last-child {
-        height: auto !important;
-      }
-    }
-  }
-  :global(.vtex-rich-text-0-x-paragraph) {
-    color: #f0f0f0;
-    font-weight: 600;
-  }
-}
 .flexRow--mosaico {
   margin-bottom: 15px;
+
   :global(.vtex-store-components-3-x-container) {
     padding: 0;
+
     .flexRowContent--mosaico {
       display: flex;
       flex-direction: row;
+
       .stretchChildrenWidth {
         width: 50% !important;
+
         .flexCol--mosaico-1 {
           margin-right: 7.5px;
+
           .flexColChild {
             &:not(:last-child) {
               margin-bottom: 15px;
             }
           }
         }
+
         .flexCol--mosaico-2 {
           margin-left: 7.5px;
+
           .flexColChild {
             &:not(:last-child) {
               margin-bottom: 15px;
@@ -151,10 +125,12 @@
     }
   }
 }
+
 .flexRow--flex-row-header {
   width: 100%;
   padding-left: 35px;
 }
+
 /* FOOTER */
 .flexColChild--menu-col-footer {
   height: auto !important;
@@ -267,6 +243,7 @@
 
 .flexRowContent--rowBuyButton {
   margin-bottom: 0.5rem;
+
   :global(.vtex-button) {
     border-radius: 0;
   }
@@ -286,8 +263,10 @@
     &:first-child {
       width: 20% !important;
     }
+
     &:last-child {
       width: 80% !important;
+
       .flexRowContent {
         .stretchChildrenWidth {
           width: 100% !important;
