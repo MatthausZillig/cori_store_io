@@ -1,0 +1,48 @@
+{
+    "store.custom": {
+        "before": [
+            "header.full"
+        ],
+        "allowed": [
+            "freshdesk",
+            "accordion-custom",
+            "locales"
+        ],
+        "after": [
+            "footer"
+        ]
+    },
+    "image.mountainhardwearcl": {
+        "component": "SideMenu"
+    },
+    "freshdesk": {
+        "component": "FreshDesk"
+    },
+    "accordion-custom": {
+        "component": "AccordionCustom"
+    },
+    "locales": {
+        "component": "Locales"
+    },
+    "stock-tiendas": {
+        "component": "StockTiendas"
+    },
+    "guia-de-talles": {
+        "component": "GuiaDeTallesComponent"
+    },
+    "my-account-link.my-app-link": {
+        "component": "MyAccountLink"
+    },
+    "my-account-script": {
+        "component": "MyAccountScript"
+    },
+    "my-account-page.my-app-page": {
+        "component": "MyAccountPage"
+    },
+    "scroll-up": {
+        "component": "ScrollUp"
+    },
+    "cucarda-descuento": {
+        "component": "CucardaDescuento"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "menu-item#menu-sale": {
+        "props": {
+            "id": "menu-item-menu-sale",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/141?map=productClusterIds",
+                "tagTitle": "SALE",
+                "text": "SALE"
+            }
+        }
+    },
+    "menu-item#menu-ver-carro": {
+        "props": {
+            "id": "menu-item-menu-ver-carro",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/checkout/#/cart",
+                "tagTitle": "VER CARRO",
+                "text": "VER CARRO"
+            }
+        }
+    },
+    "menu-item#menu-sigue-compra": {
+        "props": {
+            "id": "menu-item-menu-sigue-compra",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.siguetucompra.cl/",
+                "tagTitle": "SIGUE TU COMPRA",
+                "text": "SIGUE TU COMPRA"
+            }
+        }
+    },
+    "menu-item#menu-tiendas": {
+        "props": {
+            "id": "menu-item-menu-tiendas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tiendas",
+                "tagTitle": "TIENDAS",
+                "text": "TIENDAS"
+            }
+        }
+    },
+    "menu-item#menu-mi-cuenta": {
+        "props": {
+            "id": "menu-item-menu-mi-cuenta",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/account",
+                "tagTitle": "MI CUENTA",
+                "text": "MI CUENTA"
+            }
+        }
+    }
+}

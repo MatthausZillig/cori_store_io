@@ -1,0 +1,11 @@
+@import "./references";
+
+.product-identifier--productReference {
+  margin-bottom: 1rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-main) .product-identifier--productReference {
+  display: block;
+  margin-bottom: 0;
+  font-size: 11px;
+}

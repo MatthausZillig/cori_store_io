@@ -1,0 +1,45 @@
+@import "./references";
+
+.container {
+  margin-bottom: 15px;
+
+  .arrow {
+    color: #444;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      background-image: url('/arquivos/spritesheet.png?v=3');
+      background-size: 278px 255px;
+      background-position: -141px -114px;
+      width: 8px;
+      height: 8px;
+      margin-left: 2px;
+    }
+
+    .caretIcon {
+      display: none;
+    }
+  }
+}
+
+.homeLink {
+  &::before {
+    content: "Home";
+  }
+
+  .homeIcon {
+    display: none;
+  }
+}
+
+.link {
+  margin-left: 8px;
+  font-size: 13px;
+  font-weight: 400;
+  color: $gray-5;
+
+  &:hover {
+    color: $gray-5;
+  }
+}

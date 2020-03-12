@@ -1,0 +1,279 @@
+{
+  "vtex.menu@2.x:menu#footer-coluna-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#centro-ayuda",
+      "menu-item#tiendas",
+      "menu-item#click-collect",
+      "menu-item#contactanos-footer"
+    ]
+  },
+  "menu-item#mi-compra": {
+    "props": {
+      "id": "menu-item-mi-compra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.siguetucompra.cl/",
+        "noFollow": false,
+        "tagTitle": "mi-compra",
+        "text": "Dondé viene mi compra?"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#tiendas": {
+    "props": {
+      "id": "menu-item-tiendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tiendas",
+        "noFollow": false,
+        "tagTitle": "tiendas",
+        "text": "Tiendas"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#contactanos-footer": {
+    "props": {
+      "id": "menu-item-contactanos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contacto",
+        "noFollow": false,
+        "tagTitle": "Contáctanos",
+        "text": "Contáctanos"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#click-collect": {
+    "props": {
+      "id": "menu-item-click-collect",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/retiro-en-tienda",
+        "noFollow": false,
+        "tagTitle": "click-collect",
+        "text": "Click & Collect - Retiro En Tienda"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#centro-ayuda": {
+    "props": {
+      "id": "menu-item-centro-ayuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/beneficios",
+        "noFollow": false,
+        "tagTitle": "centro-ayuda",
+        "text": "Centro De Ayuda"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-coluna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#terminos-condiciones",
+      "menu-item#politicas-despacho",
+      "menu-item#politicas-cambios"
+    ]
+  },
+  "menu-item#terminos-condiciones": {
+    "props": {
+      "id": "menu-item-terminos-condiciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/beneficios",
+        "noFollow": true,
+        "tagTitle": "terminos-condiciones",
+        "text": "Términos y Condiciones"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#politicas-despacho": {
+    "props": {
+      "id": "menu-item-politicas-despacho",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/beneficios",
+        "noFollow": true,
+        "tagTitle": "politicas-despacho",
+        "text": "Políticas de Despacho"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#politicas-cambios": {
+    "props": {
+      "id": "menu-item-politicas-cambios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/beneficios",
+        "noFollow": true,
+        "tagTitle": "politicas-cambios",
+        "text": "Políticas de Cambios y Devoluciones"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-coluna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mi-cuenta",
+      "menu-item#mi-compra",
+      "menu-item#historial-compras"
+    ]
+  },
+  "menu#footer": {
+    "children": [
+      "menu-item#footer-customer-service",
+      "menu-item#footer-legal",
+      "menu-item#footer-account"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    }
+  },
+  "menu-item#footer-customer-service": {
+    "props": {
+      "id": "menu-item-customer-service",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "customer-service",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Servicio al Consumidor",
+        "text": "Servicio al Consumidor"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#cust-service"
+    ]
+  },
+  "menu-item#footer-legal": {
+    "props": {
+      "id": "menu-item-legal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "legal",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Legal",
+        "text": "Legal"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#legal"
+    ]
+  },
+  "menu-item#footer-account": {
+    "props": {
+      "id": "menu-item-account",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "account",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Cuenta",
+        "text": "Cuenta"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#account"
+    ]
+  },
+  "submenu.accordion#cust-service": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-coluna-1"
+    ]
+  },
+  "submenu.accordion#legal": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-coluna-2"
+    ]
+  },
+  "submenu.accordion#account": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-coluna-3"
+    ]
+  },
+  "menu-item#mi-cuenta": {
+    "props": {
+      "id": "menu-item-mi-cuenta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": true,
+        "tagTitle": "mi-cuenta",
+        "text": "Mi Cuenta"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#historial-compras": {
+    "props": {
+      "id": "menu-item-historial-compras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/orders",
+        "noFollow": true,
+        "tagTitle": "historial-compras",
+        "text": "Historial de Compras"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  }
+}

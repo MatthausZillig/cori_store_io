@@ -1,0 +1,328 @@
+@import '../../references';
+
+.tiendas_stock {
+  position: relative;
+  font-family: "proxima_novabold", SansSerif, sans-serif;
+}
+
+.tiendas_stock * {
+  font-family: "proxima_novaregular", SansSerif, sans-serif;
+}
+
+.tiendas_stock button {
+  background: none;
+  border: none;
+  outline: none;
+  appearance: none;
+  padding: 0;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  color: $blue;
+  border: solid thin $blue;
+  padding: 10px;
+  text-decoration: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.tiendas_stock button:hover {
+  border: solid thin #fff;
+  background: $light-gray;
+  color: $blue;
+}
+
+.tiendas_stock .modal_tiendas {
+  position: fixed;
+  top: 15%;
+  left: 30%;
+  z-index: 900;
+  border: 1px solid $light-gray-3;
+  background: #fff;
+  padding: 20px;
+  padding-top: 0;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-width: 95%;
+  max-height: 80%;
+  min-height: 60%;
+  width: 40%;
+}
+
+.tiendas_stock .modal_tiendas::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.tiendas_stock .modal_tiendas::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+.tiendas_stock .modal_tiendas::-webkit-scrollbar-thumb {
+  background: $light-gray-2;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+.tiendas_stock .modal_tiendas::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+.tiendas_stock .modal_tiendas::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+
+.tiendas_stock .modal_tiendas::-webkit-scrollbar-track {
+  background: $gray;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+.tiendas_stock .modal_tiendas::-webkit-scrollbar-track:hover {
+  background: $gray;
+}
+
+.tiendas_stock .modal_tiendas::-webkit-scrollbar-track:active {
+  background: $dark-gray;
+}
+
+.tiendas_stock .modal_tiendas::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .tiendas_stock .modal_tiendas {
+    width: 90%;
+    max-height: 90%;
+    min-height: 50%;
+    height: auto;
+    top: 10%;
+    left: 5%;
+    box-sizing: border-box;
+  }
+}
+
+.tiendas_stock .modal_tiendas .header_tiendas {
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
+}
+
+.tiendas_stock .modal_tiendas .header_tiendas .title_header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: solid thin $light-gray;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  background: #fff;
+  z-index: 1000;
+}
+
+.tiendas_stock .modal_tiendas .header_tiendas h3 {
+  font-size: 1rem;
+}
+
+.tiendas_stock .modal_tiendas .header_tiendas span {
+  margin-left: auto;
+  user-select: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tiendas_stock .modal_tiendas .header_tiendas .skuSelector_tiendas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tiendas_stock .modal_tiendas .header_tiendas .skuSelector_tiendas .selected_item_img {
+  width: 30%;
+}
+
+.tiendas_stock .modal_tiendas .header_tiendas .skuSelector_tiendas .selected_item_img img {
+  width: 100%;
+}
+
+.tiendas_stock .modal_tiendas .header_tiendas .skuSelector_tiendas .selected_item_details {
+  width: 50%;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.tiendas_stock .modal_tiendas .header_tiendas .skuSelector_tiendas .selected_item_talles {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.tiendas_stock .modal_tiendas .header_tiendas .skuSelector_tiendas .selected_item_talles .btn_tiendas {
+  $size: 35px;
+  width: $size;
+  height: $size;
+  border: solid thin $light-gray;
+  margin: 5px;
+  line-height: 1;
+  display: flex;
+  cursor: pointer;
+
+  span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 16.1px;
+    text-size-adjust: 100%;
+    text-transform: none;
+    white-space: nowrap;
+    margin: auto;
+  }
+}
+
+.tiendas_stock .modal_tiendas .header_tiendas .skuSelector_tiendas .selected_item_talles .btn_tiendas:hover,
+.tiendas_stock .modal_tiendas .header_tiendas .skuSelector_tiendas .selected_item_talles .btn_tiendas.selected {
+  background: $blue;
+  color: #fff;
+}
+
+.tiendas_stock .modal_tiendas img {
+  width: 100%;
+}
+
+.tiendas_stock .modal_tiendas .body_tiendas {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: solid thin $light-gray;
+}
+
+.tiendas_stock .modal_tiendas .body_tiendas .result_tiendas {
+  display: flex;
+  flex-direction: column;
+}
+
+.tiendas_stock .modal_tiendas .body_tiendas .result_tiendas .tienda {
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.tiendas_stock .modal_tiendas .body_tiendas .result_tiendas .tienda .columna_details {
+  width: auto;
+  margin: auto;
+  margin-left: 0;
+}
+
+.tiendas_stock .modal_tiendas .body_tiendas .result_tiendas .tienda .columna_details h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase !important;
+  margin: 0;
+}
+
+.tiendas_stock .modal_tiendas .body_tiendas .result_tiendas .tienda .columna_details p {
+  color: #00000080;
+  margin: 0;
+}
+
+.tiendas_stock .modal_tiendas .body_tiendas .result_tiendas .tienda .columna_details p.muchas {
+  color: #008809;
+}
+
+.tiendas_stock .modal_tiendas .body_tiendas .result_tiendas .tienda .columna_details p.pocas {
+  color: #ffcc00;
+}
+
+.tiendas_stock .modal_tiendas .body_tiendas .result_tiendas .tienda .columna_details p.sin_stock {
+  color: #bf0000;
+}
+
+.tiendas_stock .modal_tiendas .body_tiendas .result_tiendas .tienda .columna_mapa {
+  width: auto;
+  margin: auto;
+  margin-right: 0;
+
+  img {
+    width: 30px;
+    margin: auto;
+  }
+}
+
+.tiendas_stock .modal_tiendas .body_tiendas .result_tiendas .tienda .columna_mapa a {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 0.7rem;
+}
+
+.tiendas_stock .modal_tiendas .body_tiendas .result_tiendas .tienda .columna_mapa a span {
+  margin-top: 5px;
+}
+
+.tiendas_stock .modal_tiendas .error_tiendas {
+  text-align: center;
+  color: #bf0000;
+}
+
+.tiendas_stock .modal_tiendas .button_buscar_tiendas {
+  margin-top: auto;
+  background-color: $blue;
+  box-sizing: border-box;
+  color: #3b3b3b;
+  display: block;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 16px;
+  padding-bottom: 12.5px;
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+  padding-top: 12.5px;
+  position: relative;
+  text-align: center;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-size-adjust: 100%;
+  text-transform: uppercase;
+  word-spacing: 0px;
+  writing-mode: horizontal-tb;
+  text-decoration: none;
+  color: #fff;
+}
+
+.tiendas_stock .bg_modal {
+  background: #00000080;
+  z-index: 899;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.close_modal {
+  position: absolute;
+  right: 0;
+  background: #fff;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  user-select: none;
+
+  span {
+    margin: auto;
+    font-weight: 700;
+  }
+}
+
+/*# sourceMappingURL=StockTiendas.global.css.map */

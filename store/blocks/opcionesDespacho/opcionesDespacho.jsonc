@@ -1,0 +1,115 @@
+{
+    "store.custom#opcionesDespacho": {
+        "blocks": [
+            "flex-layout.row#opcionesDespacho"
+        ],
+        "props": {
+            "blockClass": "opcionesDespacho"
+        }
+    },
+    "flex-layout.row#opcionesDespacho": {
+        "children": [
+            "flex-layout.row#colunas-opcionesDespacho"
+        ],
+        "props": {
+            "blockClass": "fl-opcionesDespacho"
+        }
+    },
+    "flex-layout.row#colunas-opcionesDespacho": {
+        "children": [
+            "flex-layout.col#col1-body-opcionesDespacho",
+            "flex-layout.col#col2-body-opcionesDespacho"
+        ],
+        "props": {
+            "blockClass": "colunas-opcionesDespacho"
+        }
+    },
+    "flex-layout.col#col1-body-opcionesDespacho": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-opcionesDespacho",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-opcionesDespacho": {
+        "children": [
+            "rich-text#despacho-titlegrande",
+            "rich-text#despacho-textone",
+            "rich-text#despacho-titletwo",
+            "rich-text#despacho-texttwo",
+            "rich-text#despacho-valortabelaum",
+            "rich-text#despacho-tabelaum",
+            "rich-text#despacho-titlethree",
+            "rich-text#despacho-textthree",
+            "rich-text#despacho-valortabeladois",
+            "rich-text#despacho-tabeladois"
+        ],
+        "props": {
+            "blockClass": "col2-body-opcionesDespacho",
+            "width": "75%"
+        }
+    },
+    "rich-text#despacho-titlegrande": {
+        "props": {
+            "text": "**¿CUÁLES SON LAS OPCIONES DE DESPACHO?**",
+            "blockClass": "despacho-titlegrande"
+        }
+    },
+    "rich-text#despacho-textone": {
+        "props": {
+            "text": "Es muy importante que el cliente conozca las localidades de Chile donde no es posible despachar a domicilio. Alternativamente se ofrece despacho a oficinas de Correos de Chile para estas localidades.<br>Keds.cl ofrece 2 métodos de despacho para que selecciones el que más te convenga según precio y comodidad:",
+            "blockClass": "despacho-textone"
+        }
+    },
+    "rich-text#despacho-titletwo": {
+        "props": {
+            "text": "**DOMICILIO**",
+            "blockClass": "despacho-titletwo"
+        }
+    },
+    "rich-text#despacho-texttwo": {
+        "props": {
+            "text": "Enviaremos el producto que compraste al domicilio que nos indiques. Sólo debes indicarnos al momento de pagar cuál es tu dirección, comuna y ciudad. Si no te encuentras en tu domicilio, coordinaremos un nuevo despacho. En caso residencias que cuenten con servicio de conserjería, los productos despachados serán recibidos por los el personal de turno siempre que tenga más de dieciocho (18) años de edad.<br>Las tarifas para despacho a domicilio son:",
+            "blockClass": "despacho-texttwo"
+        }
+    },
+    "rich-text#despacho-valortabelaum": {
+        "props": {
+            "text": "<span>Valor Desp.</span>",
+            "blockClass": "despacho-valortabelaum"
+        }
+    },
+    "rich-text#despacho-tabelaum": {
+        "props": {
+            "text": "<span>Región Metropolitana <span>$ 3.490</span></span><span>Copiapó – Puerto Montt <span>$ 4.390</span></span><span>Zonas Extremas <span>$ 6.990</span></span>",
+            "blockClass": "despacho-tabelaum"
+        }
+    },
+    "rich-text#despacho-titlethree": {
+        "props": {
+            "text": "**SUCURSAL**",
+            "blockClass": "despacho-titlethree"
+        }
+    },
+    "rich-text#despacho-textthree": {
+        "props": {
+            "text": "En caso de que no estés seguro de estar en tu domicilio al momento de la entrega, el despacho a sucursal es una buena alternativa. Al momento de pagar, sólo debes seleccionar la sucursal de Correos Chile en la cual te gustaría retirar tu producto y nosotros te avisaremos vía correo electrónico cuando esté disponible para retiro. Sólo debes presentar tu cédula de identidad al momento de la entrega. Para ver las sucursales en donde puedes retirar tu compra, <a href=''>haz click aquí</a><br>Las tarifas para despacho a sucursal son:",
+            "blockClass": "despacho-textthree"
+        }
+    },
+    "rich-text#despacho-valortabeladois": {
+        "props": {
+            "text": "<span>Valor Desp.</span>",
+            "blockClass": "despacho-valortabeladois"
+        }
+    },
+    "rich-text#despacho-tabeladois": {
+        "props": {
+            "text": "<span>Región Metropolitana <span>$ 3.490</span></span><span>Copiapó – Puerto Montt <span>$ 4.390</span></span><span>Zonas Extremas <span>$ 6.990</span></span>",
+            "blockClass": "despacho-tabeladois"
+        }
+    }
+} 

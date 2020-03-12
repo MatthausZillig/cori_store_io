@@ -1,0 +1,10 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#menu-mujer",
+      "menu-item#menu-siluetas",
+      "menu-item#menu-colaboraciones",
+      "menu-item#menu-sale"
+    ]
+  }
+}

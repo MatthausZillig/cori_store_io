@@ -1,0 +1,59 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+
+.sliderLayoutContainer--carousel {
+  background-color: #f0f0f0;
+  @media (max-width: 768px) {
+    margin-bottom: 15px;
+  }
+}
+
+@import "./references";
+
+.sliderTrackContainer {
+  max-width: 1520px;
+}
+
+.paginationDotsContainer {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.sliderTrackContainer--shelf {
+  :global(.vtex-product-summary-2-x-nameContainer) {
+    padding: 0;
+    padding-top: 10px;
+  }
+  :global(.vtex-store-components-3-x-priceContainer) {
+    display: flex;
+    flex-direction: row;
+    :global(.vtex-store-components-3-x-listPriceLabel),
+    :global(.vtex-store-components-3-x-sellingPriceLabel) {
+      display: none;
+    }
+    :global(.vtex-store-components-3-x-listPriceValue),
+    :global(.vtex-store-components-3-x-sellingPriceValue) {
+      font-size: 17px;
+    }
+    :global(.vtex-product-summary-2-x-installmentContainer) {
+      display: none;
+    }
+  }
+}
+
+.slideChildrenContainer.slideChildrenContainer--shopbystyle {
+  padding: 20px;
+}

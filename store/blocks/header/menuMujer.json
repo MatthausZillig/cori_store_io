@@ -1,0 +1,78 @@
+{
+    "menu-item#menu-mujer": {
+        "props": {
+            "id": "menu-item-menu-mujer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "mujer",
+                "href": "/mujer",
+                "tagTitle": "COLECCIÓN MUJER",
+                "text": "COLECCIÓN MUJER"
+            },
+            "blockClass": "menu-title"
+        },
+        "blocks": [
+            "submenu#menu-mujer"
+        ]
+    },
+    "submenu#menu-mujer": {
+        "children": [
+            "flex-layout.row#mujer-1"
+        ]
+    },
+    "flex-layout.row#mujer-1": {
+        "children": [
+            "menu#menu-mujer",
+            "image#menumujer"
+        ],
+        "props": {
+            "blockClass": "flex-row-header"
+        }
+    },
+    "image#menumujer": {
+        "props": {
+            "src": "//azaleiacl.vteximg.com.br/arquivos/azaleia1.jpg",
+            "blockClass": "brands",
+            "link": "/"
+        }
+    },
+    "menu#menu-mujer": {
+        "props": {
+            "categoryId": 1,
+            "orientation": "vertical",
+            "blockClass": "menu-mujer"
+        }
+    },
+    "menu-item#menu-mobile-mujer": {
+        "props": {
+            "id": "menu-item-mobile-menu-mujer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "mujer",
+                "href": "/",
+                "tagTitle": "COLECCIÓN MUJER",
+                "text": "COLECCIÓN MUJER"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#menu-mujer"
+        ]
+    },
+    "submenu.accordion#menu-mujer": {
+        "children": [
+            "flex-layout.row#submenu-mobile-mujer"
+        ]
+    },
+    "flex-layout.row#submenu-mobile-mujer": {
+        "children": [
+            "menu#menu-mujer"
+        ],
+        "props": {
+            "blockClass": "mobile-header"
+        }
+    }
+}

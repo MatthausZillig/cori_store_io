@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap");
+@import '../../references';
+
+:global(.render-container.render-route-store-custom-contacto) .freshDesk.container {
+  box-sizing: border-box;
+  color: $dark-gray;
+  font-family: Lato, sans-serif;
+}
+
+:global(.render-container.render-route-store-custom-contacto) .col-md-12 {
+  font-size: 14px;
+  width: 75%;
+  margin-right: auto;
+}
+
+:global(.render-container.render-route-store-custom-contacto) .page-header h1 {
+  font-size: 36px;
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #1BA7FF;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset dt {
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+fieldset dd {
+  margin-inline-start: 0;
+}
+
+fieldset legend {
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: $dark-gray;
+  border: 0;
+  border-bottom: 1px solid $light-gray-2;
+}
+
+.form-group .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid $light-gray-3;
+  box-shadow: inset 0 1px 1px #00000013;
+  margin-bottom: 15px;
+}
+
+.form-group .controls #enquiry {
+  height: auto;
+}
+
+.form-group .controls #attachments {
+  margin-bottom: 15px;
+}
+
+#orden {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid $light-gray-3;
+  box-shadow: inset 0 1px 1px #00000013;
+  margin-bottom: 15px;
+}
+
+.form-actions {
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.btn.btn-primary {
+  align-items: flex-start;
+  background-color: $lighter-blue-3;
+  border-bottom-color: $lighter-blue-3;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: $lighter-blue-3;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: $lighter-blue-3;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: $lighter-blue-3;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: rgba(255, 255, 255, 0.149) 0px 1px 0px 0px inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  height: 34px;
+  padding: 6px 12px;
+  text-align: center;
+  text-size-adjust: 100%;
+  width: 91.0625px;
+  margin-right: auto;
+}
+
+.control-label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto
+}
+
+@media(min-width: 576px) {
+
+  .container {
+    width: 540px
+  }
+}
+
+@media(min-width: 768px) {
+
+  .container {
+    width: 720px
+  }
+}
+
+@media(min-width: 992px) {
+
+  .container {
+    width: 960px
+  }
+}
+
+@media(min-width: 1200px) {
+
+  .container {
+    width: 1140px
+  }
+}
+
+.modal .bg {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 899;
+  position: fixed;
+  background: #00000018;
+}
+
+.modal .content {
+  width: 40%;
+  height: 10%;
+  top: 50%;
+  left: 50%;
+  margin-top: -5%;
+  margin-left: -20%;
+  z-index: 900;
+  position: fixed;
+}
+
+.modal .content .body_modal {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.modal .content .body_modal.success {
+  background: $dark-blue;
+  color: #fff;
+
+  ul {
+    margin-top: 20px;
+
+    li {
+      display: flex;
+      font-weight: 300;
+
+      * {
+        margin: auto 0;
+      }
+
+      h5 {
+        margin-right: 10px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.modal .content .body_modal.error {
+  background: $red;
+}
+
+.modal .content .body_modal h3 {
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 1;
+  font-weight: 300;
+}

@@ -1,0 +1,121 @@
+{
+    "flex-layout.row#su-estilo-mobile": {
+        "children": [
+            "flex-layout.col#su-estilo-mobile"
+        ],
+        "props": {
+            "blockClass": "su-estilo"
+        }
+    },
+    "flex-layout.col#su-estilo-mobile": {
+        "children": [
+            "rich-text#su-estilo",
+            "slider-layout#shopbystyle"
+        ],
+        "props": {
+            "blockClass": "su-estilo"
+        }
+    },
+    "slider-layout#shopbystyle": {
+        "children": [
+            "flex-layout.col#estilos-1",
+            "flex-layout.col#estilos-2",
+            "flex-layout.col#estilos-3",
+            "flex-layout.col#estilos-4"
+        ],
+        "props": {
+            "autoplay": {
+                "timeout": 10000,
+                "stopOnHover": false
+            },
+            "itemsPerPage": {
+                "tablet": 3,
+                "phone": 2
+            },
+            "blockClass": "shopbystyle"
+        }
+    },
+    "flex-layout.row#mosaico": {
+        "children": [
+            "flex-layout.col#mosaico-1",
+            "flex-layout.col#mosaico-2"
+        ],
+        "props": {
+            "blockClass": "mosaico"
+        }
+    },
+    "flex-layout.col#mosaico-1": {
+        "children": [
+            "image#mosaico-1",
+            "image#mosaico-3",
+            "image#mosaico-5"
+        ],
+        "props": {
+            "blockClass": "mosaico-1"
+        }
+    },
+    "flex-layout.col#mosaico-2": {
+        "children": [
+            "image#mosaico-2",
+            "image#mosaico-4",
+            "image#mosaico-6"
+        ],
+        "props": {
+            "blockClass": "mosaico-2"
+        }
+    },
+    "image#mosaico-1": {
+        "title": "mosaico-1",
+        "props": {
+            "src": "",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "mosaico-1"
+        }
+    },
+    "image#mosaico-2": {
+        "title": "mosaico-2",
+        "props": {
+            "src": "",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "mosaico-2"
+        }
+    },
+    "image#mosaico-3": {
+        "title": "mosaico-3",
+        "props": {
+            "src": "",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "mosaico-3"
+        }
+    },
+    "image#mosaico-4": {
+        "title": "mosaico-4",
+        "props": {
+            "src": "",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "mosaico-4"
+        }
+    },
+    "image#mosaico-5": {
+        "title": "mosaico-5",
+        "props": {
+            "src": "",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "mosaico-5"
+        }
+    },
+    "image#mosaico-6": {
+        "title": "mosaico-6",
+        "props": {
+            "src": "",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "mosaico-6"
+        }
+    }
+}

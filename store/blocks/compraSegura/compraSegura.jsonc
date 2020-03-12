@@ -1,0 +1,122 @@
+{
+    "store.custom#compraSegura": {
+        "blocks": [
+            "flex-layout.row#compraSegura"
+        ],
+        "props": {
+            "blockClass": "compraSegura"
+        }
+    },
+    "flex-layout.row#compraSegura": {
+        "children": [
+            "flex-layout.row#colunas-compraSegura"
+        ],
+        "props": {
+            "blockClass": "fl-compraSegura"
+        }
+    },
+    "flex-layout.row#colunas-compraSegura": {
+        "children": [
+            "flex-layout.col#col1-body-compraSegura",
+            "flex-layout.col#col2-body-compraSegura"
+        ],
+        "props": {
+            "blockClass": "colunas-compraSegura"
+        }
+    },
+    "flex-layout.col#col1-body-compraSegura": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-compraSegura",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-compraSegura": {
+        "children": [
+            "rich-text#compraSegura-titlegrande",
+            "rich-text#compraSegura-titleone",
+            "rich-text#compraSegura-textone",
+            "rich-text#compraSegura-titletwo",
+            "rich-text#compraSegura-texttwo",
+            "rich-text#compraSegura-titlethree",
+            "rich-text#compraSegura-textthree",
+            "rich-text#compraSegura-titlefour",
+            "rich-text#compraSegura-textfour",
+            "rich-text#compraSegura-titlefive",
+            "rich-text#compraSegura-textfive"
+        ],
+        "props": {
+            "blockClass": "col2-body-compraSegura",
+            "width": "75%"
+        }
+    },
+    "rich-text#compraSegura-titlegrande": {
+        "props": {
+            "text": "**COMPRA SEGURA**",
+            "blockClass": "compraSegura-titlegrande"
+        }
+    },
+    "rich-text#compraSegura-titleone": {
+        "props": {
+            "text": "**DATOS PERSONALES**",
+            "blockClass": "compraSegura-titleone"
+        }
+    },
+    "rich-text#compraSegura-textone": {
+        "props": {
+            "text": "Keds.cl utiliza el sistema de seguridad SSL (Secure Socket Layer) que garantiza que tu información personal no pueda ser leída ni capturada por terceros.",
+            "blockClass": "compraSegura-textone"
+        }
+    },
+    "rich-text#compraSegura-titletwo": {
+        "props": {
+            "text": "**DECLARACIÓN DE PRIVACIDAD**",
+            "blockClass": "compraSegura-titletwo"
+        }
+    },
+    "rich-text#compraSegura-texttwo": {
+        "props": {
+            "text": "Keds.cl no traspasará a ninguna empresa que no pertenezca al grupo Forus tus datos personales registrados en el sitio web. Aseguramos que éstos serán manejados en forma absolutamente confidencial.",
+            "blockClass": "compraSegura-texttwo"
+        }
+    },
+    "rich-text#compraSegura-titlethree": {
+        "props": {
+            "text": "**INFORMACIÓN REQUERIDA**",
+            "blockClass": "compraSegura-titlethree"
+        }
+    },
+    "rich-text#compraSegura-textthree": {
+        "props": {
+            "text": "La sección de Registro de Keds.cl requiere de información como tu nombre, apellido, correo electrónico y género. Esta información se utiliza para responder tus consultas y mantenerte informado sobre nuestros productos, nuevas temporadas, promociones, eventos y fiestas Keds. Bajo ninguna circunstancia esta información es compartida con empresas no relacionadas con el grupo Forus o con terceros.",
+            "blockClass": "compraSegura-textthree"
+        }
+    },
+    "rich-text#compraSegura-titlefour": {
+        "props": {
+            "text": "**LINK A OTROS SITIOS**",
+            "blockClass": "compraSegura-titlefour"
+        }
+    },
+    "rich-text#compraSegura-textfour": {
+        "props": {
+            "text": "El sitio web de Keds.cl puede contener links a otros sitios. Keds.cl no es responsable de las prácticas de seguridad y privacidad, o del contenido de estos sitios. Tampoco avala ningún producto o servicio ofrecido en dichos sitios.",
+            "blockClass": "compraSegura-textfour"
+        }
+    },
+    "rich-text#compraSegura-titlefive": {
+        "props": {
+            "text": "**PAGO**",
+            "blockClass": "compraSegura-titlefive"
+        }
+    },
+    "rich-text#compraSegura-textfive": {
+        "props": {
+            "text": "Keds.cl opera con la herramienta de pago seguro Webpay Plus, que cuenta con el respaldo de Transbank. Esta herramienta te permite pagar con Tarjeta de Crédito o Redcompra.",
+            "blockClass": "compraSegura-textfive"
+        }
+    }
+}

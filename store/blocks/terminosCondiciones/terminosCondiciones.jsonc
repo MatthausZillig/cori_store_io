@@ -1,0 +1,451 @@
+{
+    "store.custom#terminosCondiciones": {
+        "blocks": [
+            "flex-layout.row#terminosCondiciones"
+        ],
+        "props": {
+            "blockClass": "terminosCondiciones"
+        }
+    },
+    "flex-layout.row#terminosCondiciones": {
+        "children": [
+            "flex-layout.row#colunas-terminosCondiciones"
+        ],
+        "props": {
+            "blockClass": "fl-terminosCondiciones"
+        }
+    },
+    "flex-layout.row#colunas-terminosCondiciones": {
+        "children": [
+            "flex-layout.col#col1-body-terminosCondiciones",
+            "flex-layout.col#col2-body-terminosCondiciones"
+        ],
+        "props": {
+            "blockClass": "colunas-terminosCondiciones"
+        }
+    },
+    "flex-layout.col#col1-body-terminosCondiciones": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-terminosCondiciones",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-terminosCondiciones": {
+        "children": [
+            "rich-text#terminosCondiciones-titlegrande",
+            "rich-text#terminosCondiciones-titleone",
+            "rich-text#terminosCondiciones-textone",
+            "rich-text#terminosCondiciones-titletwo",
+            "rich-text#terminosCondiciones-texttwo",
+            "rich-text#terminosCondiciones-titlethree",
+            "rich-text#terminosCondiciones-textthree",
+            "rich-text#terminosCondiciones-titlefour",
+            "rich-text#terminosCondiciones-textfour",
+            "rich-text#terminosCondiciones-titlefive",
+            "rich-text#terminosCondiciones-textfive",
+            "rich-text#terminosCondiciones-titlesix",
+            "rich-text#terminosCondiciones-textsix",
+            "rich-text#terminosCondiciones-titleseven",
+            "rich-text#terminosCondiciones-textseven",
+            "rich-text#terminosCondiciones-titleeight",
+            "rich-text#terminosCondiciones-texteight",
+            "rich-text#terminosCondiciones-titlenine",
+            "rich-text#terminosCondiciones-textnine",
+            "rich-text#terminosCondiciones-titleten",
+            "rich-text#terminosCondiciones-textten",
+            "rich-text#terminosCondiciones-titleeleven",
+            "rich-text#terminosCondiciones-texteleven",
+            "rich-text#terminosCondiciones-titletwelve",
+            "rich-text#terminosCondiciones-texttwelve",
+            "rich-text#terminosCondiciones-titlethirteen",
+            "rich-text#terminosCondiciones-itensone",
+            "rich-text#terminosCondiciones-textthirteen",
+            "rich-text#terminosCondiciones-titlefourteen",
+            "rich-text#terminosCondiciones-textfourteen",
+            "rich-text#terminosCondiciones-titlefifteen",
+            "rich-text#terminosCondiciones-textfifteen",
+            "rich-text#terminosCondiciones-titlesixteen",
+            "rich-text#terminosCondiciones-textsixteen",
+            "rich-text#terminosCondiciones-titleseventeen",
+            "rich-text#terminosCondiciones-textseventeen",
+            "rich-text#terminosCondiciones-titleeighteen",
+            "rich-text#terminosCondiciones-texteighteen",
+            "rich-text#terminosCondiciones-titlenineteen",
+            "rich-text#terminosCondiciones-textnineteen",
+            "rich-text#terminosCondiciones-titletwenty",
+            "rich-text#terminosCondiciones-texttwenty",
+            "rich-text#terminosCondiciones-titletwentyone",
+            "rich-text#terminosCondiciones-texttwentyone",
+            "rich-text#terminosCondiciones-titletwentytwo",
+            "rich-text#terminosCondiciones-texttwentytwo",
+            "rich-text#terminosCondiciones-titletwentythree",
+            "rich-text#terminosCondiciones-texttwentythree",
+            "rich-text#terminosCondiciones-titletwentyfour",
+            "rich-text#terminosCondiciones-texttwentyfour",
+            "rich-text#terminosCondiciones-titletwentyfive",
+            "rich-text#terminosCondiciones-texttwentyfive",
+            "rich-text#terminosCondiciones-titletwentysix",
+            "rich-text#terminosCondiciones-texttwentysix",
+            "rich-text#terminosCondiciones-titletwentyseven",
+            "rich-text#terminosCondiciones-texttwentyseven",
+            "rich-text#terminosCondiciones-titletwentyeight",
+            "rich-text#terminosCondiciones-texttwentyeight"
+        ],
+        "props": {
+            "blockClass": "col2-body-terminosCondiciones",
+            "width": "75%"
+        }
+    },
+    "rich-text#terminosCondiciones-titlegrande": {
+        "props": {
+            "text": "**TÉRMINOS Y CONDICIONES**",
+            "blockClass": "terminosCondiciones-titlegrande"
+        }
+    },
+    "rich-text#terminosCondiciones-titleone": {
+        "props": {
+            "text": "**USO DE LA MARCA**",
+            "blockClass": "terminosCondiciones-titleone"
+        }
+    },
+    "rich-text#terminosCondiciones-textone": {
+        "props": {
+            "text": "Condiciones de uso Forus S.A. y filiales, adelante 'Forus'. Forus agradece su interés en nuestra empresa y su visita a nuestro sitio web ('Keds.cl'). Las siguientes condiciones establecen las reglas básicas que rigen el uso por su parte de nuestro Sitio.",
+            "blockClass": "terminosCondiciones-textone"
+        }
+    },
+    "rich-text#terminosCondiciones-titletwo": {
+        "props": {
+            "text": "**1.GENERAL**",
+            "blockClass": "terminosCondiciones-titletwo"
+        }
+    },
+    "rich-text#terminosCondiciones-texttwo": {
+        "props": {
+            "text": "El uso por su parte de nuestro Sitio significa que usted acuerda cumplir con las siguientes condiciones de uso. Forus puede cambiar las reglas que rigen el uso por su parte de nuestro Sitio, y el uso por su parte de nuestro Sitio después de tales cambios significa que usted acepta seguir las reglas que se han modificado. Además de los cambios en las reglas, Forus puede cambiar, modificar, eliminar o revisar secciones de nuestro Sitio en cualquier momento sin previo aviso.",
+            "blockClass": "terminosCondiciones-texttwo"
+        }
+    },
+    "rich-text#terminosCondiciones-titlethree": {
+        "props": {
+            "text": "**2.CONTENIDO DEL SITIO**",
+            "blockClass": "terminosCondiciones-titlethree"
+        }
+    },
+    "rich-text#terminosCondiciones-textthree": {
+        "props": {
+            "text": "El texto, las imágenes, los gráficos, los archivos de video y la organización de nuestro Sitio están sujetos a la protección de derechos de autor y a otros tipos de protección intelectual. Estos objetos no pueden copiarse para distribución o uso comercial, ni pueden modificarse o utilizarse en otros sitios. El acceso a nuestro Sitio y el uso de éste son exclusivos para ofrecer información personal, educación y comunicación a Forus. Puede descargar, copiar o imprimir los contenidos de este Sitio sólo para uso personal. No se le transfiere ningún derecho, título o participación en ninguno de los contenidos de nuestro Sitio por descargar, copiar, imprimir o utilizar nuestro Sitio.",
+            "blockClass": "terminosCondiciones-textthree"
+        }
+    },
+    "rich-text#terminosCondiciones-titlefour": {
+        "props": {
+            "text": "**3.ACTUALIZACIONES DEL SITIO**",
+            "blockClass": "terminosCondiciones-titlefour"
+        }
+    },
+    "rich-text#terminosCondiciones-textfour": {
+        "props": {
+            "text": "Forus no contrae obligaciones de actualizar, corregir o aclarar la información en nuestro Sitio, incluida, entre otras, la información financiera. No debería considerarse ninguna fecha de renovación o actualización específica en nuestro Sitio un indicador de que toda la información en todo nuestro Sitio ha sido modificada o actualizada. Al revisar la información en nuestro Sitio recuerde que tal información puede no representar toda la información disponible de un tema. Además, acontecimientos subsecuentes o cambios en las circunstancias pueden hacer que la información existente en nuestro Sitio sea inexacta o incompleta. Los comunicados de prensa en nuestro Sitio tienen fechas que indican cuándo fue la última vez que Forus modificó la información. Ninguna otra fecha especificada o fecha de renovación en nuestro Sitio debería considerarse un indicador de que la información de los comunicados de prensa archivados se actualizó después de la fecha de publicación inicial. Forus no contrae obligaciones de actualizar, corregir o aclarar los comunicados de prensa publicados anteriormente. Es responsabilidad del usuario garantizar que la información obtenida desde nuestro Sitio no haya resultado inexacta o incompleta debido a eventos posteriores.",
+            "blockClass": "terminosCondiciones-textfour"
+        }
+    },
+    "rich-text#terminosCondiciones-titlefive": {
+        "props": {
+            "text": "**4.COMENTARIOS DE LOS USUARIOS Y OTROS ENVÍOS**",
+            "blockClass": "terminosCondiciones-titlefive"
+        }
+    },
+    "rich-text#terminosCondiciones-textfive": {
+        "props": {
+            "text": "Tenga en cuenta que todos los comentarios, información, ideas, sugerencias u otros datos enviados o propuestos a Forus en nuestro Sitio o a través de éste o de algún otro modo ('Presentaciones' colectivamente) serán y se mantendrán como propiedad de Forus. Todo ofrecimiento de este tipo o de cualquier Presentación constituirá una cesión a Forus de todos los derechos, títulos y participaciones en todas las propiedades intelectuales del mundo en las Presentaciones. De ese modo, Forus poseerá con exclusividad todos los derechos, títulos y participación de cualquier Presentación, y su uso, comercial o no comercial, de cualquier Presentación no estará limitado de manera alguna. Forus no tiene y no deberá tener ninguna obligación de mantener cualquier Presentación en secreto, pagar cualquier compensación por cualquier Presentación, o responder ante cualquier Presentación.",
+            "blockClass": "terminosCondiciones-textfive"
+        }
+    },
+    "rich-text#terminosCondiciones-titlesix": {
+        "props": {
+            "text": "**5.ENLACES A OTRO SITIO WEB**",
+            "blockClass": "terminosCondiciones-titlesix"
+        }
+    },
+    "rich-text#terminosCondiciones-textsix": {
+        "props": {
+            "text": "Nuestro sitio puede tener enlaces que den acceso a otros sitios web de la Red Global Mundial, Internet u otras fuentes de información. Al acceder a estos enlaces, usted reconoce que tales otros sitios o ubicaciones no están bajo el control de Forus y usted acepta que Forus no se responsabilizará por ninguna información o enlaces adicionales que se encuentran en tal sitio o ubicación, o por el uso que usted le dé a tal información. Forus proporciona estos enlaces sólo para su comodidad, y no ha avalado, probado o verificado ninguna información o programas en dichos sitios.",
+            "blockClass": "terminosCondiciones-textsix"
+        }
+    },
+    "rich-text#terminosCondiciones-titleseven": {
+        "props": {
+            "text": "**6.REVENTA DEL PRODUCTO**",
+            "blockClass": "terminosCondiciones-titleseven"
+        }
+    },
+    "rich-text#terminosCondiciones-textseven": {
+        "props": {
+            "text": "Las operaciones de nuestra tienda de venta al público están establecidas para vender productos a clientes finales solamente. No podemos vender productos a clientes que tienen la intención de revender o exportar los productos.",
+            "blockClass": "terminosCondiciones-textseven"
+        }
+    },
+    "rich-text#terminosCondiciones-titleeight": {
+        "props": {
+            "text": "**7.MARCAS COMERCIALES**",
+            "blockClass": "terminosCondiciones-titleeight"
+        }
+    },
+    "rich-text#terminosCondiciones-texteight": {
+        "props": {
+            "text": "A menos que se indique lo contrario, todas las marcas de servicios, productos y logotipos que se muestran en nuestro Sitio están sujetos a los derechos de marcas comerciales de Wolverine. A continuación se encuentra un listado parcial de las marcas comerciales registradas y no registradas de Wolverine, y de sus proveedores y socios. La falta del nombre de un servicio o producto o logotipo en esta lista no implica la renuncia de cualquier marca comercial u otros derechos de propiedad intelectual respecto al nombre o logotipo. BATES, BOUNCE, COMFORT CURVE, DURASHOCKS, FOOT RESTS, HIDDEN TRACKS, HUSH PUPPIES, LA IMAGEN DEL PERRO DE HUSH PUPPIES, HY-TEST, MERRELL, WE INVENTED CASUAL, WOLVERINE y WOLVERINE LEATHERS AND DESIGN son marcas comerciales registradas de Wolverine World Wide, Inc. ALL SEASON WEATHER LEATHER, BOOT CAMP, ENFORCER, HPO2, HUSH PUPPIES LOUNGE, INFERNO, SHOEMOBILE, URBAN OUTDOOR, WOLVERINE BOOTS AND SHOES SINCE 1883 y WOLVERINE HERITAGE son marcas comerciales de Wolverine World Wide, Inc. CATERPILLAR, CAT, CATERPILLAR & DESIGN, CAT & DESIGN, WALKING MACHINES, y el diseño 'Track-Type Tractor' son marcas comerciales registradas de Caterpillar Inc. y se utilizan bajo licencia. CAMBRELLE es una marca comercial registrada de Camtex Fabrics, Ltd.; COLEMAN, EL LOGOTIPO DE PARALELOGRAMO DE COLEMAN y EL LOGOTIPO DE LÁMPARA DE COLEMAN son marcas comerciales registradas de The Coleman Company, Inc. CORDURA es una marca comercial registrada de E.I. duPont de Nemours and Company. GORE-TEX es una marca comercial registrada de W.L. Gore and Associates, Inc. HARLEY-DAVIDSON, HARLEY-DAVIDSON AND DESIGN y MOTORCLOTHES son marcas comerciales registradas de H.D. Michigan, Inc. THINSULATE es una marca comercial registrada de 3M Company. VIBRAM es una marca registrada de Vibram S.P.A.",
+            "blockClass": "terminosCondiciones-texteight"
+        }
+    },
+    "rich-text#terminosCondiciones-titlenine": {
+        "props": {
+            "text": "**8.DECLARACIONES A FUTURO**",
+            "blockClass": "terminosCondiciones-titlenine"
+        }
+    },
+    "rich-text#terminosCondiciones-textnine": {
+        "props": {
+            "text": "Los contenidos de nuestro sitio pueden contener declaraciones sobre el futuro que se basan en las creencias, suposiciones, expectativas actuales, estimaciones y proyecciones de la administración sobre la industria de los calzados, la economía y Forus en sí. Palabras como 'anticipa', 'cree', 'estima', 'espera', 'pronostica', 'pretende', 'es posible', 'planea', 'predice', 'proyecta', o variaciones de tales palabras y expresiones similares, se usan con la intención de identificar tales declaraciones sobre el futuro. Estas declaraciones no son garantía de rendimiento futuro e involucran ciertos riesgos, incertidumbres y suposiciones ('Factores Futuros') que son difíciles de predecir con respecto al tiempo, la extensión, la probabilidad y el grado de ocurrencia. Por lo tanto, los resultados y las consecuencias reales pueden ser sustancialmente diferentes de lo que se expresa o se anticipa en tales declaraciones sobre el futuro. Además, Forus no contrae obligaciones de actualizar, corregir o aclarar las declaraciones sobre el futuro, ya sea como consecuencia de información nueva, eventos futuros o de algún otro modo. Los Factores Futuros incluyen, entre ellos, incertidumbres relacionadas con cambios en la demanda de productos de Forus; cambios en las preferencias o patrones de gastos de los consumidores; el costo y la disponibilidad de las existencias, servicios, trabajo o equipos provistos a Forus; el nivel de competencia de los competidores de Forus; cambios de políticas reguladoras o gubernamentales; cambios en las políticas de comercio o en las leyes de importación y exportación; cambios en las tasas de interés, leyes tributarias, aranceles o avalúos aplicables; desarrollos tecnológicos y cambios en las condiciones económicas nacionales o internacionales. Estas cuestiones representan los Factores Futuros que podrían generar diferencias entre el resultado real final y las declaraciones sobre el futuro.'",
+            "blockClass": "terminosCondiciones-textnine"
+        }
+    },
+    "rich-text#terminosCondiciones-titleten": {
+        "props": {
+            "text": "**9.DESCARGO DE RESPONSABILIDAD E INDEMNIZACIÓN**",
+            "blockClass": "terminosCondiciones-titleten"
+        }
+    },
+    "rich-text#terminosCondiciones-textten": {
+        "props": {
+            "text": "SALVO QUE SE EXPRESE EXPLÍCITAMENTE LO CONTRARIO EN ESTE DOCUMENTO, NUESTRO SITIO, TODO EL CONTENIDO DE NUESTRO SITIO Y TODOS LOS SERVICIOS OFRECIDOS EN RELACIÓN CON NUESTRO SITIO SE PROPOCIONAN 'EN EL ESTADO EN QUE SE ENCUENTRAN' Y, EN LA MEDIDA QUE LO PERMITA LA LEY VIGENTE, FORUS NO SE HACE RESPONSABLE DE NINGÚN TIPO DE GARANTÍA EN RELACIÓN CON ELLO, YA SEA DE MODO EXPRESO O IMPLÍCITO, INCLUSO, ENTRE OTRAS, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD, APTITUD PARA UN PROPÓSITO EN PARTICULAR Y DE NO VIOLACIÓN. ADEMÁS, FORUS NO GARANTIZA QUE EL USO POR SU PARTE DE NUESTRO SITIO, O LA OPERACIÓN O FUNCIONAMIENTO DE NUESTRO SITIO, CUALQUIER COMPONENTE DE ÉSTE, O CUALQUIER SERVICIO OFRECIDO EN CONEXIÓN CON EL SITIO, ESTARÁ LIBRE DE INTERRUPCIONES O ERRORES; QUE LOS DEFECTOS EN EL SITIO SERÁN CORREGIDOS; O QUE NUESTRO SITIO O SERVIDOR NO TIENE VIRUS U OTROS ELEMENTOS PERJUDICIALES. AUNQUE FORUS SE ESFUERZA POR PROPORCIONAR INFORMACIÓN ACTUAL, EXACTA Y CONFIABLE EN EL SITIO, NO GARANTIZA NI HACE NINGUNA DECLARACIÓN RESPECTO A LA EXACTITUD, FIABILIDAD O CUALQUIER USO DE INFORMACIÓN EN NUESTRO SITIO. USTED RECONOCE AL UTILIZAR NUESTRO SITIO QUE: (1) LA UTILIZACIÓN POR SU PARTE DE NUESTRO SITIO QUEDA BAJO SU EXCLUSIVA RESPONSABILIDAD; (2) USTED ASUME RESPONSABILIDAD TOTAL POR TODOS LOS COSTOS ASOCIADOS CON EL MATENIMIENTO O LAS REPARACIONES NECESARIAS DE CUALQUIER EQUIPO QUE USTED USE EN RELACIÓN CON EL USO POR SU PARTE DE NUESTRO SITIO; Y (3) QUE FORUS NO SE RESPONSABILIZARÁ DE CUALQUIER DAÑO DE CUALQUIER TIPO RELACIONADO CON EL USO O LA IMPOSIBILIDAD DE USO POR SU PARTE DE NUESTRO SITIO, INCLUSO ENTRE OTROS, DAÑOS DIRECTOS, INDIRECTOS, ESPECIALES, COMPENSATORIOS O RESULTANTES, LUCRO CESANTE Y/O PÉRDIDA O DAÑO A LA PROPIEDAD, INCLUSO SI SE LE HA NOTIFICADO A FORUS SOBRE LA POSIBILIDAD DE TALES DAÑOS. USTED ACEPTA MANTENER INDEMNE Y EXIMIR DE RESPONSABILIDAD A FORUS DE TODO RECLAMO, DAÑO, COSTOS Y GASTO, INCLUSO LOS HONORARIOS PARA ABOGADOS, PROVENIENTES DE LA UTILIZACIÓN DE NUESTRO SITIO O RELACIONADOS CON ELLA.",
+            "blockClass": "terminosCondiciones-textten"
+        }
+    },
+    "rich-text#terminosCondiciones-titleeleven": {
+        "props": {
+            "text": "**10.EXTENCIÓN**",
+            "blockClass": "terminosCondiciones-titleeleven"
+        }
+    },
+    "rich-text#terminosCondiciones-texteleven": {
+        "props": {
+            "text": "Este acuerdo estará vigente a menos que usted o Forus le pongan fin, y hasta ese momento. Usted puede darle fin a este acuerdo en cualquier momento. Forus también puede rescindir este Acuerdo en cualquier momento y puede hacerlo de inmediato sin previo aviso, y consecuentemente negarle el acceso al Sitio si Forus considera, a su exclusivo criterio, que usted no cumple con algún término o disposición de este Acuerdo. Ante cualquier extinción de este Acuerdo ya sea por su parte o por parte de Forus, usted debe destruir inmediatamente todos los materiales descargados u obtenidos de nuestro Sitio de algún otro modo, así como también las copias de tales materiales, ya sea que se hayan hecho bajo los términos de este Acuerdo o de algún otro modo.",
+            "blockClass": "terminosCondiciones-texteleven"
+        }
+    },
+    "rich-text#terminosCondiciones-titletwelve": {
+        "props": {
+            "text": "**11.DISPOSICIONES VARIAS**",
+            "blockClass": "terminosCondiciones-titletwelve"
+        }
+    },
+    "rich-text#terminosCondiciones-texttwelve": {
+        "props": {
+            "text": "Este sito es controlado y operado por Forus desde sus oficinas en las Condes. Nuestra dirección es Av. Las Condes 11.281, Las Condes, Santiago, Chile.",
+            "blockClass": "terminosCondiciones-texttwelve"
+        }
+    },
+    "rich-text#terminosCondiciones-titlethirteen": {
+        "props": {
+            "text": "**eCommerce**",
+            "blockClass": "terminosCondiciones-titlethirteen"
+        }
+    },
+    "rich-text#terminosCondiciones-itensone": {
+        "props": {
+            "text": "• El acceso y uso del sitio web Keds.cl (el “Sitio”), de propiedad de Forus S.A., se rige por estos Términos y Condiciones, así como por la legislación que se aplique en la República de Chile. En consecuencia, todas las visitas y todos los contratos y transacciones que se realicen en este Sitio, como asimismo sus efectos jurídicos, quedarán regidos por estas reglas y sometidas a esa legislación. Asimismo se señala que estos Términos y Condiciones podrán variar de tiempo en tiempo. Dichas modificaciones producirán sus efectos desde el momento de su publicación en el Sitio.<br>• El usuario del Sitio (el “Usuario”) debe leer, entender y aceptar todas las condiciones establecidas en los Términos y Condiciones y en las Políticas de Privacidad, así como en los demás documentos incorporados a los mismos por referencia, antes de registrarse en Forus.<br>• Los Términos y Condiciones contenidos en este instrumento se aplicarán y se entenderán formar parte de todos los actos y contratos que se ejecuten o celebren mediante los sistemas de oferta y comercialización comprendidos en este Sitio.<br>• En caso que las empresas proveedoras de Forus hubieran fijado sus propios términos y condiciones para los actos y contratos que realicen en este Sitio, dichos términos y condiciones aparecerán en esta página señaladas con un link y prevalecerán sobre éstas.",
+            "blockClass": "terminosCondiciones-itensone"
+        }
+    },
+    "rich-text#terminosCondiciones-textthirteen": {
+        "props": {
+            "text": "Keds.cl se adhiere en todas sus partes al Código de Buenas Prácticas para el Comercio Electrónico de la Cámara de Comercio de Santiago, el cual se encuentra disponible <a href='https://cdn.linets.tech/data/terminos_y_condiciones/CodigoBuenasPracticas_02.pdf'>aquí</a>.",
+            "blockClass": "terminosCondiciones-textthirteen"
+        }
+    },
+    "rich-text#terminosCondiciones-titlefourteen": {
+        "props": {
+            "text": "**1.REGISTRO DEL USUARIO O CLIENTE**",
+            "blockClass": "terminosCondiciones-titlefourteen"
+        }
+    },
+    "rich-text#terminosCondiciones-textfourteen": {
+        "props": {
+            "text": "Se entenderán conocidos y aceptados estos Términos y Condiciones por el solo hecho del registro. El registro de cada Usuario se verificará completando y suscribiendo el formulario que al efecto se contiene en el Sitio y su posterior envío, el cual se realiza automáticamente mediante un 'click' en el elemento respectivo.",
+            "blockClass": "terminosCondiciones-textfourteen"
+        }
+    },
+    "rich-text#terminosCondiciones-titlefifteen": {
+        "props": {
+            "text": "**2.CLAVE SECRETA**",
+            "blockClass": "terminosCondiciones-titlefifteen"
+        }
+    },
+    "rich-text#terminosCondiciones-textfifteen": {
+        "props": {
+            "text": "El Usuario dispondrá, una vez registrado, de un nombre y contraseña o clave definitiva que le permitirá el acceso personalizado, confidencial y seguro. El Usuario tendrá la posibilidad de cambiar la clave de acceso, para lo cual deberá sujetarse al procedimiento establecido en el Sitio. El Usuario asume totalmente la responsabilidad por el mantenimiento de la confidencialidad de su clave secreta registrada en este Sitio, la cual le permite efectuar compras, solicitar servicios y obtener información. Dicha clave es de uso personal y su entrega a terceros, no involucra responsabilidad de Forus o la Empresa en caso de mala utilización.",
+            "blockClass": "terminosCondiciones-textfifteen"
+        }
+    },
+    "rich-text#terminosCondiciones-titlesixteen": {
+        "props": {
+            "text": "**3.DERECHOS DEL USUARIO DE ESTE SITIO**",
+            "blockClass": "terminosCondiciones-titlesixteen"
+        }
+    },
+    "rich-text#terminosCondiciones-textsixteen": {
+        "props": {
+            "text": "El Usuario gozará de todos los derechos que le reconoce la legislación sobre protección al consumidor vigente en el territorio de Chile, y además los que se le otorgan en estos Términos y Condiciones. El Usuario dispondrá en todo momento de los derechos de información, rectificación y cancelación de los datos personales conforme a la Ley Nº19.628 sobre Protección de Datos de Carácter Personal. La sola visita de este Sitio en el cual se ofrecen determinados bienes y el acceso a determinados servicios, no impone al consumidor obligación alguna, a menos que haya aceptado en forma inequívoca las condiciones ofrecidas por el proveedor, en la forma indicada en estos Términos y Condiciones.<br>Los usuarios menores de edad solamente podrán acceder al sitio bajo supervisión de sus padres o tutores, y en caso de realizar una compra, deberán hacerlo a través de éstos.",
+            "blockClass": "terminosCondiciones-textsixteen"
+        }
+    },
+    "rich-text#terminosCondiciones-titleseventeen": {
+        "props": {
+            "text": "**4.PROCEDIMIENTO PARA HACER USO DE ESTE SITIO**",
+            "blockClass": "terminosCondiciones-titleseventeen"
+        }
+    },
+    "rich-text#terminosCondiciones-textseventeen": {
+        "props": {
+            "text": "En los contratos ofrecidos por medio de este Sitio, la empresa oferente, que puede ser Forus o un tercero (la “Empresa Oferente”) informará, de manera inequívoca y fácilmente accesible, los pasos que deben seguirse para celebrarlos. Indicará además, su dirección de correo postal o electrónico y los medios técnicos a disposición del Usuario para identificar y corregir errores en el envío o en sus datos.",
+            "blockClass": "terminosCondiciones-textseventeen"
+        }
+    },
+    "rich-text#terminosCondiciones-titleeighteen": {
+        "props": {
+            "text": "**5.MEDIOS DE PAGO QUE SE PODRÁN UTILIZAR EN ESTE SITIO**",
+            "blockClass": "terminosCondiciones-titleeighteen"
+        }
+    },
+    "rich-text#terminosCondiciones-texteighteen": {
+        "props": {
+            "text": "Los productos y servicios ofrecidos en Forus, salvo que se señale una forma diferente para casos particulares u ofertas de determinados bienes o servicios, sólo pueden ser pagados con: • Tarjetas bancarias de débito y/o crédito que Transbank opera, las tarjetas de crédito Visa, Mastercard, Magna, American Express y Diners Club International emitidas en Chile o en el extranjero, o de otras marcas que Transbank opere en el futuro, siempre que mantengan un contrato vigente para tales efectos con Forus. Las tarjetas emitidas en el extranjero, no admiten la modalidad de pago en cuotas. • El uso de las tarjetas singularizadas precedentemente, se sujetará a lo establecido en estos Términos y Condiciones y en relación con su emisor, a lo pactado en los respectivos Contratos de Apertura y Reglamento de Uso. En caso de contradicción, predominará lo expresado en ese último instrumento. • A mayor abundamiento, tratándose de tarjetas bancarias aceptadas en este Sitio, los aspectos relativos a ésta, tales como la fecha de emisión, caducidad, cupo, bloqueos, etc., se regirán por el respectivo Contrato de Apertura y Reglamento de Uso de la tarjeta, de tal forma que Forus no tendrá responsabilidad en cualquiera de los aspectos señalados. Forus podrá indicar determinadas condiciones de compra según el medio de pago que se utilice por el Usuario. • Cupones de Descuento o Tarjetas de Regalo (Gift Cards) debidamente inscritas en el Sitio. Los descuentos proporcionados por medio de cupones no son acumulables entre sí, ni tampoco con otras promociones. Además, algunos cupones pueden tener imitaciones como: cantidad de uso, consumo mínimo o fecha de expiración.",
+            "blockClass": "terminosCondiciones-texteighteen"
+        }
+    },
+    "rich-text#terminosCondiciones-titlenineteen": {
+        "props": {
+            "text": "**6.FORMACIÓN DEL CONSENTIMIENTO EN LOS CONTRATOS CELEBRADOS A TRAVÉS DE ESTE SITIO**",
+            "blockClass": "terminosCondiciones-titlenineteen"
+        }
+    },
+    "rich-text#terminosCondiciones-textnineteen": {
+        "props": {
+            "text": "A través de este Sitio, Forus exhibirá ofertas de bienes y servicios, que podrán ser aceptadas a través de la aceptación, por vía electrónica o telefónica, y utilizando los mecanismos que el mismo Sitio ofrece para ello. Toda aceptación de oferta quedará sujeta a la condición suspensiva de que la Empresa Oferente, según se detalla en la ficha de cada producto o servicio ofrecido, valide la transacción. En consecuencia, para toda operación que se efectúe en este Sitio, la confirmación y/o validación o verificación por parte de la Empresa Oferente, será requisito para la formación del consentimiento. Para validar la transacción la Empresa Oferente deberá verificar: a) Que valida y acepta el medio de pago ofrecido por el Usuario. b) Que los datos registrados por el Usuario en el Sitio coinciden con los proporcionados al efectuar su aceptación de oferta. c) Para informar al Usuario acerca de esta validación, la Empresa Oferente deberá enviar una confirmación escrita a la misma dirección electrónica que haya registrado el Usuario aceptando de la oferta, o por cualquier medio de comunicación que garantice el debido y oportuno conocimiento del Usuario, el que se le indicará previamente en el mismo Sitio. El consentimiento se entenderá formado desde el momento en que se envía esta confirmación escrita al Usuario y en el lugar en que fue expedida, que será siempre en la dirección de las oficinas de Forus S.A., ubicadas en Av. Las Condes 11.281, Las Condes, Santiago. Toda venta en Forus está sujeta a confirmación de stock. En caso de no contar con el stock disponible para cursar la venta, los administradores del Sitio se comunicarán con el Usuario para proceder a la devolución del pago.",
+            "blockClass": "terminosCondiciones-textnineteen"
+        }
+    },
+    "rich-text#terminosCondiciones-titletwenty": {
+        "props": {
+            "text": "**7.DESPACHO DE LOS PRODUCTOS**",
+            "blockClass": "terminosCondiciones-titletwenty"
+        }
+    },
+    "rich-text#terminosCondiciones-texttwenty": {
+        "props": {
+            "text": "Los productos adquiridos a través del Sitio se sujetarán a las condiciones de despacho y entrega elegidas por el Usuario y disponibles en el Sitio. Cuando existan productos almacenados en diferentes lugares, éstos serán despachados de manera independiente, de acuerdo a las alternativas disponibles en el Sitio y escogidas por el Usuario. La información del lugar de envío es de exclusiva responsabilidad del Usuario. Los plazos elegidos para el despacho y entrega, se cuentan desde que la Empresa Oferente haya validado la orden de compra y el medio de pago utilizado. No se realizarán despachos a casillas de correos.",
+            "blockClass": "terminosCondiciones-texttwenty"
+        }
+    },
+    "rich-text#terminosCondiciones-titletwentyone": {
+        "props": {
+            "text": "**8.DERECHO DE RETRACTO**",
+            "blockClass": "terminosCondiciones-titletwentyone"
+        }
+    },
+    "rich-text#terminosCondiciones-texttwentyone": {
+        "props": {
+            "text": "En los contratos celebrados por medio de la página web de Forus, el Usuario podrá retractarse del contrato celebrado según lo estipula la ley, a menos que en una determinada oferta se contemple expresamente que no existe esa posibilidad.",
+            "blockClass": "terminosCondiciones-texttwentyone"
+        }
+    },
+    "rich-text#terminosCondiciones-titletwentytwo": {
+        "props": {
+            "text": "**9.GARANTÍA LEGAL**",
+            "blockClass": "terminosCondiciones-titletwentytwo"
+        }
+    },
+    "rich-text#terminosCondiciones-texttwentytwo": {
+        "props": {
+            "text": "En caso de falla o producto defectuoso, el cliente podrá hacer uso de la Garantía Legal la cual le permite decidir entre 3 opciones durante los 3 primeros meses desde la recepción del producto. Estas opciones son cambio del producto, reparación gratuita o devolución del dinero. En caso de que el Usuario desee ejercer la garantía legal, deberá solicitar el cambio, devolución o reparación de los productos contactándose con la dirección electrónica especialmente establecida para estos efectos: contactokeds@forus.cl, o llamar a la plataforma de contacto telefónico del Sitio +56 2 2923 3386 o dirigirse a cualquiera de nuestras tiendas. El ejercicio de la garantía legal deberá hacerse efectivo ante la Empresa Oferente dentro de los tres meses siguientes a la fecha en que se haya recibido el producto, siempre que éste no se hubiere deteriorado por hecho imputable al Usuario. Si el producto se hubiere vendido con determinada garantía, prevalecerá el plazo por el cual ésta se extendió, si fuere mayor.",
+            "blockClass": "terminosCondiciones-texttwentytwo"
+        }
+    },
+    "rich-text#terminosCondiciones-titletwentythree": {
+        "props": {
+            "text": "**10.USO DE LOS DATOS PERSONALES REGISTRADOS EN EL SITIO**",
+            "blockClass": "terminosCondiciones-titletwentythree"
+        }
+    },
+    "rich-text#terminosCondiciones-texttwentythree": {
+        "props": {
+            "text": "La recolección y tratamiento automatizado de los datos personales tiene como finalidad mantener una fluida relación entre el Usuario y el Sitio, así como la gestión, administración, prestación, ampliación y mejora de los servicios en los que el Usuario decida suscribirse; el estudio de la utilización de dichos servicios por parte de los Usuarios; el diseño de nuevas ofertas relacionadas con dichos servicios; el envío de actualizaciones de los servicios y el envío por medios tradicionales y electrónicos de información técnica, operativa y comercial acerca de productos y servicios ofrecidos a través del Sitio.<br><br>Forus podrá registrar toda la actividad del Usuario de modo de analizar y optimizar el uso del sitio. Dicho registro podrá contener tanto información personal como del acceso a la información, utilizando dirección IP,  cookies y cualquier otra tecnología para dicho registro.<br><br>La Empresa no vende, cede, ni transfiere a ningún título los datos personales de los Usuarios a terceros. La Empresa solamente podrá ceder los datos personales de los Usuarios a las entidades afiliadas a la Empresa, salvo que el Usuario niegue expresamente su autorización y siempre con pleno respeto a la normativa legal que rige en Chile. Para estos efectos se entenderá que “Afiliada” de Forus S.A. es cualquier otra persona que directa o indirectamente controle a, sea controlada por, o esté bajo el control común directo o indirecto. Para los propósitos de esta definición, “Control” tiene el significado que a dicha expresión se le otorga en los artículos 97 y siguientes de la Ley N° 18.045 de Mercado de Valores.<br><br><span class='sublinhado'>Protección al usuario</span><br><br>Forus protege los datos personales e información entregada por sus usuarios, los cuales serán manejados de forma absolutamente confidencial y conforme lo indica la legislación vigente. Forus pondrá todo el resguardo necesario en el cuidado de la información aportada, sin necesariamente asumir responsabilidades en caso fortuito o fuerza mayor.  Como sistema de seguridad, se cuenta con un COMODO SSL Certificate y las compras son 100% seguras.   Forus podrá utilizar la información registrada en el Sitio para el envío de información o promociones de servicios y productos tanto de Forus como de tercero. El envío de correos electrónicos publicitarios se hará sólo con el consentimiento de cada usuario, teniendo la opción de anular su suscripción cuando lo estime conveniente desde uno de los correos recibidos por Forus.",
+            "blockClass": "terminosCondiciones-texttwentythree"
+        }
+    },
+    "rich-text#terminosCondiciones-titletwentyfour": {
+        "props": {
+            "text": "**11.VALIDEZ DE LAS OFERTAS CONTENIDAS EN ESTE SITIO**",
+            "blockClass": "terminosCondiciones-titletwentyfour"
+        }
+    },
+    "rich-text#terminosCondiciones-texttwentyfour": {
+        "props": {
+            "text": "Los precios de los productos y servicios disponibles en este Sitio, mientras aparezcan en él, sólo tendrán vigencia y aplicación en éste y no serán necesariamente aplicables a otros canales de venta utilizados por las Empresas Oferentes, tales como tiendas físicas, catálogos u otros. Las Empresas Oferentes podrán modificar cualquier información contenida en este Sitio, incluyendo las relacionadas con mercaderías, servicios, precios, existencias y condiciones, en cualquier momento y sin previo aviso, hasta el momento de recibir una aceptación de compra, la cual obligará a la Empresa Oferente, sujeto a las condiciones de validación que se indican en el número 6, es decir, una vez que se haya formado el consentimiento entre las partes de una determinada transacción.",
+            "blockClass": "terminosCondiciones-texttwentyfour"
+        }
+    },
+    "rich-text#terminosCondiciones-titletwentyfive": {
+        "props": {
+            "text": "**12.PROMOCIONES**",
+            "blockClass": "terminosCondiciones-titletwentyfive"
+        }
+    },
+    "rich-text#terminosCondiciones-texttwentyfive": {
+        "props": {
+            "text": "Las promociones que se ofrezcan en este Sitio no son necesariamente las mismas que ofrezcan otros canales de venta utilizados por la empresa, tales como tiendas físicas, TV, catálogos u otros, a menos que se señale expresamente en este Sitio o en la publicidad que realicen las Empresas Oferentes para cada promoción. En los casos que el Sitio contenga promociones que consistan en la entrega gratuita o rebajada de un producto por la compra de otro, entonces el despacho del bien que se entregue gratuitamente o a precio rebajado, se hará en el mismo lugar al cual se despacha el producto comprado.",
+            "blockClass": "terminosCondiciones-texttwentyfive"
+        }
+    },
+    "rich-text#terminosCondiciones-titletwentysix": {
+        "props": {
+            "text": "**13.CORREOS ELECTRÓNICOS**",
+            "blockClass": "terminosCondiciones-titletwentysix"
+        }
+    },
+    "rich-text#terminosCondiciones-texttwentysix": {
+        "props": {
+            "text": "Los usuarios que se encuentren registrados en el sitio web de al menos una de las marcas de Forus aceptan mediante estos Términos y Condiciones recibir correos electrónicos de todas las marcas y sitios web de la empresa. Podrán des-inscribirse de las listas de correos electrónicos de cada marca o sitio web cuando reciban un correo electrónico presionando la opción de des-suscripción.",
+            "blockClass": "terminosCondiciones-texttwentysix"
+        }
+    },
+    "rich-text#terminosCondiciones-titletwentyseven": {
+        "props": {
+            "text": "**14.OTROS SITIOS WEB**",
+            "blockClass": "terminosCondiciones-titletwentyseven"
+        }
+    },
+    "rich-text#terminosCondiciones-texttwentyseven": {
+        "props": {
+            "text": "La Empresa no tendrá responsabilidad sobre la información proporcionada por otros sitios web y las consecuencias que de ello se deriven. La Empresa no garantiza, avala ni respalda de ninguna forma el acceso, información o contenido de cualquier otro sitio web o portal en los casos que dicho acceso se efectúe desde o hacia éste, ya sea que dicho acceso se efectúe mediante link, banner o mediante cualquier dispositivo disponible en la red.",
+            "blockClass": "terminosCondiciones-texttwentyseven"
+        }
+    },
+    "rich-text#terminosCondiciones-titletwentyeight": {
+        "props": {
+            "text": "**15.REPRESENTANTES**",
+            "blockClass": "terminosCondiciones-titletwentyeight"
+        }
+    },
+    "rich-text#terminosCondiciones-texttwentyeight": {
+        "props": {
+            "text": "Para recibir cualquier presentación o reclamo con actos o contratos ejecutados o celebrados a través de este Sitio, se designa a su Gerente don Daniela Guzman Pemjean.",
+            "blockClass": "terminosCondiciones-texttwentyeight"
+        }
+    }
+}

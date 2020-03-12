@@ -1,0 +1,59 @@
+{
+    "store.custom#comoComprar": {
+        "blocks": [
+            "flex-layout.row#comoComprar"
+        ],
+        "props": {
+            "blockClass": "comoComprar"
+        }
+    },
+    "flex-layout.row#comoComprar": {
+        "children": [
+            "flex-layout.row#colunas-comprar"
+        ],
+        "props": {
+            "blockClass": "fl-comoComprar"
+        }
+    },
+    "flex-layout.row#colunas-comprar": {
+        "children": [
+            "flex-layout.col#col1-body-comoComprar",
+            "flex-layout.col#col2-body-comoComprar"
+        ],
+        "props": {
+            "blockClass": "colunas-comoComprar"
+        }
+    },
+    "flex-layout.col#col1-body-comoComprar": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-comoComprar",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-comoComprar": {
+        "children": [
+            "rich-text#comprar-titlegrande",
+            "rich-text#comprar-textone"
+        ],
+        "props": {
+            "blockClass": "col2-body-comoComprar",
+            "width": "75%"
+        }
+    },
+    "rich-text#comprar-titlegrande": {
+        "props": {
+            "text": "**¿CÓMO COMPRAR EN KEDS.CL?**",
+            "blockClass": "comprar-titlegrande"
+        }
+    },
+    "rich-text#comprar-textone": {
+        "props": {
+            "text": "Debes estar registrado en <a href='https://www.keds.cl/index.php?route=account/register'>Keds.cl</a> y luego seguir los siguientes pasos:<br><br>1) Selecciona el producto que deseas comprar, eligiendo color y talla, pincha el botón que dice “Añadir al Carro”, si deseas más productos repite el paso anterior.<br><br>2) Cuando tengas todos los productos seleccionados, haz click en el carrito de compras ubicado en la esquina superior derecha . Se te abrirá una ventana con tus productos y presiona el botón VER CARRO Y PAGAR que aparece debajo del total de tu compra.<br><br>3) Si todo está correcto presiona el botón PAGAR, a continuación deberás ingresar la dirección para el envío de tu boleta, dirección de envío del(los) producto(s), seleccionar el método de despacho y medio de pago.<br><br>Así de Sencillo!!!!",
+            "blockClass": "comprar-textone"
+        }
+    }
+}

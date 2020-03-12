@@ -1,0 +1,31 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
+    ]
+  },
+  "responsive-layout.desktop": {
+    "children": [
+      "list-context.image-list#demo",
+      "__fold__",
+      "flex-layout.row#banner1",
+      "flex-layout.row#banner2",
+      "flex-layout.row#su-estilo",
+      "flex-layout.row#instagram",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf"
+    ]
+  },
+  "responsive-layout.mobile": {
+    "children": [
+      "list-context.image-list#demo",
+      "__fold__",
+      "flex-layout.row#mosaico",
+      "flex-layout.row#su-estilo-mobile",
+      "flex-layout.row#instagram",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf"
+    ]
+  }
+}

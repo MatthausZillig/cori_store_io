@@ -1,0 +1,46 @@
+.container {
+  :global(.vtex-button) {
+    border-radius: 0;
+  }
+}
+
+:global(.vtex-reviews-and-ratings-1-x-inlineContainer) {
+  display: none;
+}
+
+.priceContainer {
+  .productPriceClass {
+    display: flex;
+    flex-direction: row;
+
+    .listPriceContainer {
+      .listPriceLabel {
+        display: none;
+      }
+
+      .listPrice {
+        font-size: 16px;
+      }
+
+      &::after {
+        content: " / ";
+        font-size: 16px;
+      }
+    }
+
+    .sellingPriceContainer {
+      .sellingPriceLabel {
+        display: none;
+      }
+
+      .sellingPrice {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+
+    .installmentContainer {
+      display: none;
+    }
+  }
+}

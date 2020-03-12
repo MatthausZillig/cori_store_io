@@ -1,0 +1,9 @@
+@import "./references";
+
+.wrapper--stuck {
+  background-color: #fff;
+}
+
+.wrapper--stuck:not(:hover) {
+  background-color: #fff;
+}

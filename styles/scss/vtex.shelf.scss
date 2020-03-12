@@ -1,0 +1,33 @@
+@import "./references";
+
+.relatedProducts--related-products {
+  max-width: 84rem;
+  margin: 0 auto;
+
+  .title--related-products {
+    padding-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .5px;
+    color: $blue;
+    justify-content: center;
+  }
+
+  :global(.vtex-product-summary-2-x-element) {
+    padding: 10px;
+  }
+
+  :global(.vtex-product-summary-2-x-priceContainer) {
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+  }
+
+  :global(.vtex-reviews-and-ratings-1-x-inlineContainer) {
+    padding-bottom: 0.5rem;
+  }
+
+  :global(.vtex-slider-0-x-dotsContainer) {
+    display: none;
+  }
+}

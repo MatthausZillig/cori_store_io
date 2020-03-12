@@ -1,0 +1,129 @@
+{
+    "store.custom#productoFallado": {
+        "blocks": [
+            "flex-layout.row#productoFallado"
+            ],
+            "props": {
+                "blockClass": "productoFallado"
+            }
+        },
+        "flex-layout.row#productoFallado": {
+            "children": [
+                "flex-layout.row#colunas-productoFallado"
+            ],
+            "props": {
+                "blockClass": "fl-productoFallado"
+            }
+        },
+        "flex-layout.row#colunas-productoFallado": {
+            "children": [
+                "flex-layout.col#col1-body-productoFallado",
+                "flex-layout.col#col2-body-productoFallado"
+            ],
+            "props": {
+                "blockClass": "colunas-productoFallado"
+            }
+        },
+        "flex-layout.col#col1-body-productoFallado": {
+            "children": [
+                "image.mountainhardwearcl"
+            ],
+            "props": {
+                "blockClass": "col1-body-productoFallado",
+                "width": "20%",
+                "marginRight": 5
+            }
+        },
+        "flex-layout.col#col2-body-productoFallado": {
+            "children": [
+                "rich-text#productoFallado-titlegrande",
+                "rich-text#productoFallado-textone",
+                "rich-text#productoFallado-itensone",
+                "rich-text#productoFallado-texttwo",
+                "rich-text#productoFallado-titleone",
+                "rich-text#productoFallado-textthree",
+                "rich-text#productoFallado-titletwo",
+                "rich-text#productoFallado-textfour",
+                "rich-text#productoFallado-titlethree",
+                "rich-text#productoFallado-textfive",
+                "rich-text#productoFallado-itenstwo",
+                "rich-text#productoFallado-textsix"
+            ],
+            "props": {
+                "blockClass": "col2-body-productoFallado",
+                "width": "75%"
+            }
+        },
+        "rich-text#productoFallado-titlegrande": {
+            "props": {
+                "text": "**¿QUÉ PASA SI MI PRODUCTO ESTA FALLADO?**",
+                "blockClass": "productoFallado-titlegrande"
+            }
+        },
+        "rich-text#productoFallado-textone": {
+            "props": {
+                "text": "Si estas dentro de los días de Garantía (hasta 3 meses posterior a la compra según la fecha de la boleta, siempre que el producto no se hubiere deteriorado por hecho imputable al consumidor (Art. 21, Ley 19.496)) y tienes tu boleta (o comprobante de compra con tarjeta de crédito), embalajes originales, accesorios, manuales y pólizas de garantía. Puedes realizar el cambio o devolución de las siguientes formas:",
+                "blockClass": "productoFallado-textone"
+            }
+        },
+        "rich-text#productoFallado-itensone": {
+            "props": {
+                "text": "1.<span class='negrito'>Tienda Keds</span>: Dirígete a cualquier tienda Keds del país y solicita un cambio o devolución presentando la boleta y el producto fallado. Podrás realizar el cambio sólo por los productos de la tienda.<br>2.<span class='negrito'>Envíanos el producto</span>: Entra a tu cuenta en el sitio web haciendo click en tu nombre, luego ingresa a “Historial de compra” y selecciona la compra que contenga el producto que deseas cambiar o devolver. Ingresa a ver su detalle haciendo click en el ícono de detalle y luego haz click en el ícono cambio/devolución. Esto te llevará a la página de “Cambios y Devoluciones” en donde deberás llenar todos los campos solicitados. Una vez completados todos los pasos, el personal de Venta Internet revisará tus datos y enviará una Ficha de Cambio y Devolución a tu correo electrónico, la cual debes imprimir dos (2) veces. Una vez finalizada la solicitud dirígete a una sucursal de Correos Chile habilitada para cambio/devolución (ver sucursales) y entrega el <span class='negrito'>producto</span>, su <span class='negrito'>boleta</span> y la <span class='negrito'>Ficha de Cambio y Devolución</span> dentro de una caja segura (puedes utilizar la misma caja en donde recibiste el producto). La segunda copia de la Ficha de Cambio y Devolución debe ser entregada al ejecutivo de la sucursal de Correos Chile. Nos pondremos en contacto contigo para coordinar la entrega del nuevo producto o la devolución del dinero de acuerdo a lo que tú hayas solicitado.",
+                "blockClass": "productoFallado-itensone"
+            }
+        },
+        "rich-text#productoFallado-texttwo": {
+            "props": {
+                "text": "<span class='negrito'>*Importante:</span> el envío a nuestras bodegas es GRATIS solo si es a través de Correos Chile, si deseas enviarnos el(los) producto(s) por otra empresa de despacho el costo lo asumes tú.<br><br>Todos los cambios o devoluciones por falla pasan por un control de calidad que confirmará el estado del producto, este proceso puede tardar hasta 15 días. En caso satisfactorio se concretará el cambio o la devolución requerida, si no, te devolveremos el producto a tu dirección. Las devoluciones de dinero pueden tardar hasta quince (15) días hábiles desde que control de calidad determina que corresponde la devolución del dinero.",
+                "blockClass": "productoFallado-texttwo"
+            }
+        },
+        "rich-text#productoFallado-titleone": {
+            "props": {
+                "text": "**¿CÓMO REEMBOLSAN MI DINERO?**",
+                "blockClass": "productoFallado-titleone"
+            }
+        },
+        "rich-text#productoFallado-textthree": {
+            "props": {
+                "text": "El reembolso del dinero dependerá de cómo pagaste y solo se devolverá el valor del despacho en caso de que devuelvas todos los productos pertenecientes a la compra.",
+                "blockClass": "productoFallado-textthree"
+            }
+        },
+        "rich-text#productoFallado-titletwo": {
+            "props": {
+                "text": "**TARJETA DE CRÉDITO**",
+                "blockClass": "productoFallado-titletwo"
+            }
+        },
+        "rich-text#productoFallado-textfour": {
+            "props": {
+                "text": "Si pagaste con Tarjeta de Crédito te devolvemos tu dinero al mismo medio de pago, es decir, dentro de 15 días hábiles, desde que control de calidad determina que corresponde la devolución del dinero, verás la transacción reversada en la misma Tarjeta de Crédito con la cual pagaste en Keds.cl.",
+                "blockClass": "productoFallado-textfour"
+            }
+        },
+        "rich-text#productoFallado-titlethree": {
+            "props": {
+                "text": "**REDCOMPRA**",
+                "blockClass": "productoFallado-titlethree"
+            }
+        },
+        "rich-text#productoFallado-textfive": {
+            "props": {
+                "text": "Si pagaste con Redcompra y devolviste el producto en la tienda recibirás el dinero en efectivo inmediatamente. En caso de devolver el producto en una sucursal de Correos Chile nos pondremos en contacto contigo una vez que hayamos recibido el producto. Para completar esta devolución te solicitaremos:",
+                "blockClass": "productoFallado-textfive"
+            }
+        },
+        "rich-text#productoFallado-itenstwo": {
+            "props": {
+                "text": "• Nombre del destinatario<br>• RUT<br>• Banco<br>• Tipo de Cuenta<br>• N° de Cuenta<br>• Dirección",
+                "blockClass": "productoFallado-itenstwo"
+            }
+        },
+        "rich-text#productoFallado-textsix": {
+            "props": {
+                "text": "Las devoluciones de dinero pueden tardar hasta quince (15) días hábiles desde que control de calidad determina que corresponde la devolución del dinero. Es necesario recordar que el ticket de cambio sólo puede ser utilizado para cambios y no para devoluciones. Sólo se devolverá el valor del despacho en caso de que el cliente devuelva todos los productos pertenecientes a la compra.",
+                "blockClass": "productoFallado-textsix"
+            }
+        }
+    }

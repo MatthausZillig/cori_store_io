@@ -1,0 +1,146 @@
+{
+    "flex-layout.row#su-estilo": {
+        "children": [
+            "flex-layout.col#su-estilo"
+        ],
+        "props": {
+            "blockClass": "su-estilo"
+        }
+    },
+    "flex-layout.col#su-estilo": {
+        "children": [
+            "rich-text#su-estilo",
+            "flex-layout.row#estilos"
+        ],
+        "props": {
+            "blockClass": "su-estilo"
+        }
+    },
+    "rich-text#su-estilo": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "shop by style",
+            "blockClass": "su-estilo"
+        }
+    },
+    "flex-layout.row#estilos": {
+        "children": [
+            "flex-layout.col#estilos-1",
+            "flex-layout.col#estilos-2",
+            "flex-layout.col#estilos-3",
+            "flex-layout.col#estilos-4"
+        ],
+        "props": {
+            "blockClass": "estilos"
+        }
+    },
+    "flex-layout.col#estilos-1": {
+        "children": [
+            "image#estilo-1",
+            "rich-text#estilo-1"
+        ],
+        "props": {
+            "blockClass": "estilos-1"
+        }
+    },
+    "image#estilo-1": {
+        "title": "estilo-1",
+        "props": {
+            "src": "/arquivos/vans1.png",
+            "link": "/",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "estilo-1"
+        }
+    },
+    "rich-text#estilo-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "estilo-1",
+            "blockClass": "estilo-1"
+        }
+    },
+    "flex-layout.col#estilos-2": {
+        "children": [
+            "image#estilo-2",
+            "rich-text#estilo-2"
+        ],
+        "props": {
+            "blockClass": "estilos-2"
+        }
+    },
+    "image#estilo-2": {
+        "title": "estilo-2",
+        "props": {
+            "src": "/arquivos/vans1.png",
+            "link": "/",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "estilo-2"
+        }
+    },
+    "rich-text#estilo-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "estilo-2",
+            "blockClass": "estilo-2"
+        }
+    },
+    "flex-layout.col#estilos-3": {
+        "children": [
+            "image#estilo-3",
+            "rich-text#estilo-3"
+        ],
+        "props": {
+            "blockClass": "estilos-3"
+        }
+    },
+    "image#estilo-3": {
+        "title": "estilo-3",
+        "props": {
+            "src": "/arquivos/vans1.png",
+            "link": "/",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "estilo-3"
+        }
+    },
+    "rich-text#estilo-3": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "estilo-3",
+            "blockClass": "estilo-3"
+        }
+    },
+    "flex-layout.col#estilos-4": {
+        "children": [
+            "image#estilo-4",
+            "rich-text#estilo-4"
+        ],
+        "props": {
+            "blockClass": "estilos-4"
+        }
+    },
+    "image#estilo-4": {
+        "title": "estilo-4",
+        "props": {
+            "src": "/arquivos/vans1.png",
+            "link": "/",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "estilo-4"
+        }
+    },
+    "rich-text#estilo-4": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "estilo-4",
+            "blockClass": "estilo-4"
+        }
+    }
+}

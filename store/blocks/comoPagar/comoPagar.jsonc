@@ -1,0 +1,102 @@
+{
+    "store.custom#comoPagar": {
+        "blocks": [
+            "flex-layout.row#comoPagar"        
+        ],
+        "props": {
+            "blockClass": "comoPagar"
+        }
+    },
+    "flex-layout.row#comoPagar": {
+        "children": [
+            "flex-layout.row#colunas-comoPagar"
+        ],
+        "props": {
+            "blockClass": "fl-comoPagar"
+        }
+    },
+    "flex-layout.row#colunas-comoPagar": {
+        "children": [
+            "flex-layout.col#col1-body-comoPagar",
+            "flex-layout.col#col2-body-comoPagar"
+        ],
+        "props": {
+            "blockClass": "colunas-comoPagar"
+        }
+    },
+    "flex-layout.col#col1-body-comoPagar": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-comoPagar",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-comoPagar": {
+        "children": [
+            "rich-text#pagar-titlegrande",
+            "rich-text#pagar-titleone",
+            "rich-text#pagar-textone",
+            "rich-text#pagar-itensone",
+            "image#webpay",
+            "rich-text#pagar-titletwo",
+            "rich-text#pagar-titlethree",
+            "rich-text#pagar-texttwo"
+        ],
+        "props": {
+            "blockClass": "col2-body-comoPagar",
+            "width": "75%"
+        }
+    },
+    "rich-text#pagar-titlegrande": {
+        "props": {
+            "text": "**¿CÓMO PUEDO PAGAR?**",
+            "blockClass": "pagar-titlegrande"
+        }
+    },
+    "rich-text#pagar-titleone": {
+        "props": {
+            "text": "**TARJETAS BANCARIAS**",
+            "blockClass": "pagar-titleone"
+        }
+    },
+    "rich-text#pagar-textone": {
+        "props": {
+            "text": "Keds.cl cuenta con el sistema de pago seguro ofrecido por Webpay Plus, que te permite pagar todos tus productos utilizando Redcompra o las siguientes Tarjetas de Crédito emitidas en Chile:",
+            "blockClass": "pagar-textone"
+        }
+    },
+    "rich-text#pagar-itensone": {
+        "props": {
+            "text": "• Visa<br>• MasterCard<br>• Magna<br>• American Express<br>• Diners Club International",
+            "blockClass": "pagar-itensone"
+        }
+    },
+    "image#webpay": {
+        "props": {
+            "src": "#",
+            "alt": "webpay",
+            "blockClass": "webpay"
+        }
+    },
+    "rich-text#pagar-titletwo": {
+        "props": {
+            "text": "<br>**CUPONES**",
+            "blockClass": "pagar-titletwo"
+        }
+    },
+    "rich-text#pagar-titlethree": {
+        "props": {
+            "text": "**USO Y RESTRICCIÓN**",
+            "blockClass": "pagar-titlethree"
+        }
+    },
+    "rich-text#pagar-texttwo": {
+        "props": {
+            "text": "Para utilizar un cupón de descuento en Keds.cl debes ingresar su código en el campo indicado durante el proceso de pago. Los cupones tienen vigencia y deben estar al día al momento de utilizarlos.",
+            "blockClass": "pagar-texttwo"
+        }
+    }
+}

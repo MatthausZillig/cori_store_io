@@ -1,0 +1,86 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#sigue-compra",
+      "menu-item#contactanos",
+      "menu#topnav"
+    ],
+    "props": {
+      "blockClass": "topMenu"
+    }
+  },
+  "menu#topnav": {
+    "children": [
+      "menu-item#international"
+    ],
+    "props": {
+      "type": "custom"
+    }
+  },
+  "menu-item#international": {
+    "props": {
+      "type": "custom",
+      "blockClass": "countries",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "cl",
+        "data-country": "cl",
+        "text": "Chile"
+      }
+    },
+    "blocks": [
+      "submenu#international"
+    ]
+  },
+  "menu-item#sigue-compra": {
+    "props": {
+      "id": "menu-item-sigue-compra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.siguetucompra.cl/",
+        "noFollow": false,
+        "tagTitle": "Sigue tu compra",
+        "text": "Sigue tu compra"
+      }
+    }
+  },
+  "menu-item#contactanos": {
+    "props": {
+      "id": "menu-item-contactanos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contacto",
+        "noFollow": false,
+        "tagTitle": "Contáctanos",
+        "text": "Contáctanos"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#vtex-website"
+    ]
+  },
+  "menu-item#vtex-website": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "visit vtex.com"
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+    "store.custom#mails": {
+        "blocks": [
+            "flex-layout.row#mails"
+        ],
+        "props": {
+            "blockClass": "mails"
+        }
+    },
+    "flex-layout.row#mails": {
+        "children": [
+            "flex-layout.row#colunas-mails"
+        ],
+        "props": {
+            "blockClass": "fl-mails"
+        }
+    },
+    "flex-layout.row#colunas-mails": {
+        "children": [
+            "flex-layout.col#col1-body-mails",
+            "flex-layout.col#col2-body-mails"
+        ],
+        "props": {
+            "blockClass": "colunas-mails"
+        }
+    },
+    "flex-layout.col#col1-body-mails": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-mails",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-mails": {
+        "children": [
+            "rich-text#mails-titlegrande",
+            "rich-text#mails-textone",
+            "rich-text#mails-itensone"
+        ],
+        "props": {
+            "blockClass": "col2-body-mails",
+            "width": "75%"
+        }
+    },
+    "rich-text#mails-titlegrande": {
+        "props": {
+            "text": "**NO ME LLEGAN LOS MAILS ¿QUÉ HAGO?**",
+            "blockClass": "mails-titlegrande"
+        }
+    },
+    "rich-text#mails-textone": {
+        "props": {
+            "text": "Si no estás recibiendo nuestros mails pueden estar sucediendo dos cosas:",
+            "blockClass": "mails-textone"
+        }
+    },
+    "rich-text#mails-itensone": {
+        "props": {
+            "text": "1.No estás suscrito: si este es tu caso, debes ingresar a tu cuenta (haciendo click en tu nombre una vez que ingresaste) y en newsletter seleccionar la casilla “Si”.<br>2.Nuestros mails están llegando a una casilla de tu mail que no revisas, por ejemplo spam o promociones (en el caso gmail): si este es tu caso, selecciona nuestro mail y muévelo a tu casilla principal, de esta forma todos nuestros mails aparecerán ahí.",
+            "blockClass": "mails-itensone"
+        }
+    }
+}

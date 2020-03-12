@@ -1,0 +1,67 @@
+{
+    "store.custom#orden": {
+        "blocks": [
+            "flex-layout.row#orden"
+        ],
+        "props": {
+            "blockClass": "orden"
+        }
+    },
+    "flex-layout.row#orden": {
+        "children": [
+            "flex-layout.row#colunas-orden"
+        ],
+        "props": {
+            "blockClass": "fl-orden"
+        }
+    },
+    "flex-layout.row#colunas-orden": {
+        "children": [
+            "flex-layout.col#col1-body-orden",
+            "flex-layout.col#col2-body-orden"
+        ],
+        "props": {
+            "blockClass": "colunas-orden"
+        }
+    },
+    "flex-layout.col#col1-body-orden": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-orden",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-orden": {
+        "children": [
+            "rich-text#orden-titlegrande",
+            "rich-text#orden-textone",
+            "image#dondeestamiorden"
+        ],
+        "props": {
+            "blockClass": "col2-body-orden",
+            "width": "75%"
+        }
+    },
+    "rich-text#orden-titlegrande": {
+        "props": {
+            "text": "**¿CÓMO SE DONDE ESTÁ MI ORDEN?**",
+            "blockClass": "orden-titlegrande"
+        }
+    },
+    "rich-text#orden-textone": {
+        "props": {
+            "text": "Tras realizar una compra en nuestro sitio, recibirás un email con el resumen de los productos que compraste y el número de orden asociado. Para hacer seguimiento al despacho de el/los producto(s) de tu orden, ingresa dicho número <a href='https://Keds.siguetucompra.cl/#/'>aquí</a> y podrás ver en qué etapa del despacho se encuentra cada bulto.",
+            "blockClass": "orden-textone"
+        }
+    },
+    "image#dondeestamiorden": {
+        "props": {
+            "src": "/arquivos/dondeestamiorden.jpg",
+            "blockClass": "dondeestamiorden",
+            "maxWidth": "100%"
+        }
+    }
+}

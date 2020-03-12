@@ -1,0 +1,164 @@
+{
+    "store.custom#politicaPrivacidad": {
+        "blocks": [
+            "flex-layout.row#politicaPrivacidad"
+        ],
+        "props": {
+            "blockClass": "politicaPrivacidad"
+        }
+    },
+    "flex-layout.row#politicaPrivacidad": {
+        "children": [
+            "flex-layout.row#colunas-politicaPrivacidad"
+        ],
+        "props": {
+            "blockClass": "fl-politicaPrivacidad"
+        }
+    },
+    "flex-layout.row#colunas-politicaPrivacidad": {
+        "children": [
+            "flex-layout.col#col1-body-politicaPrivacidad",
+            "flex-layout.col#col2-body-politicaPrivacidad"
+        ],
+        "props": {
+            "blockClass": "colunas-politicaPrivacidad"
+        }
+    },
+    "flex-layout.col#col1-body-politicaPrivacidad": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-politicaPrivacidad",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-politicaPrivacidad": {
+        "children": [
+            "rich-text#politicaPrivacidad-titlegrande",
+            "rich-text#politicaPrivacidad-titleone",
+            "rich-text#politicaPrivacidad-textone",
+            "rich-text#politicaPrivacidad-itensone",
+            "rich-text#politicaPrivacidad-texttwo",
+            "rich-text#politicaPrivacidad-titletwo",
+            "rich-text#politicaPrivacidad-textthree",
+            "rich-text#politicaPrivacidad-titlethree",
+            "rich-text#politicaPrivacidad-textfour",
+            "rich-text#politicaPrivacidad-titlefour",
+            "rich-text#politicaPrivacidad-textfive",
+            "rich-text#politicaPrivacidad-titlefive",
+            "rich-text#politicaPrivacidad-textsix",
+            "rich-text#politicaPrivacidad-titlesix",
+            "rich-text#politicaPrivacidad-textseven",
+            "rich-text#politicaPrivacidad-titleseven",
+            "rich-text#politicaPrivacidad-texteight"
+        ],
+        "props": {
+            "blockClass": "col2-body-politicaPrivacidad",
+            "width": "75%"
+        }
+    },
+    "rich-text#politicaPrivacidad-titlegrande": {
+        "props": {
+            "text": "**POLÍTICA DE PRIVACIDAD**",
+            "blockClass": "politicaPrivacidad-titlegrande"
+        }
+    },
+    "rich-text#politicaPrivacidad-titleone": {
+        "props": {
+            "text": "**EL COMPROMISO QUE TENEMOS CONTIGO.**",
+            "blockClass": "politicaPrivacidad-titleone"
+        }
+    },
+    "rich-text#politicaPrivacidad-textone": {
+        "props": {
+            "text": "El propósito de este documento es transparentar la relación que tenemos con nuestros usuarios a través de nuestro sitio web <a href='https://www.Keds.cl/'>Keds.cl</a>. Nuestro sitio almacena información privada y confidencial de cada persona que decide ser parte de la plataforma de E-Commerce. Estos datos son almacenados por una tercera empresa la cuál se rige bajo conocidos estándares de cuidado y protección de datos.<br>Esta política aplica a toda la información recolectada o enviada por Keds Para poder utilizar las funciones comunitarias del sitio, como comentar los productos y otras funciones sociales avanzadas, es necesario un registro previo en el sitio. El tipo de información recolectada en estas páginas es:",
+            "blockClass": "politicaPrivacidad-textone"
+        }
+    },
+    "rich-text#politicaPrivacidad-itensone": {
+        "props": {
+            "text": "• Nombre<br>• Apellido/s<br>• Correo Electrónico<br>• Contraseña<br>• Género",
+            "blockClass": "politicaPrivacidad-itensone"
+        }
+    },
+    "rich-text#politicaPrivacidad-texttwo": {
+        "props": {
+            "text": "En ciertos módulos como el de despacho de producto (direcciones), puedes ingresar información personal de terceros. Por ejemplo, para recomendar o enviar un producto a un amigo/familiar.  En esta circunstancia, el tipo de información recolectada es:<br>Nombre del Destinatario Apellidos del Destinatario Correo Electrónico del Destinatario Dirección de Despacho",
+            "blockClass": "politicaPrivacidad-texttwo"
+        }
+    },
+    "rich-text#politicaPrivacidad-titletwo": {
+        "props": {
+            "text": "**CÓMO USAMOS ESTA INFORMACIÓN**",
+            "blockClass": "politicaPrivacidad-titletwo"
+        }
+    },
+    "rich-text#politicaPrivacidad-textthree": {
+        "props": {
+            "text": "Los datos proporcionados al completar el formulario para registrarte como usuario o suscriptor son indispensables para poder prestarte un correcto servicio de entrega de información, promociones y productos recomendados. Con éstos podremos comunicarnos con usted para informarle sobre el estado y vigencia de su suscripción, claves de acceso, solución de problemas al navegar o bien enviarle información acerca de nuestras ofertas de productos que hemos construido especialmente para ti.<br>Los datos personales que nos entregues nunca serán usados ni compartidos de una manera distinta a las descritas en este documento. Proveeremos de los mecanismos necesarios para impedir dichos usos.",
+            "blockClass": "politicaPrivacidad-textthree"
+        }
+    },
+    "rich-text#politicaPrivacidad-titlethree": {
+        "props": {
+            "text": "**MÉTODOS AUTOMATIZADOS**",
+            "blockClass": "politicaPrivacidad-titlethree"
+        }
+    },
+    "rich-text#politicaPrivacidad-textfour": {
+        "props": {
+            "text": "En nuestra tienda de venta en línea, utilizamos diferentes herramientas para conocer más a nuestros usuarios y mejorar las preferencias de productos que tenemos para ellos. Estas herramientas incluyen estadísticas de apertura y navegación de email marketing, navegación en el sitio web e interacción con redes sociales unidas a nuestra plataforma.<br>No se trata de información personal que permita identificar a personas determinadas, sino que corresponde a datos generales de la visita efectuada, como la dirección IP – número único asignado por tu proveedor de acceso al acceder a Internet – o los contenidos en cookies – archivos con una expiración determinada, alojados en la memoria caché de tu navegador y que permiten que te identifiques en un sitio, puedas guardar preferencias personalizadas y también informen sobre tus visitas a un sitio, entre otros. A través de diferentes aplicaciones podemos identificar tu sistema operativo como el navegador desde el cual nos contactas, esto lo hacemos con el objetivo de poder solucionar posibles problemas en el menor tiempo posible.<br>Estos datos permiten generar información sobre cantidad de visitas, páginas visitadas, horas de uso, plataforma y navegador de acceso, entre otros reportes. Esta información no es usada en ningún caso para identificar a cada usuario individualmente; Keds.cl se reserva el derecho de usarla a modo general para la planificación comercial y estratégica del sitio.",
+            "blockClass": "politicaPrivacidad-textfour"
+        }
+    },
+    "rich-text#politicaPrivacidad-titlefour": {
+        "props": {
+            "text": "**TU SEGURIDAD**",
+            "blockClass": "politicaPrivacidad-titlefour"
+        }
+    },
+    "rich-text#politicaPrivacidad-textfive": {
+        "props": {
+            "text": "Para prevenir accesos malintencionados, mantener los datos actualizados y asegurar el uso correcto de tu información, disponemos de métodos físicos, electrónicos y procedimientos de gestión para mantener segura la información recolectada, como backup periódicos, computación distruibuidas y planes de contingencia frente a posibles fallas del sistema.",
+            "blockClass": "politicaPrivacidad-textfive"
+        }
+    },
+    "rich-text#politicaPrivacidad-titlefive": {
+        "props": {
+            "text": "**PROTECCIÓN DE LOS USUARIOS**",
+            "blockClass": "politicaPrivacidad-titlefive"
+        }
+    },
+    "rich-text#politicaPrivacidad-textsix": {
+        "props": {
+            "text": "Los contenidos de este sitio web se ofrecen con finalidades informativas de productos y comercialización de éstos, por lo que nos exime de cualquier responsabilidad — sea directa o indirecta – que pudiera derivarse del uso o aplicación de la información publicada en Keds.cl fuera de dichos propósitos.<br>Los enlaces (hipervínculos o links) a contenidos de terceros que aparecen en en este sitio web a través de los comentarios son incluidos con el propósito de ampliar la información o indicar otro punto de vista. Esto no implica la aceptación de dichos contenidos ni la asociación de Keds.cl con los responsables de dichas páginas web, por lo que rechaza toda responsabilidad en relación con ellos ni por los posibles fallos, errores o daños (sean directos o indirectos) que pudiera sufrir su equipo informático, su sistema operativo y/o tus aplicaciones, documentos o archivos que sean causados o se deriven de la capacidad o calidad de tu sistema informático, o de la presencia de un virus o cualquier otra aplicación informática dañina en el equipo que utilices para acceder a Internet, de la calidad de tu conexión o acceso a Internet, por un mal funcionamiento de tu navegador o por el uso de aplicaciones informáticas cuyas versiones no estén actualizadas o de las que no tengas la correspondiente licencia de usuario.",
+            "blockClass": "politicaPrivacidad-textsix"
+        }
+    },
+    "rich-text#politicaPrivacidad-titlesix": {
+        "props": {
+            "text": "**SISTEMA DE PAGO**",
+            "blockClass": "politicaPrivacidad-titlesix"
+        }
+    },
+    "rich-text#politicaPrivacidad-textseven": {
+        "props": {
+            "text": "Keds.cl ofrece la posibilidad a sus usuarios registrados de realizar compras a través de nuestra plataforma. En relación a la privacidad de los datos bancarios. Keds.cl no almacena ningún tipo de información sobre los códigos de la tarjeta bancaria: Número de Tarjeta, Fecha de Vencimiento, Código de Seguridad (tres dígitos ubicados al reverso de la tarjeta) y el nombre del portador de la tarjeta.<br>Todos estos datos son almacenados por un tercero quien es el responsable de procesar la transacción. Si bien, la responsabilidad de Keds.cl queda limitada al utilizar este servicio, velará por el cumplimiento de las buenas prácticas.",
+            "blockClass": "politicaPrivacidad-textseven"
+        }
+    },
+    "rich-text#politicaPrivacidad-titleseven": {
+        "props": {
+            "text": "**ELIMINACIÓN Y CONGELACIÓN DE CUENTA**",
+            "blockClass": "politicaPrivacidad-titleseven"
+        }
+    },
+    "rich-text#politicaPrivacidad-texteight": {
+        "props": {
+            "text": "Los usuarios podrán congelar o eliminar los datos registrados con nuestra tienda de venta en línea. Congelar implica no poder acceder como usuario a la tienda de venta en línea, esta medida puede ser tomada cuando el usuario sospecha de la utilización de su cuenta por parte de un tercero y prefiere eliminar temporalmente el acceso hasta solucionar el incidente. Congelar una cuenta, no implica eliminar los datos registrados por el usuarios.<br>La eliminación de una cuenta significa borrar todos los datos que el usuario tiene registrado con nosotros en el servidor de producción. Puede existir la posibilidad que existan copias de estos datos en backup de seguridad los cuales no son utilizados para fines comerciales.",
+            "blockClass": "politicaPrivacidad-texteight"
+        }
+    }
+}

@@ -1,0 +1,192 @@
+{
+    "store.custom#cambio": {
+        "blocks": [
+            "flex-layout.row#cambio"
+        ],
+        "props": {
+            "blockClass": "cambio"
+        }
+    },
+    "flex-layout.row#cambio": {
+        "children": [
+            "flex-layout.row#colunas-cambio"
+        ],
+        "props": {
+            "blockClass": "fl-cambio"
+        }
+    },
+    "flex-layout.row#colunas-cambio": {
+        "children": [
+            "flex-layout.col#col1-body-cambio",
+            "flex-layout.col#col2-body-cambio"
+        ],
+        "props": {
+            "blockClass": "colunas-cambio"
+        }
+    },
+    "flex-layout.col#col1-body-cambio": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-cambio",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-cambio": {
+        "children": [
+            "rich-text#cambio-titlegrande",
+            "rich-text#cambio-titleone",
+            "rich-text#cambio-textone",
+            "rich-text#cambio-titletwo",
+            "rich-text#cambio-texttwo",
+            "rich-text#cambio-itensone",
+            "rich-text#cambio-titlethree",
+            "rich-text#cambio-textthree",
+            "rich-text#cambio-itenstwo",
+            "rich-text#cambio-titlefour",
+            "rich-text#cambio-textfour",
+            "rich-text#cambio-itensthree",
+            "rich-text#cambio-textfive",
+            "rich-text#cambio-titlefive",
+            "rich-text#cambio-textsix",
+            "rich-text#cambio-titlesix",
+            "rich-text#cambio-textseven",
+            "rich-text#cambio-titleseven",
+            "rich-text#cambio-texteight",
+            "rich-text#cambio-itensfour",
+            "rich-text#cambio-textnine"
+        ],
+        "props": {
+            "blockClass": "col2-body-cambio",
+            "width": "75%"
+        }
+    },
+    "rich-text#cambio-titlegrande": {
+        "props": {
+            "text": "**¿QUÉ PASA SI LA TALLA ME QUEDA MAL O EL PRODUCTO NO ES LO QUE ESPERABA?**",
+            "blockClass": "cambio-titlegrande"
+        }
+    },
+    "rich-text#cambio-titleone": {
+        "props": {
+            "text": "**CONDICIONES PARA CAMBIO Y DEVOLUCIÓN**",
+            "blockClass": "cambio-titleone"
+        }
+    },
+    "rich-text#cambio-textone": {
+        "props": {
+            "text": "Puedes solicitar un cambio de producto o devolución del dinero si el producto presenta fallas de origen o si no cumple con las características indicadas en el sitio web. Para brindarte una mejor experiencia de compra, Keds.cl ofrece una Garantía Voluntaria (además de la garantía legal) con la que puedes cambiar un producto dentro de los primeros 10 días luego de haber recibido tu compra, siempre que se cumplan ciertos requisitos.",
+            "blockClass": "cambio-textone"
+        }
+    },
+    "rich-text#cambio-titletwo": {
+        "props": {
+            "text": "**GARANTÍA VOLUNTARIA**",
+            "blockClass": "cambio-titletwo"
+        }
+    },
+    "rich-text#cambio-texttwo": {
+        "props": {
+            "text": "Si no te gustó el producto o te quedó mal una talla, la Garantía Voluntaria de Keds.cl te permite realizar cambios o devoluciones en un plazo de 10 días desde la recepción del producto. Esto es válido sólo para compras realizadas a través de la página web. Para hacer uso de ella debes presentar la boleta (o ticket de cambio) y cumplir con lo siguiente:",
+            "blockClass": "cambio-texttwo"
+        }
+    },
+    "rich-text#cambio-itensone": {
+        "props": {
+            "text": "1.El producto no puede haber sido usado.<br>2.El producto puede estar abierto, pero debe estar con sus embalajes originales completos y en perfectas condiciones.<br>3.Entregar todos sus accesorios.",
+            "blockClass": "cambio-itensone"
+        }
+    },
+    "rich-text#cambio-titlethree": {
+        "props": {
+            "text": "**GARANTÍA LEGAL**",
+            "blockClass": "cambio-titlethree"
+        }
+    },
+    "rich-text#cambio-textthree": {
+        "props": {
+            "text": "Para hacer uso de la Garantía Legal, se debe solicitar el cambio o devolución dentro de los 3 meses posteriores a la compra según la fecha de la boleta, siempre que el producto no se hubiere deteriorado por hecho imputable al consumidor (Art. 21, Ley 19.496). Además, debes presentar la boleta (o ticket de cambio o comprobante de compra con tarjeta de crédito) y cumplir con lo siguiente:",
+            "blockClass": "cambio-textthree"
+        }
+    },
+    "rich-text#cambio-itenstwo": {
+        "props": {
+            "text": "1.Tener los embalajes originales, accesorios, manuales y pólizas de garantía.<br>2.Si el producto es devuelto por falla, se realizará una revisión que confirmará la falla del producto. En caso de no ser atribuible a un mal uso del mismo, se podrá hacer efectiva la garantía.<br>",
+            "blockClass": "cambio-itenstwo"
+        }
+    },
+    "rich-text#cambio-titlefour": {
+        "props": {
+            "text": "**¿CÓMO REALIZO UN CAMBIO O DEVOLUCIÓN?**",
+            "blockClass": "cambio-titlefour"
+        }
+    },
+    "rich-text#cambio-textfour": {
+        "props": {
+            "text": "Puedes realizar el cambio o devolución de dos formas, utiliza la que más te acomode:",
+            "blockClass": "cambio-textfour"
+        }
+    },
+    "rich-text#cambio-itensthree": {
+        "props": {
+            "text": "1.<span class='negrito'>Tiendas Keds:</span> Puedes dirigirte a cualquier tienda Keds del país y solicitar un cambio o devolución presentando la boleta (o ticket de cambio). Podrás solicitar cambio sólo por los productos de la tienda.<br>2.<span class='negrito'>Envíanos el Producto: Este método solamente acepta cambios por talla. Para cambios de color o producto, debes ver la opción de Tiendas asociadas.</span> Entra a tu cuenta en el sitio web haciendo click en tu nombre, luego ingresa a “Historial de compra” y selecciona la compra que contenga el producto que deseas cambiar o devolver. Ingresa a ver su detalle haciendo click en el ícono de detalle y luego haz click en el ícono cambio/devolución. Esto te llevará a la página de “Cambios y Devoluciones” en donde deberás llenar todos los campos solicitados. Una vez completados todos los pasos, el personal de Venta Internet revisará tus datos y enviará una <span class='negrito'>Ficha de Cambio y Devolución</span> a tu correo electrónico, la cual debes imprimir dos (2) veces. Una vez finalizada la solicitud dirígete a una sucursal de Correos Chile habilitada para cambio/devolución (ver sucursales) y entrega el <span class='negrito'>producto</span>, su <span class='negrito'>boleta</span> y la <span class='negrito'>Ficha de Cambio y Devolución</span> dentro de una caja segura (puedes utilizar la misma caja en donde recibiste el producto). La segunda copia de la Ficha de Cambio y Devolución debe ser entregada al ejecutivo de la sucursal de Correos Chile. Nos pondremos en contacto contigo para coordinar la entrega del nuevo producto o la devolución del dinero de acuerdo a lo que tú hayas solicitado.",
+            "blockClass": "cambio-itensthree"
+        }
+    },
+    "rich-text#cambio-textfive": {
+        "props": {
+            "text": "<span class='negrito'>*Importante:</span> El envío a nuestras bodegas es GRATIS solo sí es a través de Correos de Chile, si deseas enviarnos el(los) producto(s) por otra empresa de despacho el costo lo asumes tú.<br><br>Todos los cambios o devoluciones pasan por un control de calidad que confirmará el estado del producto. En caso satisfactorio, se validará el stock y se concretará el cambio o la devolución requerida, en caso contrario te devolveremos el producto al mismo remitente. Las devoluciones de dinero y cambios pueden tardar hasta quince (15) días hábiles desde que control de calidad determina que corresponde la devolución del dinero o cambio. Es necesario recordar que el ticket de cambio sólo puede ser utilizado para cambios y no para devoluciones. No se aceptarán devoluciones o cambios en multitiendas, sólo en tiendas Keds o en Sucursales de Correos de Chile habilitadas.",
+            "blockClass": "cambio-textfive"
+        }
+    },
+    "rich-text#cambio-titlefive": {
+        "props": {
+            "text": "**¿CÓMO REEMBOLSAN MI DINERO?**",
+            "blockClass": "cambio-titlefive"
+        }
+    },
+    "rich-text#cambio-textsix": {
+        "props": {
+            "text": "El reembolso del dinero dependerá de cómo pagaste y solo se devolverá el valor del despacho en caso de que devuelvas todos los productos pertenecientes a la compra.",
+            "blockClass": "cambio-textsix"
+        }
+    },
+    "rich-text#cambio-titlesix": {
+        "props": {
+            "text": "**TARJETA DE CRÉDITO**",
+            "blockClass": "cambio-titlesix"
+        }
+    },
+    "rich-text#cambio-textseven": {
+        "props": {
+            "text": "Si pagaste con Tarjeta de Crédito te devolvemos tu dinero al mismo medio de pago, es decir, dentro de 15 días hábiles (la cantidad de días puede variar dependiendo del banco del cliente), desde que control de calidad determina que corresponde la devolución del dinero, verás la transacción reversada en la misma Tarjeta de Crédito con la cual pagaste en Keds.cl.<br>Si la devolución es realizada de forma presencial en la tienda, la devolución puede tomar hasta 15 días hábiles.",
+            "blockClass": "cambio-textseven"
+        }
+    },
+    "rich-text#cambio-titleseven": {
+        "props": {
+            "text": "**REDCOMPRA**",
+            "blockClass": "cambio-titleseven"
+        }
+    },
+    "rich-text#cambio-texteight": {
+        "props": {
+            "text": "Si pagaste con Redcompra y devolviste el producto en la tienda recibirás el dinero en efectivo inmediatamente. En caso de devolver el producto en una sucursal de Correos Chile nos pondremos en contacto contigo una vez que hayamos recibido el producto. Para completar esta devolución te solicitaremos:",
+            "blockClass": "cambio-texteight"
+        }
+    },
+    "rich-text#cambio-itensfour": {
+        "props": {
+            "text": "• Nombre del destinatario<br>• RUT<br>• Banco<br>• Tipo de Cuenta<br>• N° de Cuenta<br>• Dirección",
+            "blockClass": "cambio-itensfour"
+        }
+    },
+    "rich-text#cambio-textnine": {
+        "props": {
+            "text": "Las devoluciones de dinero pueden tardar hasta quince (15) días hábiles desde que control de calidad determina que corresponde la devolución del dinero. Es necesario recordar que el ticket de cambio sólo puede ser utilizado para cambios y no para devoluciones. Sólo se devolverá el valor del despacho en caso de que el cliente devuelva todos los productos pertenecientes a la compra",
+            "blockClass": "cambio-textnine"
+        }
+    }
+}

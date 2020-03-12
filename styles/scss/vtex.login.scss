@@ -1,0 +1,23 @@
+@import "./references";
+
+.contentForm {
+  padding-bottom: 0;
+}
+
+.container {
+  :global(.vtex-button__label) {
+    padding-left: 0;
+    padding-right: 0;
+
+    .label {
+      font-size: 0;
+      display: block;
+
+      &::before {
+        content: "";
+        display: block;
+        @include user(21px);
+      }
+    }
+  }
+}

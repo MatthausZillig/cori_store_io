@@ -1,0 +1,59 @@
+{
+    "store.custom#productos": {
+        "blocks": [
+            "flex-layout.row#productos"
+        ],
+        "props": {
+            "blockClass": "productos"
+        }
+    },
+    "flex-layout.row#productos": {
+        "children": [
+            "flex-layout.row#colunas-productos"
+        ],
+        "props": {
+            "blockClass": "fl-productos"
+        }
+    },
+    "flex-layout.row#colunas-productos": {
+        "children": [
+            "flex-layout.col#col1-body-productos",
+            "flex-layout.col#col2-body-productos"
+        ],
+        "props": {
+            "blockClass": "colunas-productos"
+        }
+    },
+    "flex-layout.col#col1-body-productos": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-productos",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-productos": {
+        "children": [
+            "rich-text#productos-titlegrande",
+            "rich-text#productos-textone"
+        ],
+        "props": {
+            "blockClass": "col2-body-productos",
+            "width": "75%"
+        }
+    },
+    "rich-text#productos-titlegrande": {
+        "props": {
+            "text": "**¿LOS PRODUCTOS DE LA PÁGINA SON LOS MISMOS QUE LOS DE LAS TIENDAS?**",
+            "blockClass": "productos-titlegrande"
+        }
+    },
+    "rich-text#productos-textone": {
+        "props": {
+            "text": "En <a href='https://www.Keds.cl/'>Keds.cl</a> encontraras los mismos productos que en nuestras tiendas.",
+            "blockClass": "productos-textone"
+        }
+    }
+}

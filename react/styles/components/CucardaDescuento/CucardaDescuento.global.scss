@@ -1,0 +1,14 @@
+@import "../../references";
+
+.cucarda-descuento {
+  display: flex;
+  margin-top: -25px;
+
+  .cucarda {
+    background: $blue;
+    color: #fff;
+    width: auto;
+    margin-right: auto;
+    margin-left: 250px;
+  }
+}

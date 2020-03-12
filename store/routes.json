@@ -1,0 +1,53 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#comoComprar": {
+    "path": "/como-comprar/"
+  },
+  "store.custom#opcionesDespacho": {
+    "path": "/opciones-despacho/"
+  },
+  "store.custom#paquetes": {
+    "path": "/paquetes/"
+  },
+  "store.custom#cambio": {
+    "path": "/cambio/"
+  },
+  "store.custom#comoPagar": {
+    "path": "/como-pagar/"
+  },
+  "store.custom#productos": {
+    "path": "/productos/"
+  },
+  "store.custom#orden": {
+    "path": "/orden/"
+  },
+  "store.custom#productoFallado": {
+    "path": "/producto-fallado/"
+  },
+  "store.custom#mails": {
+    "path": "/mails/"
+  },
+  "store.custom#beneficios": {
+    "path": "/beneficios/"
+  },
+  "store.custom#miCuenta": {
+    "path": "/mi-cuenta/"
+  },
+  "store.custom#compraSegura": {
+    "path": "/compra-segura/"
+  },
+  "store.custom#politicaPrivacidad": {
+    "path": "/politica-privacidad/"
+  },
+  "store.custom#terminosCondiciones": {
+    "path": "/terminos-condiciones/"
+  },
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+  "store.custom#tiendas": {
+    "path": "/tiendas"
+  }
+}

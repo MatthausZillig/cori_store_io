@@ -1,0 +1,165 @@
+@import '../../references';
+
+.guia_de_talles {
+    position: relative;
+    font-family: 'proxima_novabold', SansSerif, sans-serif;
+}
+
+.guia_de_talles * {
+    font-family: 'proxima_novaregular', SansSerif, sans-serif;
+}
+
+.guia_de_talles button {
+    background: none;
+    border: none;
+    outline: none;
+    appearance: none;
+    padding: 0;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    color: $dark-gray;
+    font-size: 12px;
+}
+
+.guia_de_talles .modal_guia {
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    z-index: 900;
+    border: 1px solid $light-gray-3;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 60%;
+    max-width: 95%;
+    height: 80%;
+    max-height: 80%;
+    margin-left: -30%;
+}
+
+.guia_de_talles .modal_guia::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+.guia_de_talles .modal_guia::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+.guia_de_talles .modal_guia::-webkit-scrollbar-thumb {
+    background: $light-gray-2;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+.guia_de_talles .modal_guia::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+.guia_de_talles .modal_guia::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
+
+.guia_de_talles .modal_guia::-webkit-scrollbar-track {
+    background: $gray;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+.guia_de_talles .modal_guia::-webkit-scrollbar-track:hover {
+    background: $gray;
+}
+
+.guia_de_talles .modal_guia::-webkit-scrollbar-track:active {
+    background: $dark-gray;
+}
+
+.guia_de_talles .modal_guia::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+@media screen and (max-width: 768px) {
+    .guia_de_talles .modal_guia {
+        width: 80%;
+        max-height: 90%;
+        height: auto;
+        min-height: 50%;
+        margin-top: 0;
+        margin-left: -40%;
+        top: 10%;
+    }
+}
+
+.guia_de_talles .modal_guia .header_guia {
+    width: 100%;
+    position: relative;
+    display: flex;
+    border-bottom: solid thin $light-gray;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.guia_de_talles .modal_guia .header_guia h3 {
+    font-size: 1rem;
+}
+
+.guia_de_talles .modal_guia .header_guia span {
+    margin-left: auto;
+    user-select: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.guia_de_talles .modal_guia img {
+    width: 100%;
+}
+
+.guia_de_talles .modal_guia img.desktop {
+    display: block;
+}
+
+.guia_de_talles .modal_guia img.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .guia_de_talles .modal_guia img.desktop {
+        display: none;
+    }
+
+    .guia_de_talles .modal_guia img.mobile {
+        display: block;
+    }
+}
+
+.guia_de_talles .bg_guia {
+    background: #00000080;
+    z-index: 899;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.close_modal {
+    position: absolute;
+    right: 0;
+    background: #fff;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    user-select: none;
+
+    span {
+        margin: auto;
+        font-weight: 700;
+    }
+}

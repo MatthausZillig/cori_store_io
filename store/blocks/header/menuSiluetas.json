@@ -1,0 +1,257 @@
+{
+    "menu-item#menu-siluetas": {
+        "props": {
+            "id": "menu-item-menu-siluetas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "siluetas",
+                "text": "SILUETAS"
+            }
+        },
+        "blocks": [
+            "submenu#menu-siluetas"
+        ]
+    },
+    "submenu#menu-siluetas": {
+        "children": [
+            "flex-layout.row#siluetas-1"
+        ]
+    },
+    "flex-layout.row#siluetas-1": {
+        "children": [
+            "menu#menu-siluetas",
+            "image#menusiluetas"
+        ],
+        "props": {
+            "blockClass": "flex-row-header"
+        }
+    },
+    "image#menusiluetas": {
+        "props": {
+            "src": "//columbiacl.vteximg.com.br/arquivos/menuTeste-compressor.png",
+            "blockClass": "brands",
+            "link": "/"
+        }
+    },
+    "menu#menu-siluetas": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#menu-siluetas-coluna1",
+            "menu-item#menu-siluetas-coluna1-1",
+            "menu-item#menu-siluetas-coluna1-2",
+            "menu-item#menu-siluetas-coluna1-3",
+            "menu-item#menu-siluetas-coluna1-4",
+            "menu-item#menu-siluetas-coluna1-5",
+            "menu-item#menu-siluetas-coluna1-6",
+            "menu-item#menu-siluetas-coluna1-7",
+            "menu-item#menu-siluetas-coluna1-8",
+            "menu-item#menu-siluetas-coluna1-9",
+            "menu-item#menu-siluetas-coluna1-10",
+            "menu-item#menu-siluetas-coluna1-11"
+        ]
+    },
+    "menu-item#menu-siluetas-coluna1": {
+        "props": {
+            "id": "menu-item-title",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "siluetas",
+                "text": "Siluetas"
+            }
+        }
+    },
+    "menu-item#menu-siluetas-coluna1-1": {
+        "props": {
+            "id": "menu-item-sub",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Anchor",
+                "text": "Anchor"
+            }
+        }
+    },
+    "menu-item#menu-siluetas-coluna1-2": {
+        "props": {
+            "id": "menu-item-sub",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Champion",
+                "text": "Champion"
+            }
+        }
+    },
+    "menu-item#menu-siluetas-coluna1-3": {
+        "props": {
+            "id": "menu-item-sub",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Crew Kick",
+                "text": "Crew Kick"
+            }
+        }
+    },
+    "menu-item#menu-siluetas-coluna1-4": {
+        "props": {
+            "id": "menu-item-sub",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Decker",
+                "text": "Decker"
+            }
+        }
+    },
+    "menu-item#menu-siluetas-coluna1-5": {
+        "props": {
+            "id": "menu-item-sub",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Kickstart",
+                "text": "Kickstart"
+            }
+        }
+    },
+    "menu-item#menu-siluetas-coluna1-6": {
+        "props": {
+            "id": "menu-item-sub",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Matchpoint",
+                "text": "Matchpoint"
+            }
+        }
+    },
+    "menu-item#menu-siluetas-coluna1-7": {
+        "props": {
+            "id": "menu-item-sub",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Rise",
+                "text": "Rise"
+            }
+        }
+    },
+    "menu-item#menu-siluetas-coluna1-8": {
+        "props": {
+            "id": "menu-item-sub",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Studio",
+                "text": "Studio"
+            }
+        }
+    },
+    "menu-item#menu-siluetas-coluna1-9": {
+        "props": {
+            "id": "menu-item-sub",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Triple CVO",
+                "text": "Triple CVO"
+            }
+        }
+    },
+    "menu-item#menu-siluetas-coluna1-10": {
+        "props": {
+            "id": "menu-item-sub",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Triple KICK",
+                "text": "Triple KICK"
+            }
+        }
+    },
+    "menu-item#menu-siluetas-coluna1-11": {
+        "props": {
+            "id": "menu-item-sub",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Triple UP",
+                "text": "Triple UP"
+            }
+        }
+    },
+    "menu-item#menu-mobile-siluetas": {
+        "props": {
+            "id": "menu-item-mobile-menu-siluetas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "siluetas",
+                "href": "/",
+                "tagTitle": "SILUETAS",
+                "text": "SILUETAS"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#menu-siluetas"
+        ]
+    },
+    "submenu.accordion#menu-siluetas": {
+        "children": [
+            "flex-layout.row#submenu-mobile-siluetas"
+        ]
+    },
+    "flex-layout.row#submenu-mobile-siluetas": {
+        "children": [
+            "menu#menu-siluetas"
+        ],
+        "props": {
+            "blockClass": "mobile-header"
+        }
+    }
+}

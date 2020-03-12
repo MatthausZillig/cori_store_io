@@ -1,0 +1,260 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "scroll-up",
+      "flex-layout.row#footer-1-desktop",
+      "footer-row#desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#footer-3-desktop",
+      "flex-layout.col#footer-4-desktop",
+      "flex-layout.col#footer-2-desktop",
+      "flex-layout.col#footer-1-desktop"
+    ],
+    "props": {
+      "blockClass": "menu-row-footer",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#footer-1-desktop": {
+    "children": [
+      "rich-text#social",
+      "social-networks",
+      "newsletter",
+      "rich-text#payment-methods",
+      "image#payment-methods"
+    ],
+    "props": {
+      "blockClass": [
+        "menu-col-footer",
+        "col-social"
+      ]
+    }
+  },
+  "flex-layout.col#footer-2-desktop": {
+    "children": [
+      "rich-text#cuenta",
+      "vtex.menu@2.x:menu#footer-coluna-3"
+    ],
+    "props": {
+      "blockClass": [
+        "menu-col-footer",
+        "col1-footer"
+      ]
+    }
+  },
+  "flex-layout.col#footer-3-desktop": {
+    "children": [
+      "rich-text#servicio",
+      "vtex.menu@2.x:menu#footer-coluna-1"
+    ],
+    "props": {
+      "blockClass": "menu-col-footer"
+    }
+  },
+  "flex-layout.col#footer-4-desktop": {
+    "children": [
+      "rich-text#legal",
+      "vtex.menu@2.x:menu#footer-coluna-2"
+    ],
+    "props": {
+      "blockClass": "menu-col-footer"
+    }
+  },
+  "rich-text#social": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": [
+        "social",
+        "footer-title"
+      ],
+      "text": "Social"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "showInColor": false,
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/kedschile/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/kedschile/"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "accepted-payment-methods"
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": [
+        "MasterCard",
+        "Visa",
+        "Diners Club"
+      ]
+    }
+  },
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "rich-text#footer"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "text-footer"
+    }
+  },
+  "rich-text#servicio": {
+    "props": {
+      "text": "Servicio al consumidor",
+      "blockClass": [
+        "text-footer",
+        "footer-title"
+      ]
+    }
+  },
+  "rich-text#cuenta": {
+    "props": {
+      "text": "Cuenta",
+      "blockClass": [
+        "text-footer",
+        "footer-title"
+      ]
+    }
+  },
+  "rich-text#legal": {
+    "props": {
+      "text": "Legal",
+      "blockClass": [
+        "text-footer",
+        "footer-title"
+      ]
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "newsletter",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": [
+      "flex-layout.col#footer-1-mobile",
+      "rich-text#footer-mobile-contacto",
+      "menu#footer"
+    ]
+  },
+  "rich-text#footer-mobile-contacto": {
+    "props": {
+      "text": "<a href='/contacto'>@Contáctanos</a>",
+      "blockClass": "mobile-contacto"
+    }
+  },
+  "newsletter": {
+    "props": {
+      "blockClass": "footer-newsletter",
+      "label": "¡Oferta semanales!",
+      "placeholder": "Tu correo electrónico",
+      "confirmationTitle": "Bienvenido",
+      "submit": ""
+    }
+  },
+  "rich-text#payment-methods": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "payment-methods",
+      "text": "Medios de Pago"
+    }
+  },
+  "image#payment-methods": {
+    "props": {
+      "src": "/arquivos/payment-methods.png",
+      "blockClass": "payment-methods-img",
+      "link": "/"
+    }
+  },
+  "footer-row#desktop": {
+    "children": [
+      "image#site-blindado",
+      "image#logo-vtex",
+      "rich-text#footer-copyright"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "footer-row-copy"
+    }
+  },
+  "image#site-blindado": {
+    "props": {
+      "src": "/arquivos/site-blindado.png",
+      "blockClass": "site-blindado-img",
+      "link": "/"
+    }
+  },
+  "image#logo-vtex": {
+    "props": {
+      "src": "/arquivos/logo-vtex.png",
+      "blockClass": "logo-vtex-img",
+      "link": "/"
+    }
+  },
+  "rich-text#footer-copyright": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "© 2020 Keds derechos de autor",
+      "textColor": "c-muted-5",
+      "font": "f2",
+      "blockClass": "footer-copyright"
+    }
+  }
+}

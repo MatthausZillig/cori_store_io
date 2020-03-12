@@ -1,0 +1,17 @@
+@import "./references";
+
+.openIconContainer {
+  padding: 0;
+}
+
+.minicartIconContainer {
+  &::before {
+    content: "";
+    display: block;
+    @include shopping_cart(21px);
+  }
+
+  .cartIcon {
+    display: none;
+  }
+}

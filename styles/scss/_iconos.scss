@@ -1,0 +1,88 @@
+ /*
+    To use the icons, just use @import icon_name; in any other file.
+    The file that you'll use have to import this file _iconos.scss or _references.scss file.
+
+    To define icon size as 20px for example, use @import icon_name(20px), have to be px;
+
+    To define icon color as white for example, use @import icon_name(20px, "b");
+
+    The parameter "b" of color is the file name to identify file in /arquivos
+    The default icons file (color black) is named /arquivos/iconos-tienda.png
+    The white icons file is named /arquivos/iconos-tiendab.png
+
+    If you want to add red icons for example, you can upload a named like /arquivos/iconos-tiendar.png and use @import icon_name(20px, "r");
+
+    Note the differences between the file names:
+      /arquivos/iconos-tienda.png (default)
+      /arquivos/iconos-tiendab.png (branco|blanco|white)
+      /arquivos/iconos-tiendar.png (rojo|red|vermelho)
+ */
+
+ $defaultIconSize: 150px;
+ $defaultBgSize: 510px;
+
+ @function getPercent($value, $newValue) {
+   @return $newValue*100/$value;
+ }
+
+ @function calcPercent($value, $percent) {
+   @return $value*$percent/100;
+ }
+
+ @mixin icon($percent: 100, $color: "") {
+   $iconSize: calcPercent($defaultIconSize, $percent);
+   $bgSize: calcPercent($defaultBgSize, $percent);
+
+   width: $iconSize;
+   height: $iconSize;
+   background: url('/arquivos/iconos-tienda#{$color}.png');
+   background-size: $bgSize $bgSize;
+ }
+
+ @mixin send($size: $defaultIconSize, $color:"") {
+   $percent: getPercent($defaultIconSize, $size);
+   @include icon($percent, $color);
+   background-position: calcPercent(-10px, $percent) calcPercent(-10px, $percent);
+ }
+
+ @mixin share($size: $defaultIconSize, $color:"") {
+   $percent: getPercent($defaultIconSize, $size);
+   @include icon($percent, $color);
+   background-position: calcPercent(-180px, $percent) calcPercent(-10px, $percent);
+ }
+
+ @mixin shopping_cart($size: $defaultIconSize, $color:"") {
+   $percent: getPercent($defaultIconSize, $size);
+   @include icon($percent, $color);
+   background-position: calcPercent(-10px, $percent) calcPercent(-180px, $percent);
+ }
+
+ @mixin store($size: $defaultIconSize, $color:"") {
+   $percent: getPercent($defaultIconSize, $size);
+   @include icon($percent, $color);
+   background-position: calcPercent(-180px, $percent) calcPercent(-180px, $percent);
+ }
+
+ @mixin user($size: $defaultIconSize, $color:"") {
+   $percent: getPercent($defaultIconSize, $size);
+   @include icon($percent, $color);
+   background-position: calcPercent(-350px, $percent) calcPercent(-10px, $percent);
+ }
+
+ @mixin facebook($size: $defaultIconSize, $color:"") {
+   $percent: getPercent($defaultIconSize, $size);
+   @include icon($percent, $color);
+   background-position: calcPercent(-350px, $percent) calcPercent(-180px, $percent);
+ }
+
+ @mixin instagram($size: $defaultIconSize, $color:"") {
+   $percent: getPercent($defaultIconSize, $size);
+   @include icon($percent, $color);
+   background-position: calcPercent(-10px, $percent) calcPercent(-350px, $percent);
+ }
+
+ @mixin map_pointer($size: $defaultIconSize, $color:"") {
+   $percent: getPercent($defaultIconSize, $size);
+   @include icon($percent, $color);
+   background-position: calcPercent(-180px, $percent) calcPercent(-350px, $percent);
+ }

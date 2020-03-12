@@ -1,0 +1,373 @@
+@import "./references";
+
+/* HEADER */
+.imageElementLink--franja-desktop {
+  font-size: 0;
+}
+
+.imageElementLink--franja-mobile {
+  font-size: 0;
+}
+
+.container {
+  max-width: 84rem;
+}
+
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.searchBarContainer {
+  height: max-content;
+  padding: 0;
+  margin: auto 20px;
+  @media (min-width: 768px) {
+    width: 360px;
+  }
+  @media (max-width: 768px) {
+    margin-bottom: 10px;
+  }
+  :global(.vtex-styleguide-9-x-input) {
+    max-width: 308px;
+  }
+}
+
+.newsletter {
+  margin: 0 auto;
+
+  .container {
+    padding: 10px;
+  }
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+
+  :global(.vtex-styleguide-9-x-hideDecorators) {
+    background-color: transparent;
+    color: #999;
+    border: none;
+
+    &::placeholder {
+      color: #999;
+      font-size: 16px;
+    }
+  }
+
+  :global(.vtex-button) {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin-right: -24px;
+  }
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 5px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+/* HOME */
+.imageElementLink--banner1,
+.imageElementLink--banner2,
+.imageElementLink--banner3 {
+  margin: 15px;
+  margin-right: 0;
+}
+
+.imageElementLink--banner4 {
+  margin: 0 15px 15px;
+}
+
+.discountInsideContainer {
+  background: $blue;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  font-weight: 500;
+  padding-top: 13px;
+  padding-left: 5px;
+}
+
+/* PRODUCT PAGE */
+.shareContainer {
+  position: absolute;
+  right: 10px;
+  top: 257px;
+  z-index: 1;
+
+  @media (max-width: 768px) {
+    top: 600px;
+  }
+
+  &:hover {
+    border: solid thin rgb(206, 205, 205);
+    border-radius: 5px;
+    padding: 2px;
+
+    .shareSocialIcon {
+      display: block;
+    }
+  }
+
+  @media (max-width: 768px) {
+    right: 5px;
+  }
+}
+
+.shareSocialButton {
+  margin-bottom: 4px;
+}
+
+.shareContainer .shareLabel {
+  font-size: 0;
+  background: url(//hushpuppiescl.vteximg.com.br/arquivos/compartir.png) no-repeat;
+  height: 30px;
+  margin-left: 3px;
+}
+
+.shareSocialIcon {
+  display: none;
+}
+
+.shareButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+  display: none;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+  display: none;
+}
+
+.productDescriptionContainer {
+  margin-top: 20px;
+}
+
+/* FOOTER */
+.label--footer-newsletter {
+  color: black;
+  font-size: 14px;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  margin-top: 10px;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.label--footer-newsletter::after {
+  content: "Quieres adelantarte a lo último para la temporada que ya viene? Regístrate, suscribete y sé uno de los primeros en conocer nuestras promociones.";
+  font-size: 13px;
+  color: #666;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.productNameContainer {
+  .productBrand {
+    color: $blue;
+    font-size: 26px;
+  }
+}
+
+.sellingPriceValue {
+  color: #3f3f40;
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.frameAround {
+  border-radius: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.skuSelectorInternalBox {
+  border-radius: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-main) {
+  .priceContainer.price_className {
+    margin-top: -25px;
+  }
+
+  .productNameContainer {
+    margin-bottom: 35px;
+
+    .productBrand {
+      font-size: 2.2rem;
+    }
+  }
+
+  .price_listPriceLabel,
+  .price_sellingPriceLabel,
+  .price_savingsContainer {
+    display: none;
+  }
+
+  .listPriceValue {
+    font-size: 1.2rem;
+  }
+
+  .sellingPriceValue {
+    font-size: 1.5rem;
+    color: #3f3f40;
+  }
+
+  .price_className.priceContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+    .interestRatePrice {
+      font-size: 12px;
+    }
+
+    .installmentsPrice {
+      width: 100%;
+      font-size: 0;
+      margin-top: 7px;
+
+      &::before {
+        content: "Paga en ";
+        font-size: 12px;
+      }
+
+      .price_installment {
+        font-size: 12px;
+
+        &:nth-child(even) {
+          display: none;
+        }
+
+        &:first-child {
+          &::after {
+            content: " cuotas de ";
+          }
+        }
+      }
+    }
+  }
+
+  .price_listPriceContainer {
+    margin-top: auto;
+  }
+}
+
+.logoImage {
+  width: 130px;
+
+  @media (max-width: 768px) {
+    width: 80px;
+  }
+}
+
+.imageElementLink--tiendas {
+  font-size: 0;
+  height: 23px;
+  margin: auto 0;
+  margin-left: 10px;
+
+  @media (max-width: 768px) {
+    margin: 5px 0 0;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    @include store(21px);
+    margin-right: 5px;
+  }
+  .imageElement--tiendas {
+    display: none;
+  }
+}
+
+.newsletter--footer-newsletter {
+  :global(.vtex-input-prefix__group) {
+    border-radius: 0px;
+    border: thin #999 !important;
+  }
+
+  :global(.vtex-styleguide-9-x-input) {
+    background: #f5f5f5;
+    border-radius: 0px;
+  }
+}
+
+.newsletter {
+  position: relative;
+  padding-top: 17px;
+  .buttonContainer--footer-newsletter {
+    position: absolute;
+    bottom: 18px;
+    right: 35px;
+    padding: 0;
+    margin: 0;
+    @media (max-width: 425px) {
+      bottom: 25px;
+      right: 55px;
+    }
+    :global(.vtex-button) {
+      background: none !important;
+      border: none !important;
+      font-size: 0;
+      min-height: unset;
+      position: static;
+      :global(.vtex-button__label) {
+        font-size: 0;
+        padding: 0 !important;
+        margin: 0;
+        height: auto;
+      }
+      :global(.vtex-button__label)::after {
+        content: "";
+        @include send(19px);
+      }
+    }
+  }
+}

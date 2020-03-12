@@ -1,0 +1,122 @@
+{
+    "store.custom#beneficios": {
+        "blocks": [
+            "flex-layout.row#beneficios"
+        ],
+        "props": {
+            "blockClass": "beneficios"
+        }
+    },
+    "flex-layout.row#beneficios": {
+        "children": [
+            "flex-layout.row#colunas-beneficios"
+        ],
+        "props": {
+            "blockClass": "fl-beneficios"
+        }
+    },
+    "flex-layout.row#colunas-beneficios": {
+        "children": [
+            "flex-layout.col#col1-body-beneficios",
+            "flex-layout.col#col2-body-beneficios"
+        ],
+        "props": {
+            "blockClass": "colunas-beneficios"
+        }
+    },
+    "flex-layout.col#col1-body-beneficios": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-beneficios",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-beneficios": {
+        "children": [
+            "rich-text#beneficios-titlegrande",
+            "rich-text#beneficios-titleone",
+            "rich-text#beneficios-textone",
+            "rich-text#beneficios-titletwo",
+            "rich-text#beneficios-texttwo",
+            "rich-text#beneficios-titlethree",
+            "rich-text#beneficios-textthree",
+            "rich-text#beneficios-itensone",
+            "rich-text#beneficios-textfour",
+            "rich-text#beneficios-titlefour",
+            "rich-text#beneficios-textfive"
+        ],
+        "props": {
+            "blockClass": "col2-body-beneficios",
+            "width": "75%"
+        }
+    },
+    "rich-text#beneficios-titlegrande": {
+        "props": {
+            "text": "**BENEFICIOS DE KEDS.CL**",
+            "blockClass": "beneficios-titlegrande"
+        }
+    },
+    "rich-text#beneficios-titleone": {
+        "props": {
+            "text": "**PRODUCTOS**",
+            "blockClass": "beneficios-titleone"
+        }
+    },
+    "rich-text#beneficios-textone": {
+        "props": {
+            "text": "En Keds.cl podrás encontrar todos los productos de la marca Keds en Chile.",
+            "blockClass": "beneficios-textone"
+        }
+    },
+    "rich-text#beneficios-titletwo": {
+        "props": {
+            "text": "**INFORMACIÓN**",
+            "blockClass": "beneficios-titletwo"
+        }
+    },
+    "rich-text#beneficios-texttwo": {
+        "props": {
+            "text": "Podrás recibir correos electrónicos con información sobre nuestros productos, nuevas temporadas, promociones, eventos y fiestas Keds.",
+            "blockClass": "beneficios-texttwo"
+        }
+    },
+    "rich-text#beneficios-titlethree": {
+        "props": {
+            "text": "**DESPACHO**",
+            "blockClass": "beneficios-titlethree"
+        }
+    },
+    "rich-text#beneficios-textthree": {
+        "props": {
+            "text": "Despachamos a todo Chile y te ofrecemos hasta 2 métodos de despacho distintos:",
+            "blockClass": "beneficios-textthree"
+        }
+    },
+    "rich-text#beneficios-itensone": {
+        "props": {
+            "text": "• Domicilio<br>• Sucursal de Correos Chile",
+            "blockClass": "beneficios-itensone"
+        }
+    },
+    "rich-text#beneficios-textfour": {
+        "props": {
+            "text": "Descubre las ventajas de cada uno de estos métodos de despacho <a href='opciones-despacho'>aquí</a>.",
+            "blockClass": "beneficios-textfour"
+        }
+    },
+    "rich-text#beneficios-titlefour": {
+        "props": {
+            "text": "**SITIO SEGURO**",
+            "blockClass": "beneficios-titlefour"
+        }
+    },
+    "rich-text#beneficios-textfive": {
+        "props": {
+            "text": "Keds.cl garantiza la seguridad de todos tus datos y de cada transacción. Utilizamos el sistema SSL (Security Socket Layer), uno de los estándares de protección de datos más rigurosos. Además, nuestro sistema de pago cuenta con los estándares de seguridad de Webpay Plus.<br><a href='/politica-privacidad'>Revisa nuestra Política de Privacidad.</a>",
+            "blockClass": "beneficios-textfive"
+        }
+    }
+}

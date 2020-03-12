@@ -1,0 +1,298 @@
+@import "./references";
+
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #0054a6;
+  color: #f0f0f0;
+  height: 30px;
+}
+
+.flexRowContent--main-header {
+  background-color: #fff;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem 0;
+  background-color: #fff;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #f0f0f0;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+
+.flexRow--deals {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+
+  .stretchChildrenWidth,
+  .flexCol {
+    align-items: center;
+  }
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexCol--switcherMobileCol {
+  width: 20%;
+}
+.flexRowContent--3-mobile {
+  :first-child {
+    margin: 0 auto;
+  }
+}
+/* HOME */
+.flexRow--su-estilo {
+  margin-bottom: 15px;
+  background-image: url("/arquivos/shopbystyle.png");
+  min-height: 340px;
+  padding: 35px 0;
+  .flexRow--estilos {
+    margin: 0 auto;
+    .flexCol {
+      padding: 0 25px;
+      @media (max-width: 768px) {
+        padding: 20px;
+      }
+    }
+    .flexColChild {
+      &:first-child {
+        height: 130px !important;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        :first-child {
+          width: 169px;
+          &:hover {
+            transform: scale(1.2);
+            transition: 0.3s;
+          }
+        }
+      }
+      &:last-child {
+        height: auto !important;
+      }
+    }
+  }
+  :global(.vtex-rich-text-0-x-paragraph) {
+    color: #f0f0f0;
+    font-weight: 600;
+  }
+}
+.flexRow--mosaico {
+  margin-bottom: 15px;
+  :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+    .flexRowContent--mosaico {
+      display: flex;
+      flex-direction: row;
+      .stretchChildrenWidth {
+        width: 50% !important;
+        .flexCol--mosaico-1 {
+          margin-right: 7.5px;
+          .flexColChild {
+            &:not(:last-child) {
+              margin-bottom: 15px;
+            }
+          }
+        }
+        .flexCol--mosaico-2 {
+          margin-left: 7.5px;
+          .flexColChild {
+            &:not(:last-child) {
+              margin-bottom: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.flexRow--flex-row-header {
+  width: 100%;
+  padding-left: 35px;
+}
+/* FOOTER */
+.flexColChild--menu-col-footer {
+  height: auto !important;
+
+  :global(.vtex-menu-2-x-menuContainer) {
+    :global(.vtex-menu-2-x-styledLinkContainer) {
+      margin: 0 !important;
+    }
+  }
+}
+
+.flexRowContent--menu-row-footer {
+  padding: 0 15px;
+}
+
+.flexColChild--col-social {
+  display: flex;
+  justify-content: left;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+/* INSTITUTIONAL */
+.flexCol--col2-body-beneficios,
+.flexCol--col2-body-cambio,
+.flexCol--col2-body-comoComprar,
+.flexCol--col2-body-comoPagar,
+.flexCol--col2-body-compraSegura,
+.flexCol--col2-body-mails,
+.flexCol--col2-body-miCuenta,
+.flexCol--col2-body-opcionesDespacho,
+.flexCol--col2-body-orden,
+.flexCol--col2-body-paquetes,
+.flexCol--col2-body-politicaPrivacidad,
+.flexCol--col2-body-productoFallado,
+.flexCol--col2-body-productos,
+.flexCol--col2-body-contacto,
+.flexCol--col2-body-terminosCondiciones {
+  height: max-content;
+}
+
+.flexColChild--imgInstagram {
+  :global(.vtex-iframe-0-x-container) {
+    :first-child {
+      @media (max-width: 768px) {
+        height: 340px;
+      }
+
+      @media (max-width: 425px) {
+        height: 230px;
+      }
+    }
+  }
+}
+
+.flexRowContent--product-main {
+  .stretchChildrenWidth {
+    :global(.vtex-store-components-3-x-price_className) {
+      margin: 15px 0 20px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+
+      :global(.vtex-store-components-3-x-price_listPriceLabel),
+      :global(.vtex-store-components-3-x-sellingPriceLabel),
+      :global(.vtex-store-components-3-x-savingPrice) {
+        display: none;
+      }
+    }
+
+    :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+      display: block;
+    }
+  }
+
+  :last-child {
+    .flexColChild {
+      .stretchChildrenWidth {
+        display: flex;
+        justify-content: left;
+
+        :global(.vtex-buton) {
+          width: 80% !important;
+          border-radius: 0;
+        }
+      }
+    }
+  }
+
+  :global(.vtex-store-components-3-x-productNameContainer) {
+    margin-bottom: 15px;
+  }
+
+  :global(.vtex-store-components-3-x-priceContainer) {
+    margin-bottom: 15px;
+  }
+
+  :global(.vtex-reviews-and-ratings-1-x-summaryContainer) {
+    margin-bottom: 15px;
+  }
+
+  :global(.vtex-store-components-3-x-productImage) {
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
+.flexRowContent--rowBuyButton {
+  margin-bottom: 0.5rem;
+  :global(.vtex-button) {
+    border-radius: 0;
+  }
+}
+
+.flexRowContent--rowResult {
+  display: flex;
+  flex-direction: column;
+
+  .flexRow--rowContentResult {
+    width: 100%;
+  }
+}
+
+.flexRowContent--category {
+  .stretchChildrenWidth {
+    &:first-child {
+      width: 20% !important;
+    }
+    &:last-child {
+      width: 80% !important;
+      .flexRowContent {
+        .stretchChildrenWidth {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}

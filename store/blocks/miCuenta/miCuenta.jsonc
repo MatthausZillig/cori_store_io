@@ -1,0 +1,80 @@
+{
+    "store.custom#miCuenta": {
+        "blocks": [
+            "flex-layout.row#miCuenta"
+        ],
+        "props": {
+            "blockClass": "miCuenta"
+        }
+    },
+    "flex-layout.row#miCuenta": {
+        "children": [
+            "flex-layout.row#colunas-miCuenta"
+        ],
+        "props": {
+            "blockClass": "fl-miCuenta"
+        }
+    },
+    "flex-layout.row#colunas-miCuenta": {
+        "children": [
+            "flex-layout.col#col1-body-miCuenta",
+            "flex-layout.col#col2-body-miCuenta"
+        ],
+        "props": {
+            "blockClass": "colunas-miCuenta"
+        }
+    },
+    "flex-layout.col#col1-body-miCuenta": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-miCuenta",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-miCuenta": {
+        "children": [
+            "rich-text#miCuenta-titlegrande",
+            "rich-text#miCuenta-titleone",
+            "rich-text#miCuenta-textone",
+            "rich-text#miCuenta-titletwo",
+            "rich-text#miCuenta-itensone"
+        ],
+        "props": {
+            "blockClass": "col2-body-miCuenta",
+            "width": "75%"
+        }
+    },
+    "rich-text#miCuenta-titlegrande": {
+        "props": {
+            "text": "**¿QUÉ PUEDO HACER DESDE MI CUENTA?**",
+            "blockClass": "miCuenta-titlegrande"
+        }
+    },
+    "rich-text#miCuenta-titleone": {
+        "props": {
+            "text": "**INFORMACIÓN ACTUALIZADA**",
+            "blockClass": "miCuenta-titleone"
+        }
+    },
+    "rich-text#miCuenta-textone": {
+        "props": {
+            "text": "Desde <span class='negrito'>Mi Cuenta</span> podrás acceder y editar tus datos personales y tu contraseña, entre otras cosas. Te recomendamos mantener tu información actualizada para asegurarte de recibir información sobre nuestros productos, nuevas temporadas, promociones, eventos y fiestas Keds.",
+            "blockClass": "miCuenta-textone"
+        }
+    },
+    "rich-text#miCuenta-titletwo": {
+        "props": {
+            "text": "**Secciones Disponibles en Mi Cuenta**",
+            "blockClass": "miCuenta-titletwo"
+        }
+    },
+    "rich-text#miCuenta-itensone": {
+        "props": {
+            "text": "• Mis Datos<br>• Contraseña<br>• Favoritos<br>• Historial de Compra: Tienes la posibilidad de ver el registro de tus compras antiguas, el detalle de cada una de ellas incluyendo el número de orden.<br>• Cambios y Devoluciones<br>• Newsletter",
+            "blockClass": "miCuenta-itensone"
+        }
+    }
+}

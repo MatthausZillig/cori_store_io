@@ -1,0 +1,59 @@
+{
+    "store.custom#paquetes": {
+        "blocks": [
+            "flex-layout.row#paquetes"
+        ],
+        "props": {
+            "blockClass": "paquetes"
+        }
+    },
+    "flex-layout.row#paquetes": {
+        "children": [
+            "flex-layout.row#colunas-paquetes"
+        ],
+        "props": {
+            "blockClass": "fl-paquetes"
+        }
+    },
+    "flex-layout.row#colunas-paquetes": {
+        "children": [
+            "flex-layout.col#col1-body-paquetes",
+            "flex-layout.col#col2-body-paquetes"
+        ],
+        "props": {
+            "blockClass": "colunas-paquetes"
+        }
+    },
+    "flex-layout.col#col1-body-paquetes": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-paquetes",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-paquetes": {
+        "children": [
+            "rich-text#paquetes-titlegrande",
+            "rich-text#paquetes-textone"
+        ],
+        "props": {
+            "blockClass": "col2-body-paquetes",
+            "width": "75%"
+        }
+    },
+    "rich-text#paquetes-titlegrande": {
+        "props": {
+            "text": "**¿PUEDE MI ORDEN LLEGAR EN DIFERENTES PAQUETES?**",
+            "blockClass": "paquetes-titlegrande"
+        }
+    },
+    "rich-text#paquetes-textone": {
+        "props": {
+            "text": "Si. Tu orden puede ser despachada desde distintos orígenes es por esto que podría llegar en diferentes paquetes y diferentes días.<br><br>Es importante que revises tu email ya que es ahí donde recibirás tu número de seguimiento el que puedes revisar en <a href='https://www.correos.cl/SitePages/home.aspx'>www.correos.cl</a>.",
+            "blockClass": "paquetes-textone"
+        }
+    }
+}

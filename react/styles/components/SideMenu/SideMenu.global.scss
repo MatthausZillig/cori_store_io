@@ -1,0 +1,97 @@
+@import '../../references';
+
+.SideMenu {
+    border: solid medium $light-gray-2;
+    padding: 10px;
+    padding-left: 13px !important;
+}
+
+.SideMenu p {
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.SideMenu ul {
+    box-sizing: border-box;
+    list-style: none;
+    padding-left: 0;
+    color: $gray-4;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+    text-decoration-color: $gray-4;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-size-adjust: 100%;
+}
+
+.SideMenu li {
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.SideMenu a {
+    color: $gray-4;
+    text-decoration: none;
+}
+
+.SideMenu {
+    border: solid medium $light-gray-2;
+    padding: 10px;
+    padding-left: 13px !important;
+    margin: 1rem;
+}
+
+.SideMenu p {
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.SideMenu ul {
+    box-sizing: border-box;
+    list-style: none;
+    padding-left: 0;
+    color: $gray-4;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+    text-decoration-color: $gray-4;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-size-adjust: 100%;
+}
+
+.SideMenu li {
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.SideMenu a {
+    color: $gray-4;
+    text-decoration: none;
+}
+
+.SideMenu .submenu {
+    padding-left: 10px;
+    border-top: solid thin $gray-4;
+    border-bottom: solid thin $gray-4;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    max-height: 2000px;
+    transition: 0.5s;
+}
+
+.SideMenu .submenu:not(.open) {
+    max-height: 0px;
+    overflow: hidden;
+    border: none;
+    padding-bottom: 0;
+    margin-top: 0;
+    transition: 0.5s;
+}

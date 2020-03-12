@@ -1,0 +1,146 @@
+{
+    "submenu#international": {
+        "children": [
+            "flex-layout.row#international"
+        ],
+        "props": {
+            "type": "custom"
+        }
+    },
+    "flex-layout.row#international": {
+        "children": [
+            "menu#international"
+        ],
+        "props": {
+            "blockClass": "countries"
+        }
+    },
+    "menu#international": {
+        "props": {
+            "type": "custom",
+            "items": [
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "external",
+                        "href": "https://www.keds.com/en/home",
+                        "tagTitle": "us",
+                        "data-country": "us",
+                        "text": "United States"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "at",
+                        "href": "http://keds.de",
+                        "text": "Áustria",
+                        "data-country": "at"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "be",
+                        "href": "http://keds.nl",
+                        "text": "Belgium",
+                        "data-country": "be"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "br",
+                        "href": "http://keds.com.br/",
+                        "text": "Brazil",
+                        "data-country": "br"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "ca",
+                        "href": "https://www.keds.com/CA/en_CA/home",
+                        "text": "Canada (EN)",
+                        "data-country": "ca"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "ca",
+                        "href": "https://www.keds.com/CA/fr_CA/home",
+                        "text": "Canada (FR)",
+                        "data-country": "ca"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "de",
+                        "href": "http://keds.de",
+                        "text": "Germany",
+                        "data-country": "de"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "gr",
+                        "href": "https://www.keds.gr/",
+                        "text": "Greece",
+                        "data-country": "gr"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "jp",
+                        "href": "http://japan.keds.com",
+                        "text": "Japan",
+                        "data-country": "jp"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "lu",
+                        "href": "http://keds.de",
+                        "text": "Luxemburg",
+                        "data-country": "lu"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "nl",
+                        "href": "http://keds.nl",
+                        "text": "Netherlands",
+                        "data-country": "nl"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "ph",
+                        "href": "http://www.keds.com.ph/",
+                        "text": "Pilipines",
+                        "data-country": "ph"
+                    }
+                }
+            ]
+        }
+    }
+}
