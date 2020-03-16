@@ -53,7 +53,7 @@
     },
     "rich-text#orden-textone": {
         "props": {
-            "text": "Tras realizar una compra en nuestro sitio, recibirás un email con el resumen de los productos que compraste y el número de orden asociado. Para hacer seguimiento al despacho de el/los producto(s) de tu orden, ingresa dicho número <a href='https://Keds.siguetucompra.cl/#/'>aquí</a> y podrás ver en qué etapa del despacho se encuentra cada bulto.",
+            "text": "Tras realizar una compra en nuestro sitio, recibirás un email con el resumen de los productos que compraste y el número de orden asociado. Para hacer seguimiento al despacho de el/los producto(s) de tu orden, ingresa dicho número <a href='https://Mountainhardwear.siguetucompra.cl/#/'>aquí</a> y podrás ver en qué etapa del despacho se encuentra cada bulto.",
             "blockClass": "orden-textone"
         }
     },

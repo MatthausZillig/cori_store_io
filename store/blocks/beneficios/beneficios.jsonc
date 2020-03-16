@@ -55,7 +55,7 @@
     },
     "rich-text#beneficios-titlegrande": {
         "props": {
-            "text": "**BENEFICIOS DE KEDS.CL**",
+            "text": "**BENEFICIOS DE MOUNTAINHARDWEAR.CL**",
             "blockClass": "beneficios-titlegrande"
         }
     },
@@ -67,7 +67,7 @@
     },
     "rich-text#beneficios-textone": {
         "props": {
-            "text": "En Keds.cl podrás encontrar todos los productos de la marca Keds en Chile.",
+            "text": "En Mountainhardwear.cl podrás encontrar todos los productos de la marca Mountainhardwear en Chile.",
             "blockClass": "beneficios-textone"
         }
     },
@@ -79,7 +79,7 @@
     },
     "rich-text#beneficios-texttwo": {
         "props": {
-            "text": "Podrás recibir correos electrónicos con información sobre nuestros productos, nuevas temporadas, promociones, eventos y fiestas Keds.",
+            "text": "Podrás recibir correos electrónicos con información sobre nuestros productos, nuevas temporadas, promociones, eventos y fiestas Mountainhardwear.",
             "blockClass": "beneficios-texttwo"
         }
     },
@@ -115,7 +115,7 @@
     },
     "rich-text#beneficios-textfive": {
         "props": {
-            "text": "Keds.cl garantiza la seguridad de todos tus datos y de cada transacción. Utilizamos el sistema SSL (Security Socket Layer), uno de los estándares de protección de datos más rigurosos. Además, nuestro sistema de pago cuenta con los estándares de seguridad de Webpay Plus.<br><a href='/politica-privacidad'>Revisa nuestra Política de Privacidad.</a>",
+            "text": "Mountainhardwear.cl garantiza la seguridad de todos tus datos y de cada transacción. Utilizamos el sistema SSL (Security Socket Layer), uno de los estándares de protección de datos más rigurosos. Además, nuestro sistema de pago cuenta con los estándares de seguridad de Webpay Plus.<br><a href='/politica-privacidad'>Revisa nuestra Política de Privacidad.</a>",
             "blockClass": "beneficios-textfive"
         }
     }

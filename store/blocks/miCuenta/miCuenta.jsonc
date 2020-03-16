@@ -61,7 +61,7 @@
     },
     "rich-text#miCuenta-textone": {
         "props": {
-            "text": "Desde <span class='negrito'>Mi Cuenta</span> podrás acceder y editar tus datos personales y tu contraseña, entre otras cosas. Te recomendamos mantener tu información actualizada para asegurarte de recibir información sobre nuestros productos, nuevas temporadas, promociones, eventos y fiestas Keds.",
+            "text": "Desde <span class='negrito'>Mi Cuenta</span> podrás acceder y editar tus datos personales y tu contraseña, entre otras cosas. Te recomendamos mantener tu información actualizada para asegurarte de recibir información sobre nuestros productos, nuevas temporadas, promociones, eventos y fiestas Mountainhardwear.",
             "blockClass": "miCuenta-textone"
         }
     },

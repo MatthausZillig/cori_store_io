@@ -145,7 +145,7 @@
     },
     "rich-text#instagram": {
         "props": {
-            "text": "<a href='https://www.instagram.com/kedschile/'>Instagram - @KEDSCHILE</a>",
+            "text": "<a href='https://www.instagram.com/'>Instagram - @</a>",
             "blockClass": "insta-Home"
         }
     },

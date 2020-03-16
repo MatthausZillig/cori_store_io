@@ -87,11 +87,11 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/kedschile/"
+          "url": "https://www.facebook.com/MountainHardwearChile/"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/kedschile/"
+          "url": "https://www.instagram.com/"
         }
       ]
     }
@@ -251,7 +251,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "© 2020 Keds derechos de autor",
+      "text": "© 2020 Mountain Hardwear derechos de autor",
       "textColor": "c-muted-5",
       "font": "f2",
       "blockClass": "footer-copyright"

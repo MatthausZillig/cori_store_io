@@ -114,7 +114,7 @@
     },
     "rich-text#terminosCondiciones-textone": {
         "props": {
-            "text": "Condiciones de uso Forus S.A. y filiales, adelante 'Forus'. Forus agradece su interés en nuestra empresa y su visita a nuestro sitio web ('Keds.cl'). Las siguientes condiciones establecen las reglas básicas que rigen el uso por su parte de nuestro Sitio.",
+            "text": "Condiciones de uso Forus S.A. y filiales, adelante 'Forus'. Forus agradece su interés en nuestra empresa y su visita a nuestro sitio web ('Mountainhardwear.cl'). Las siguientes condiciones establecen las reglas básicas que rigen el uso por su parte de nuestro Sitio.",
             "blockClass": "terminosCondiciones-textone"
         }
     },
@@ -258,13 +258,13 @@
     },
     "rich-text#terminosCondiciones-itensone": {
         "props": {
-            "text": "• El acceso y uso del sitio web Keds.cl (el “Sitio”), de propiedad de Forus S.A., se rige por estos Términos y Condiciones, así como por la legislación que se aplique en la República de Chile. En consecuencia, todas las visitas y todos los contratos y transacciones que se realicen en este Sitio, como asimismo sus efectos jurídicos, quedarán regidos por estas reglas y sometidas a esa legislación. Asimismo se señala que estos Términos y Condiciones podrán variar de tiempo en tiempo. Dichas modificaciones producirán sus efectos desde el momento de su publicación en el Sitio.<br>• El usuario del Sitio (el “Usuario”) debe leer, entender y aceptar todas las condiciones establecidas en los Términos y Condiciones y en las Políticas de Privacidad, así como en los demás documentos incorporados a los mismos por referencia, antes de registrarse en Forus.<br>• Los Términos y Condiciones contenidos en este instrumento se aplicarán y se entenderán formar parte de todos los actos y contratos que se ejecuten o celebren mediante los sistemas de oferta y comercialización comprendidos en este Sitio.<br>• En caso que las empresas proveedoras de Forus hubieran fijado sus propios términos y condiciones para los actos y contratos que realicen en este Sitio, dichos términos y condiciones aparecerán en esta página señaladas con un link y prevalecerán sobre éstas.",
+            "text": "• El acceso y uso del sitio web Mountainhardwear.cl (el “Sitio”), de propiedad de Forus S.A., se rige por estos Términos y Condiciones, así como por la legislación que se aplique en la República de Chile. En consecuencia, todas las visitas y todos los contratos y transacciones que se realicen en este Sitio, como asimismo sus efectos jurídicos, quedarán regidos por estas reglas y sometidas a esa legislación. Asimismo se señala que estos Términos y Condiciones podrán variar de tiempo en tiempo. Dichas modificaciones producirán sus efectos desde el momento de su publicación en el Sitio.<br>• El usuario del Sitio (el “Usuario”) debe leer, entender y aceptar todas las condiciones establecidas en los Términos y Condiciones y en las Políticas de Privacidad, así como en los demás documentos incorporados a los mismos por referencia, antes de registrarse en Forus.<br>• Los Términos y Condiciones contenidos en este instrumento se aplicarán y se entenderán formar parte de todos los actos y contratos que se ejecuten o celebren mediante los sistemas de oferta y comercialización comprendidos en este Sitio.<br>• En caso que las empresas proveedoras de Forus hubieran fijado sus propios términos y condiciones para los actos y contratos que realicen en este Sitio, dichos términos y condiciones aparecerán en esta página señaladas con un link y prevalecerán sobre éstas.",
             "blockClass": "terminosCondiciones-itensone"
         }
     },
     "rich-text#terminosCondiciones-textthirteen": {
         "props": {
-            "text": "Keds.cl se adhiere en todas sus partes al Código de Buenas Prácticas para el Comercio Electrónico de la Cámara de Comercio de Santiago, el cual se encuentra disponible <a href='https://cdn.linets.tech/data/terminos_y_condiciones/CodigoBuenasPracticas_02.pdf'>aquí</a>.",
+            "text": "Mountainhardwear.cl se adhiere en todas sus partes al Código de Buenas Prácticas para el Comercio Electrónico de la Cámara de Comercio de Santiago, el cual se encuentra disponible <a href='https://cdn.linets.tech/data/terminos_y_condiciones/CodigoBuenasPracticas_02.pdf'>aquí</a>.",
             "blockClass": "terminosCondiciones-textthirteen"
         }
     },
@@ -372,7 +372,7 @@
     },
     "rich-text#terminosCondiciones-texttwentytwo": {
         "props": {
-            "text": "En caso de falla o producto defectuoso, el cliente podrá hacer uso de la Garantía Legal la cual le permite decidir entre 3 opciones durante los 3 primeros meses desde la recepción del producto. Estas opciones son cambio del producto, reparación gratuita o devolución del dinero. En caso de que el Usuario desee ejercer la garantía legal, deberá solicitar el cambio, devolución o reparación de los productos contactándose con la dirección electrónica especialmente establecida para estos efectos: contactokeds@forus.cl, o llamar a la plataforma de contacto telefónico del Sitio +56 2 2923 3386 o dirigirse a cualquiera de nuestras tiendas. El ejercicio de la garantía legal deberá hacerse efectivo ante la Empresa Oferente dentro de los tres meses siguientes a la fecha en que se haya recibido el producto, siempre que éste no se hubiere deteriorado por hecho imputable al Usuario. Si el producto se hubiere vendido con determinada garantía, prevalecerá el plazo por el cual ésta se extendió, si fuere mayor.",
+            "text": "En caso de falla o producto defectuoso, el cliente podrá hacer uso de la Garantía Legal la cual le permite decidir entre 3 opciones durante los 3 primeros meses desde la recepción del producto. Estas opciones son cambio del producto, reparación gratuita o devolución del dinero. En caso de que el Usuario desee ejercer la garantía legal, deberá solicitar el cambio, devolución o reparación de los productos contactándose con la dirección electrónica especialmente establecida para estos efectos: contactomountainhardwear@forus.cl, o llamar a la plataforma de contacto telefónico del Sitio +56 2 2923 3386 o dirigirse a cualquiera de nuestras tiendas. El ejercicio de la garantía legal deberá hacerse efectivo ante la Empresa Oferente dentro de los tres meses siguientes a la fecha en que se haya recibido el producto, siempre que éste no se hubiere deteriorado por hecho imputable al Usuario. Si el producto se hubiere vendido con determinada garantía, prevalecerá el plazo por el cual ésta se extendió, si fuere mayor.",
             "blockClass": "terminosCondiciones-texttwentytwo"
         }
     },

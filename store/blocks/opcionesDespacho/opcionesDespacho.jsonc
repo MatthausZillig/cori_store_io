@@ -40,12 +40,10 @@
             "rich-text#despacho-textone",
             "rich-text#despacho-titletwo",
             "rich-text#despacho-texttwo",
-            "rich-text#despacho-valortabelaum",
-            "rich-text#despacho-tabelaum",
+            "flex-layout.row#despacho-tab1",
             "rich-text#despacho-titlethree",
             "rich-text#despacho-textthree",
-            "rich-text#despacho-valortabeladois",
-            "rich-text#despacho-tabeladois"
+            "flex-layout.row#despacho-tab1"
         ],
         "props": {
             "blockClass": "col2-body-opcionesDespacho",
@@ -60,7 +58,7 @@
     },
     "rich-text#despacho-textone": {
         "props": {
-            "text": "Es muy importante que el cliente conozca las localidades de Chile donde no es posible despachar a domicilio. Alternativamente se ofrece despacho a oficinas de Correos de Chile para estas localidades.<br>Keds.cl ofrece 2 métodos de despacho para que selecciones el que más te convenga según precio y comodidad:",
+            "text": "Es muy importante que el cliente conozca las localidades de Chile donde no es posible despachar a domicilio. Alternativamente se ofrece despacho a oficinas de Correos de Chile para estas localidades.<br>Mountainhardwear.cl ofrece 2 métodos de despacho para que selecciones el que más te convenga según precio y comodidad:",
             "blockClass": "despacho-textone"
         }
     },
@@ -76,16 +74,110 @@
             "blockClass": "despacho-texttwo"
         }
     },
-    "rich-text#despacho-valortabelaum": {
+    "flex-layout.row#despacho-tab1": {
+        "children": [
+            "flex-layout.col#despacho-tab1"
+        ],
         "props": {
-            "text": "<span>Valor Desp.</span>",
+            "blockClass": "despacho-tab1"
+        }
+    },
+    "flex-layout.col#despacho-tab1": {
+        "children": [
+            "rich-text#despacho-valor-tab1",
+            "flex-layout.col#despacho-tab1-1"
+        ],
+        "props": {
+            "blockClass": "despacho-tab1"
+        }
+    },
+    "rich-text#despacho-valor-tab1": {
+        "props": {
+            "text": "Valor Desp.",
             "blockClass": "despacho-valortabelaum"
         }
     },
-    "rich-text#despacho-tabelaum": {
+    "flex-layout.col#despacho-tab1-1": {
+        "children": [
+            "flex-layout.row#despacho-tab1-1",
+            "flex-layout.row#despacho-tab1-2",
+            "flex-layout.row#despacho-tab1-3"
+        ],
         "props": {
-            "text": "<span>Región Metropolitana <span>$ 3.490</span></span><span>Copiapó – Puerto Montt <span>$ 4.390</span></span><span>Zonas Extremas <span>$ 6.990</span></span>",
-            "blockClass": "despacho-tabelaum"
+            "blockClass": "despacho-tab1",
+            "width": "60%"
+        }
+    },
+    "flex-layout.row#despacho-tab1-1": {
+        "children": [
+            "rich-text#despacho-tab1-1",
+            "rich-text#despacho-tab1-2"
+        ],
+        "props": {
+            "blockClass": "despacho-tab1",
+            "width": "60%"
+        }
+    },
+    "rich-text#despacho-tab1-1": {
+        "props": {
+            "text": "Región Metropolitana",
+            "blockClass": "despacho-tab1",
+            "width": "50%"
+        }
+    },
+    "rich-text#despacho-tab1-2": {
+        "props": {
+            "text": "$ 3.490",
+            "blockClass": "despacho-tab1",
+            "width": "50%"
+        }
+    },
+    "flex-layout.row#despacho-tab1-2": {
+        "children": [
+            "rich-text#despacho-tab1-3",
+            "rich-text#despacho-tab1-4"
+        ],
+        "props": {
+            "blockClass": "despacho-tab1",
+            "width": "60%"
+        }
+    },
+    "rich-text#despacho-tab1-3": {
+        "props": {
+            "text": "Copiapó – Puerto Montt",
+            "blockClass": "despacho-tab1",
+            "width": "50%"
+        }
+    },
+    "rich-text#despacho-tab1-4": {
+        "props": {
+            "text": "$ 4.390",
+            "blockClass": "despacho-tab1",
+            "width": "50%"
+        }
+    },
+    "flex-layout.row#despacho-tab1-3": {
+        "children": [
+            "rich-text#despacho-tab1-5",
+            "rich-text#despacho-tab1-6"
+        ],
+        "props": {
+            "blockClass": "despacho-tab1",
+            "width": "60%"
+        }
+    },
+    "rich-text#despacho-tab1-5": {
+        "props": {
+            "text": "Zonas Extremas",
+            "blockClass": "despacho-tab1",
+            "width": "50%"
+        }
+    },
+    "rich-text#despacho-tab1-6": {
+        "props": {
+            "text": "$ 6.990",
+            "blockClass": "despacho-tab1",
+            "width": "50%"
         }
     },
     "rich-text#despacho-titlethree": {
@@ -96,20 +188,8 @@
     },
     "rich-text#despacho-textthree": {
         "props": {
-            "text": "En caso de que no estés seguro de estar en tu domicilio al momento de la entrega, el despacho a sucursal es una buena alternativa. Al momento de pagar, sólo debes seleccionar la sucursal de Correos Chile en la cual te gustaría retirar tu producto y nosotros te avisaremos vía correo electrónico cuando esté disponible para retiro. Sólo debes presentar tu cédula de identidad al momento de la entrega. Para ver las sucursales en donde puedes retirar tu compra, <a href=''>haz click aquí</a><br>Las tarifas para despacho a sucursal son:",
+            "text": "En caso de que no estés seguro de estar en tu domicilio al momento de la entrega, el despacho a sucursal es una buena alternativa. Al momento de pagar, sólo debes seleccionar la sucursal de Correos Chile en la cual te gustaría retirar tu producto y nosotros te avisaremos vía correo electrónico cuando esté disponible para retiro. Sólo debes presentar tu cédula de identidad al momento de la entrega. Para ver las sucursales en donde puedes retirar tu compra, <a href='https://www.correos.cl/web/guest/sucursales'>haz click aquí</a><br>Las tarifas para despacho a sucursal son:",
             "blockClass": "despacho-textthree"
         }
-    },
-    "rich-text#despacho-valortabeladois": {
-        "props": {
-            "text": "<span>Valor Desp.</span>",
-            "blockClass": "despacho-valortabeladois"
-        }
-    },
-    "rich-text#despacho-tabeladois": {
-        "props": {
-            "text": "<span>Región Metropolitana <span>$ 3.490</span></span><span>Copiapó – Puerto Montt <span>$ 4.390</span></span><span>Zonas Extremas <span>$ 6.990</span></span>",
-            "blockClass": "despacho-tabeladois"
-        }
     }
-} 
+}

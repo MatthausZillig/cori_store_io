@@ -52,7 +52,7 @@
     },
     "rich-text#productos-textone": {
         "props": {
-            "text": "En <a href='https://www.Keds.cl/'>Keds.cl</a> encontraras los mismos productos que en nuestras tiendas.",
+            "text": "En <a href='https://www.mountainhardwear.cl/'>Mountainhardwear.cl</a> encontraras los mismos productos que en nuestras tiendas.",
             "blockClass": "productos-textone"
         }
     }

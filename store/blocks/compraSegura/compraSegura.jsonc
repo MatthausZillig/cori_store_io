@@ -67,7 +67,7 @@
     },
     "rich-text#compraSegura-textone": {
         "props": {
-            "text": "Keds.cl utiliza el sistema de seguridad SSL (Secure Socket Layer) que garantiza que tu información personal no pueda ser leída ni capturada por terceros.",
+            "text": "Mountainhardwear.cl utiliza el sistema de seguridad SSL (Secure Socket Layer) que garantiza que tu información personal no pueda ser leída ni capturada por terceros.",
             "blockClass": "compraSegura-textone"
         }
     },
@@ -79,7 +79,7 @@
     },
     "rich-text#compraSegura-texttwo": {
         "props": {
-            "text": "Keds.cl no traspasará a ninguna empresa que no pertenezca al grupo Forus tus datos personales registrados en el sitio web. Aseguramos que éstos serán manejados en forma absolutamente confidencial.",
+            "text": "Mountainhardwear.cl no traspasará a ninguna empresa que no pertenezca al grupo Forus tus datos personales registrados en el sitio web. Aseguramos que éstos serán manejados en forma absolutamente confidencial.",
             "blockClass": "compraSegura-texttwo"
         }
     },
@@ -91,7 +91,7 @@
     },
     "rich-text#compraSegura-textthree": {
         "props": {
-            "text": "La sección de Registro de Keds.cl requiere de información como tu nombre, apellido, correo electrónico y género. Esta información se utiliza para responder tus consultas y mantenerte informado sobre nuestros productos, nuevas temporadas, promociones, eventos y fiestas Keds. Bajo ninguna circunstancia esta información es compartida con empresas no relacionadas con el grupo Forus o con terceros.",
+            "text": "La sección de Registro de Mountainhardwear.cl requiere de información como tu nombre, apellido, correo electrónico y género. Esta información se utiliza para responder tus consultas y mantenerte informado sobre nuestros productos, nuevas temporadas, promociones, eventos y fiestas Mountainhardwear. Bajo ninguna circunstancia esta información es compartida con empresas no relacionadas con el grupo Forus o con terceros.",
             "blockClass": "compraSegura-textthree"
         }
     },
@@ -103,7 +103,7 @@
     },
     "rich-text#compraSegura-textfour": {
         "props": {
-            "text": "El sitio web de Keds.cl puede contener links a otros sitios. Keds.cl no es responsable de las prácticas de seguridad y privacidad, o del contenido de estos sitios. Tampoco avala ningún producto o servicio ofrecido en dichos sitios.",
+            "text": "El sitio web de Mountainhardwear.cl puede contener links a otros sitios. Mountainhardwear.cl no es responsable de las prácticas de seguridad y privacidad, o del contenido de estos sitios. Tampoco avala ningún producto o servicio ofrecido en dichos sitios.",
             "blockClass": "compraSegura-textfour"
         }
     },
@@ -115,7 +115,7 @@
     },
     "rich-text#compraSegura-textfive": {
         "props": {
-            "text": "Keds.cl opera con la herramienta de pago seguro Webpay Plus, que cuenta con el respaldo de Transbank. Esta herramienta te permite pagar con Tarjeta de Crédito o Redcompra.",
+            "text": "Mountainhardwear.cl opera con la herramienta de pago seguro Webpay Plus, que cuenta con el respaldo de Transbank. Esta herramienta te permite pagar con Tarjeta de Crédito o Redcompra.",
             "blockClass": "compraSegura-textfive"
         }
     }

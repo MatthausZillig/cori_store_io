@@ -64,7 +64,7 @@
     },
     "rich-text#pagar-textone": {
         "props": {
-            "text": "Keds.cl cuenta con el sistema de pago seguro ofrecido por Webpay Plus, que te permite pagar todos tus productos utilizando Redcompra o las siguientes Tarjetas de Crédito emitidas en Chile:",
+            "text": "Mountainhardwear.cl cuenta con el sistema de pago seguro ofrecido por Webpay Plus, que te permite pagar todos tus productos utilizando Redcompra o las siguientes Tarjetas de Crédito emitidas en Chile:",
             "blockClass": "pagar-textone"
         }
     },
@@ -95,7 +95,7 @@
     },
     "rich-text#pagar-texttwo": {
         "props": {
-            "text": "Para utilizar un cupón de descuento en Keds.cl debes ingresar su código en el campo indicado durante el proceso de pago. Los cupones tienen vigencia y deben estar al día al momento de utilizarlos.",
+            "text": "Para utilizar un cupón de descuento en Mountainhardwear.cl debes ingresar su código en el campo indicado durante el proceso de pago. Los cupones tienen vigencia y deben estar al día al momento de utilizarlos.",
             "blockClass": "pagar-texttwo"
         }
     }
