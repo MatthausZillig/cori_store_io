@@ -24,10 +24,68 @@
                     "highlight": false,
                     "itemProps": {
                         "type": "external",
-                        "href": "https://www.keds.com/en/home",
+                        "href": "https://www.mountainhardwear.com/",
                         "tagTitle": "us",
                         "data-country": "us",
-                        "text": "United States"
+                        "text": "United States",
+                        "target": "_blank"
+                        
+                    }
+                },
+                
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "ar",
+                        "href": "http://www.mountainhardwear.com.ar/",
+                        "text": "Argentina",
+                        "data-country": "ar",
+                        "target": "_blank"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "ca",
+                        "href": "https://www.mountainhardwear.ca/on/demandware.store/Sites-MountainHardwear_CA_2016-Site/en_CA",
+                        "text": "Canada (EN)",
+                        "data-country": "ca",
+                        "target": "_blank"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "ca",
+                        "href": "https://www.mountainhardwear.ca/on/demandware.store/Sites-MountainHardwear_CA_2016-Site/fr_CA",
+                        "text": "Canada (FR)",
+                        "data-country": "ca",
+                        "target": "_blank"
+                    }
+                },
+                {   
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "jp",
+                        "href": "https://www.mountainhardwear.jp/",
+                        "text": "Japan",
+                        "data-country": "jp",
+                        "target": "_blank"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "tagTitle": "sw",
+                        "href": "https://www.chrissports.ch/en-us/mountainhardwear_marke",
+                        "text": "Switzerland",
+                        "data-country": "sw",
+                        "target": "_blank"
                     }
                 },
                 {
@@ -35,109 +93,21 @@
                     "highlight": false,
                     "itemProps": {
                         "tagTitle": "at",
-                        "href": "http://keds.de",
-                        "text": "Áustria",
-                        "data-country": "at"
+                        "href": "https://www.chrissports.ch/en-us/mountainhardwear_marke",
+                        "text": "Austria",
+                        "data-country": "at",
+                        "target": "_blank"
                     }
                 },
                 {
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
-                        "tagTitle": "be",
-                        "href": "http://keds.nl",
-                        "text": "Belgium",
-                        "data-country": "be"
-                    }
-                },
-                {
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "tagTitle": "br",
-                        "href": "http://keds.com.br/",
-                        "text": "Brazil",
-                        "data-country": "br"
-                    }
-                },
-                {
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "tagTitle": "ca",
-                        "href": "https://www.keds.com/CA/en_CA/home",
-                        "text": "Canada (EN)",
-                        "data-country": "ca"
-                    }
-                },
-                {
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "tagTitle": "ca",
-                        "href": "https://www.keds.com/CA/fr_CA/home",
-                        "text": "Canada (FR)",
-                        "data-country": "ca"
-                    }
-                },
-                {
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "tagTitle": "de",
-                        "href": "http://keds.de",
-                        "text": "Germany",
-                        "data-country": "de"
-                    }
-                },
-                {
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "tagTitle": "gr",
-                        "href": "https://www.keds.gr/",
-                        "text": "Greece",
-                        "data-country": "gr"
-                    }
-                },
-                {
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "tagTitle": "jp",
-                        "href": "http://japan.keds.com",
-                        "text": "Japan",
-                        "data-country": "jp"
-                    }
-                },
-                {
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "tagTitle": "lu",
-                        "href": "http://keds.de",
-                        "text": "Luxemburg",
-                        "data-country": "lu"
-                    }
-                },
-                {
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "tagTitle": "nl",
-                        "href": "http://keds.nl",
-                        "text": "Netherlands",
-                        "data-country": "nl"
-                    }
-                },
-                {
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "tagTitle": "ph",
-                        "href": "http://www.keds.com.ph/",
-                        "text": "Pilipines",
-                        "data-country": "ph"
+                        "tagTitle": "ru",
+                        "href": "https://www.sportmaster.ru/catalog/brendy/mountain_hardwear/",
+                        "text": "Russian",
+                        "data-country": "ru",
+                        "target": "_blank"
                     }
                 }
             ]

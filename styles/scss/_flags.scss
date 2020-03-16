@@ -1,338 +1,344 @@
 @mixin flags {
   &[data-country="us"] {
     &::before {
-      background-position: -65px -188px
+      background-position: -65px -188px;
     }
   }
 
   &[data-country="gb"],
   &[data-country="uk"] {
     &::before {
-      background-position: -17px -276px
+      background-position: -17px -276px;
     }
   }
 
   &[data-country="be"] {
     &::before {
-      background-position: -1px -210px
+      background-position: -1px -210px;
     }
   }
 
   &[data-country="au"] {
     &::before {
-      background-position: -17px -474px
+      background-position: -17px -474px;
     }
   }
 
   &[data-country="cl"] {
     &::before {
-      background-position: 0 -485px
+      background-position: 0 -485px;
     }
   }
 
   &[data-country="cw"] {
     &::before {
-      background-position: -64px -385px
+      background-position: -64px -385px;
     }
   }
 
   &[data-country="de"] {
     &::before {
-      background-position: -17px -23px
+      background-position: -17px -23px;
     }
   }
 
   &[data-country="at"] {
     &::before {
-      background-position: 0 -121px
+      background-position: 0 -121px;
     }
   }
 
   &[data-country="fr"] {
     &::before {
-      background-position: -17px -254px
+      background-position: -17px -254px;
     }
   }
 
   &[data-country="fi"] {
     &::before {
-      background-position: -17px -199px
+      background-position: -17px -199px;
     }
   }
 
   &[data-country="ie"] {
     &::before {
-      background-position: -17px -540px
+      background-position: -17px -540px;
     }
   }
 
   &[data-country="lu"] {
     &::before {
-      background-position: -32px -287px
+      background-position: -32px -287px;
     }
   }
 
   &[data-country="nl"] {
     &::before {
-      background-position: -49px -45px
+      background-position: -49px -45px;
     }
   }
 
   &[data-country="cn"] {
     &::before {
-      background-position: 0 -506px
+      background-position: 0 -506px;
     }
   }
 
   &[data-country="br"] {
     &::before {
-      background-position: 0 -308px
+      background-position: 0 -308px;
     }
   }
 
   &[data-country="ca"] {
     &::before {
-      background-position: 0 -385px
+      background-position: 0 -385px;
     }
   }
 
   &[data-country="jp"] {
     &::before {
-      background-position: -32px -66px
+      background-position: -32px -66px;
     }
   }
 
   &[data-country="kr"] {
     &::before {
-      background-position: -32px -154px
+      background-position: -32px -154px;
     }
   }
 
   &[data-country="tw"] {
     &::before {
-      background-position: -65px -133px
+      background-position: -65px -133px;
     }
   }
 
   &[data-country="mn"] {
     &::before {
-      background-position: -32px -418px
+      background-position: -32px -418px;
     }
   }
 
   &[data-country="mx"] {
     &::before {
-      background-position: -32px -528px
+      background-position: -32px -528px;
     }
   }
 
   &[data-country="dk"] {
     &::before {
-      background-position: -16px -44px
+      background-position: -16px -44px;
     }
   }
 
   &[data-country="ee"] {
     &::before {
-      background-position: -16px -100px
+      background-position: -16px -100px;
     }
   }
 
   &[data-country="es"] {
     &::before {
-      background-position: -16px -154px
+      background-position: -16px -154px;
     }
   }
 
   &[data-country="it"] {
     &::before {
-      background-position: -32px -34px
+      background-position: -32px -34px;
     }
   }
 
   &[data-country="se"] {
     &::before {
-      background-position: -48px -397px
+      background-position: -48px -397px;
     }
   }
 
   &[data-country="ch"] {
     &::before {
-      background-position: 0 -452px
+      background-position: 0 -452px;
     }
   }
 
   &[data-country="tr"] {
     &::before {
-      background-position: -64px -100px
+      background-position: -64px -100px;
     }
   }
 
   &[data-country="no"] {
     &::before {
-      background-position: -48px -56px
+      background-position: -48px -56px;
     }
   }
 
   &[data-country="pl"] {
     &::before {
-      background-position: -48px -187px
+      background-position: -48px -187px;
     }
   }
 
   &[data-country="gr"] {
     &::before {
-      background-position: -16px -397px
+      background-position: -16px -397px;
     }
   }
 
   &[data-country="ru"] {
     &::before {
-      background-position: -48px -320px
+      background-position: -48px -320px;
     }
   }
 
   &[data-country="il"] {
     &::before {
-      background-position: -16px -550px
+      background-position: -16px -550px;
     }
   }
 
   &[data-country="ua"] {
     &::before {
-      background-position: -64px -154px
+      background-position: -64px -154px;
     }
   }
 
   &[data-country="nz"] {
     &::before {
-      background-position: 0 -132px
+      background-position: 0 -132px;
     }
   }
 
   &[data-country="pe"] {
     &::before {
-      background-position: -48px -132px
+      background-position: -48px -132px;
     }
   }
 
   &[data-country="za"] {
     &::before {
-      background-position: -64px -352px
+      background-position: -64px -352px;
     }
   }
 
   &[data-country="pt"] {
     &::before {
-      background-position: -48px -242px
+      background-position: -48px -242px;
     }
   }
 
   &[data-country="hr"] {
     &::before {
-      background-position: -48px -265px
+      background-position: -48px -265px;
     }
   }
 
   &[data-country="co"] {
     &::before {
-      background-position: 0 -518px
+      background-position: 0 -518px;
     }
   }
 
   &[data-country="si"] {
     &::before {
-      background-position: -48px -429px
+      background-position: -48px -429px;
     }
   }
 
   &[data-country="ph"] {
     &::before {
-      background-position: -48px -166px
+      background-position: -48px -166px;
     }
   }
 
   &[data-country="sg"] {
     &::before {
-      background-position: -48px -407px
+      background-position: -48px -407px;
     }
   }
 
   &[data-country="th"] {
     &::before {
-      background-position: -64px -22px
+      background-position: -64px -22px;
     }
   }
 
   &[data-country="my"] {
     &::before {
-      background-position: -32px -539px
+      background-position: -32px -539px;
     }
   }
 
   &[data-country="id"] {
     &::before {
-      background-position: -32px -330px
+      background-position: -32px -330px;
     }
   }
 
   &[data-country="hk"] {
     &::before {
-      background-position: -16px -462px
+      background-position: -16px -462px;
     }
   }
 
   &[data-country="pk"] {
     &::before {
-      background-position: -48px -177px
+      background-position: -48px -177px;
     }
   }
 
   &[data-country="ar"] {
     &::before {
-      background-position: 0 -100px
+      background-position: 0 -100px;
     }
   }
 
   &[data-country="ae"] {
     &::before {
-      background-position: 0 -11px
+      background-position: 0 -11px;
     }
   }
 
   &[data-country="cz"] {
     &::before {
-      background-position: -17px -12px
+      background-position: -17px -12px;
     }
   }
 
   &[data-country="lv"] {
     &::before {
-      background-position: -33px -298px
+      background-position: -33px -298px;
     }
   }
 
   &[data-country="lt"] {
     &::before {
-      background-position: -33px -276px
+      background-position: -33px -276px;
     }
   }
 
   &[data-country="cam"] {
     &::before {
-      background-position: -64px -397px
+      background-position: -64px -397px;
     }
   }
 
   &[data-country="in"] {
     &::before {
-      background-position: -17px -561px
+      background-position: -17px -561px;
     }
   }
 
   &[data-country="uy"] {
     &::before {
-      background-position: -65px -198px
+      background-position: -65px -198px;
+    }
+  }
+  &[data-country="sw"] {
+    &::before {
+      background-position: 0px -425px;
+      background-size: 106px 550px;
     }
   }
 }
