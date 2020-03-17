@@ -91,7 +91,7 @@ const Locales = ({ google }) => {
                             {jsonLocales.map(local => (
                                 <li className="d-flex flex-wrap" onClick={() => setCenter(local.address.location.latitude, local.address.location.longitude)}>
                                     <div className="col col-1 icon">
-                                        <img src="/arquivos/logo_chico.png" />
+                                        <img src="/arquivos/logo.png" />
                                     </div>
                                     <div className="col col-11 data">
                                         <h3>{local.name}</h3>
