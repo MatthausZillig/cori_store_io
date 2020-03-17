@@ -17,7 +17,7 @@ class SideMenu extends Component {
                     <li>
                         <a onClick={() => this.setState({ sideMenuActive: this.state.sideMenuActive === "preguntas" ? "" : "preguntas" })}>Preguntas Frecuentes</a>
                         <ul className={"submenu" + (this.state.sideMenuActive === "preguntas" ? " open" : "")}>
-                            <li><a href="/como-comprar">¿Cómo Comprar En Keds.Cl?</a></li>
+                            <li><a href="/como-comprar">¿Cómo Comprar En Mountainhardwear.Cl?</a></li>
                             <li><a href="/opciones-despacho">¿Cuáles Son Las Opciones De Despacho?</a></li>
                             <li><a href="/paquetes">¿Puede Mi Orden Llegar En Diferentes Paquetes?</a></li>
                             <li><a href="/orden">¿Cómo Se Donde Está Mi Orden?</a></li>
@@ -32,7 +32,7 @@ class SideMenu extends Component {
                     <li>
                         <a onClick={() => this.setState({ sideMenuActive: this.state.sideMenuActive === "cliente" ? "" : "cliente" })}>Cliente Nuevo</a>
                         <ul className={"submenu" + (this.state.sideMenuActive === "cliente" ? " open" : "")}>
-                            <li><a href="/beneficios">Beneficios De Keds</a></li>
+                            <li><a href="/beneficios">Beneficios De Mountain Hardwear</a></li>
                             <li><a href="/login">Registrate</a></li>
                         </ul>
                     </li>
