@@ -167,6 +167,10 @@ class FreshDesk extends Component {
                 'merrellcl': () => 22000157848,
                 'kedscl': () => 22000160391,
                 'zapatoscl': () => 22000153744,
+                'sieteveintecl': () => 22000157851,
+                'jansportcl': () => 22000157849,
+                'norsegcl': () => 22000157852,
+                'mountainhardwearcl': () => 22000161917,
                 'default': () => null
             }
 
