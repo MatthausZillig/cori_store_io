@@ -42,13 +42,14 @@ const Locales = ({ google }) => {
     const getLocales = () => {
 
         return axios.get("/files/locales.json").then(res => {
+
             const jsonLocales = res.data
-            const indexCenter = res.data.findIndex((local, index) => {
-                if (local.id == 8) {
+            let indexCenter = res.data.findIndex((local, index) => {
+                if (local.id == 659) {
                     return index
                 }
             })
-
+            indexCenter = indexCenter < 0 ? 0 : indexCenter
             setMapCenter({ lat: jsonLocales[indexCenter].address.location.latitude, lng: jsonLocales[indexCenter].address.location.longitude })
             setJsonLocales(jsonLocales)
 
