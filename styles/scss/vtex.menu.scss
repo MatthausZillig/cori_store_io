@@ -154,3 +154,15 @@
     width: 100%;
   }
 }
+
+
+
+.menuContainerNav--menu-footer {
+  .menuItemInnerDiv {
+    .styledLinkContainer {
+      :first-child {
+        flex-direction: row;
+      }
+    }
+  }
+}
