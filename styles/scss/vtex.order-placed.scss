@@ -1,0 +1,13 @@
+.orderOptionsWrapper {
+  :last-child :last-child {
+    :global(.vtex-button) {
+      display: none;
+    }
+  }
+
+  :first-child :first-child {
+    :global(.vtex-button) {
+      display: none;
+    }
+  }
+}
