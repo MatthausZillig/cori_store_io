@@ -1,0 +1,181 @@
+{
+    "store.custom#retiroTienda": {
+        "blocks": [
+            "flex-layout.row#retiroTienda",
+            "accordion-custom"
+        ],
+        "props": {
+            "blockClass": "retiroTienda"
+        }
+    },
+    "flex-layout.row#retiroTienda": {
+        "children": [
+            "flex-layout.row#inicio-retiroTienda"
+        ],
+        "props": {
+            "blockClass": "fl-retiroTienda"
+        }
+    },
+    "flex-layout.row#inicio-retiroTienda": {
+        "children": [
+            "flex-layout.col#body-retiroTienda"
+        ],
+        "props": {
+            "blockClass": "colunas-retiroTienda"
+        }
+    },
+    "flex-layout.col#body-retiroTienda": {
+        "children": [
+            "image#retiroTienda-1",
+            "rich-text#retiroTienda-titulo1",
+            "rich-text#retiroTienda-titulo2",
+            "flex-layout.row#colunas-retiroTienda",
+            "flex-layout.row#preguntas-retiroTienda"
+        ],
+        "props": {
+            "blockClass": "body-retiroTienda"
+        }
+    },
+    "image#retiroTienda-1": {
+        "props": {
+            "src": "//azaleiacl.vteximg.com.br/arquivos/retiroTienda-1.png",
+            "alt": "Click & Collect",
+            "blockClass": "click-collect1",
+            "link": "/"
+        }
+    },
+    "rich-text#retiroTienda-titulo1": {
+        "props": {
+            "text": "Compra ahora y retira **¡Desde 2 Hrs!**",
+            "blockClass": "retiroTienda-titulo1"
+        }
+    },
+    "rich-text#retiroTienda-titulo2": {
+        "props": {
+            "text": " -¿Cómo funciona?- ",
+            "blockClass": "retiroTienda-titulo2"
+        }
+    },
+    "flex-layout.row#colunas-retiroTienda": {
+        "children": [
+            "flex-layout.col#col1-retiroTienda",
+            "flex-layout.col#col2-retiroTienda",
+            "flex-layout.col#col3-retiroTienda"
+        ],
+        "props": {
+            "blockClass": "colunas-retiroTienda"
+        }
+    },
+    "flex-layout.col#col1-retiroTienda": {
+        "children": [
+            "image#retiroTienda-2",
+            "rich-text#retiroTienda-titulo3",
+            "rich-text#retiroTienda-texto1"
+        ],
+        "props": {
+            "blockClass": "col1-retiroTienda"
+        }
+    },
+    "image#retiroTienda-2": {
+        "props": {
+            "src": "//azaleiacl.vteximg.com.br/arquivos/retiroTienda-2.png",
+            "alt": "Click & Collect",
+            "blockClass": "click-collect",
+            "link": "/"
+        }
+    },
+    "rich-text#retiroTienda-titulo3": {
+        "props": {
+            "text": " Elige tus productos ",
+            "blockClass": "retiroTienda-titulo3"
+        }
+    },
+    "rich-text#retiroTienda-texto1": {
+        "props": {
+            "text": "Escoge los productos que quieras y añádelos a tu carro.",
+            "blockClass": "retiroTienda-texto1"
+        }
+    },
+    "flex-layout.col#col2-retiroTienda": {
+        "children": [
+            "image#retiroTienda-3",
+            "rich-text#retiroTienda-titulo4",
+            "rich-text#retiroTienda-texto2"
+        ],
+        "props": {
+            "blockClass": "col2-retiroTienda"
+        }
+    },
+    "image#retiroTienda-3": {
+        "props": {
+            "src": "//azaleiacl.vteximg.com.br/arquivos/retiroTienda-3.png",
+            "alt": "Click & Collect",
+            "blockClass": "click-collect",
+            "link": "/"
+        }
+    },
+    "rich-text#retiroTienda-titulo4": {
+        "props": {
+            "text": "En el checkout, elige Click & Collect como método de despacho",
+            "blockClass": "retiroTienda-titulo4"
+        }
+    },
+    "rich-text#retiroTienda-texto2": {
+        "props": {
+            "text": "Se mostrarán las tiendas que tienen disponibles los productos que escogiste. ¡Elige la que prefieras!",
+            "blockClass": "retiroTienda-texto2"
+        }
+    },
+    "flex-layout.col#col3-retiroTienda": {
+        "children": [
+            "image#retiroTienda-4",
+            "rich-text#retiroTienda-titulo5",
+            "rich-text#retiroTienda-texto3"
+        ],
+        "props": {
+            "blockClass": "col3-retiroTienda"
+        }
+    },
+    "image#retiroTienda-4": {
+        "props": {
+            "src": "//azaleiacl.vteximg.com.br/arquivos/retiroTienda-4.png",
+            "alt": "Click & Collect",
+            "blockClass": "click-collect",
+            "link": "/"
+        }
+    },
+    "rich-text#retiroTienda-titulo5": {
+        "props": {
+            "text": "Retira tu compra y ¡disfruta!",
+            "blockClass": "retiroTienda-titulo5"
+        }
+    },
+    "rich-text#retiroTienda-texto3": {
+        "props": {
+            "text": "Termina tu compra, espera el mail de confirmación de retiro y ¡listo!",
+            "blockClass": "retiroTienda-texto3"
+        }
+    },
+    "flex-layout.row#preguntas-retiroTienda": {
+        "children": [
+            "flex-layout.col#preguntas-retiroTienda"
+        ],
+        "props": {
+            "blockClass": "preguntas-retiroTienda"
+        }
+    },
+    "flex-layout.col#preguntas-retiroTienda": {
+        "children": [
+            "rich-text#retiroTienda-titulo6"
+        ],
+        "props": {
+            "blockClass": "col-preguntas-retiroTienda"
+        }
+    },
+    "rich-text#retiroTienda-titulo6": {
+        "props": {
+            "text": "-Preguntas frecuentes-",
+            "blockClass": "retiroTienda-titulo6"
+        }
+    }
+}

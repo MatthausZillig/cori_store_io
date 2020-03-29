@@ -49,5 +49,8 @@
   },
   "store.custom#tiendas": {
     "path": "/tiendas"
+  },
+  "store.custom#retiroTienda": {
+    "path": "/retiro-en-tienda"
   }
 }

@@ -6,7 +6,6 @@
 }
 
 @media screen and (min-width: 40em) {
-
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
@@ -14,7 +13,6 @@
 }
 
 @media screen and (min-width: 80rem) {
-
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 0.25rem;
@@ -276,8 +274,70 @@
   }
 }
 
-
 .flexRow--main-header-mobile .flexRowContent--main-header-mobile {
   display: flex;
   flex-direction: row;
-} 
+}
+
+/* PAGE RETIRO EN TIENDA */
+.flexCol--body-retiroTienda {
+  width: 75%;
+}
+.flexColChild--body-retiroTienda {
+  display: flex;
+  justify-content: center;
+}
+:global(.vtex-store-components-3-x-imageElement--click-collect1) {
+  padding-top: 1.5em;
+}
+.flexRowContent--colunas-retiroTienda {
+  display: flex;
+  justify-content: space-between;
+
+  .flexCol--col1-retiroTienda,
+  .flexCol--col2-retiroTienda,
+  .flexCol--col3-retiroTienda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    :global(.vtex-rich-text-0-x-paragraph) {
+      text-align: center;
+    }
+  }
+  :global(.vtex-rich-text-0-x-paragraph--retiroTienda-titulo3),
+  :global(.vtex-rich-text-0-x-paragraph--retiroTienda-titulo4),
+  :global(.vtex-rich-text-0-x-paragraph--retiroTienda-titulo5) {
+    font-weight: 700;
+    font-size: 18px;
+  }
+}
+
+:global(.vtex-rich-text-0-x-paragraph--retiroTienda-titulo1) {
+  font-size: 30px;
+  background-color: #fcf8e3;
+  padding: 0.2em 3em;
+  text-align: center;
+}
+:global(.vtex-rich-text-0-x-paragraph--retiroTienda-titulo2) {
+  font-size: 30px;
+  margin-top: -0.5em;
+}
+@media (max-width: 768px) {
+  :global(.vtex-rich-text-0-x-paragraph--retiroTienda-titulo1) {
+    font-size: 18px;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--retiroTienda-titulo2) {
+    font-size: 18px;
+  }
+  .flexRowContent--colunas-retiroTienda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--retiroTienda-titulo6) {
+    font-size: 22px !important;
+  }
+}

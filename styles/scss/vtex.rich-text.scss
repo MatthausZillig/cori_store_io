@@ -183,3 +183,14 @@
     color: #3f3f40;
   }
 }
+
+/* PAGE RETIRO EN TIENDA */
+
+.container--retiroTienda-titulo6 {
+  display: flex;
+  justify-content: center;
+  .paragraph--retiroTienda-titulo6 {
+    font-size: 2rem;
+    margin: 15px auto;
+  }
+}
