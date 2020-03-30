@@ -56,7 +56,8 @@
                 "href": "/",
                 "tagTitle": "MEN",
                 "text": "MEN"
-            }
+            },
+            "blockClass": "menu-title-mobile"
         },
         "blocks": [
             "submenu.accordion#menu-men"
