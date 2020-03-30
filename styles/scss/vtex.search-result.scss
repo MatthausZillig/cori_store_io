@@ -10,7 +10,7 @@
   }
 }
 .container--layout {
-  color: $orange;
+  color: #1f2222;
 
   .galleryTitle--layout {
     display: flex;
@@ -39,7 +39,7 @@
 }
 
 .filterItem {
-  color: $orange;
+  color: #1f2222;
   font-size: 13px;
 
   :global(.vtex-checkbox__container) {
@@ -48,12 +48,12 @@
 }
 :global(.vtex-checkbox__line-container) {
   :last-child {
-    color: $orange;
+    color: #1f2222;
   }
 }
 
 .filterIcon {
-  color: $orange;
+  color: #1f2222;
 }
 
 .filterContent,
@@ -63,7 +63,7 @@
 
 .filterTitle,
 .categoryItemName {
-  color: $orange;
+  color: #1f2222;
   font-weight: 400;
   font-size: 13px;
 }
@@ -72,7 +72,7 @@
   padding-right: 4px;
 
   .selectedFilterItem {
-    background: $orange;
+    background: #1f2222;
     padding: 6px 8px 6px 11px;
     margin-bottom: 5px;
     display: flex;

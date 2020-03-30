@@ -17,8 +17,8 @@
   padding: 0;
   text-transform: uppercase;
   margin-bottom: 40px;
-  color: $orange;
-  border: solid thin $orange;
+  color: #1f2222;
+  border: solid thin #1f2222;
   padding: 10px;
   text-decoration: none;
   width: 100%;
@@ -28,7 +28,7 @@
 .tiendas_stock button:hover {
   border: solid thin #fff;
   background: $light-gray;
-  color: $orange;
+  color: #1f2222;
 }
 
 .tiendas_stock .modal_tiendas {
@@ -187,7 +187,7 @@
 
 .tiendas_stock .modal_tiendas .header_tiendas .skuSelector_tiendas .selected_item_talles .btn_tiendas:hover,
 .tiendas_stock .modal_tiendas .header_tiendas .skuSelector_tiendas .selected_item_talles .btn_tiendas.selected {
-  background: $orange;
+  background: #1f2222;
   color: #fff;
 }
 
@@ -272,7 +272,7 @@
 
 .tiendas_stock .modal_tiendas .button_buscar_tiendas {
   margin-top: auto;
-  background-color: $orange;
+  background-color: #1f2222;
   box-sizing: border-box;
   color: #3b3b3b;
   display: block;

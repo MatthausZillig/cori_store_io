@@ -78,10 +78,10 @@
             "blockClass": "shelf"
         }
     },
-    "flex-layout.row#": {
+    "flex-layout.row#banners1": {
         "children": [],
         "props": {
-            "blockClass": ""
+            "blockClass": "banners1"
         }
     }
 }
