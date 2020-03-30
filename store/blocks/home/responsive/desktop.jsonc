@@ -75,6 +75,7 @@
             },
             "infinite": true,
             "fullWidth": true,
+            "showPaginationDots": "never",
             "blockClass": "shelf"
         }
     },
