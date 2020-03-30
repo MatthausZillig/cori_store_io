@@ -79,9 +79,260 @@
         }
     },
     "flex-layout.row#banners1": {
-        "children": [],
+        "children": [
+            "flex-layout.col#banners1"
+        ],
         "props": {
             "blockClass": "banners1"
+        }
+    },
+    "flex-layout.col#banners1": {
+        "children": [
+            "rich-text#banners1",
+            "flex-layout.row#banners1-tabs"
+        ],
+        "props": {
+            "blockClass": "banners1"
+        }
+    },
+    "rich-text#banners1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "shop the collection",
+            "font": "t-heading-2",
+            "blockClass": "banners1"
+        }
+    },
+    "flex-layout.row#banners1-tabs": {
+        "children": [
+            "flex-layout.col#banners1-tabs"
+        ],
+        "props": {
+            "blockClass": "banners1-tabs"
+        }
+    },
+    "flex-layout.col#banners1-tabs": {
+        "children": [
+            "tab-layout#banners-tabs"
+        ],
+        "props": {
+            "blockClass": "banners1-tabs"
+        }
+    },
+    "tab-layout#banners-tabs": {
+        "children": [
+            "tab-list#banners-tab-list",
+            "tab-content#banners-tab-content"
+        ],
+        "props": {
+            "blockClass": "banners-tabs"
+        }
+    },
+    "tab-list#banners-tab-list": {
+        "children": [
+            "tab-list.item#detalles-producto",
+            "tab-list.item#comentarios"
+        ]
+    },
+    "tab-list.item#mens": {
+        "props": {
+            "tabId": "banners-tab1",
+            "label": "MEN'S",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#womens": {
+        "props": {
+            "tabId": "banners-tab2",
+            "label": "WOMEN'S"
+        }
+    },
+    "tab-content#banners-tab-content": {
+        "children": [
+            "tab-content.item#banners-mens",
+            "tab-content.item#banners-womens"
+        ]
+    },
+    "tab-content.item#banners-mens": {
+        "children": [
+            "flex-layout.row#banners1-mens"
+        ],
+        "props": {
+            "tabId": "banners-tab1"
+        }
+    },
+    "tab-content.item#banners-womens": {
+        "children": [
+            "flex-layout.row#banners1-womens"
+        ],
+        "props": {
+            "tabId": "banners-tab2"
+        }
+    },
+    "flex-layout.row#banners1-mens": {
+        "children": [
+            "info-card#banners1-mens1",
+            "info-card#banners1-mens2",
+            "info-card#banners1-mens3"
+        ],
+        "props": {
+            "blockClass": "banners1-infoc"
+        }
+    },
+    "info-card#banners1-mens1": {
+        "title": "banners1-mens1",
+        "props": {
+            "id": "banners1-mens1",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "",
+            "headline": "Clearance Sale",
+            "subhead": "",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "",
+            "blockClass": "banners1-mens1",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#banners1-mens2": {
+        "title": "banners1-mens2",
+        "props": {
+            "id": "banners1-mens2",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "",
+            "headline": "Clearance Sale",
+            "subhead": "",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "",
+            "blockClass": "banners1-mens2",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#banners1-mens3": {
+        "title": "banners1-mens3",
+        "props": {
+            "id": "banners1-mens3",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "",
+            "headline": "Clearance Sale",
+            "subhead": "",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "",
+            "blockClass": "banners1-mens3",
+            "textAlignment": "center"
+        }
+    },
+    "flex-layout.row#banners1-womens": {
+        "children": [
+            "info-card#banners1-womens1",
+            "info-card#banners1-womens2",
+            "info-card#banners1-womens3"
+        ],
+        "props": {
+            "blockClass": "banners1-infoc"
+        }
+    },
+    "info-card#banners1-womens1": {
+        "title": "banners1-womens1",
+        "props": {
+            "id": "banners1-womens1",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "",
+            "headline": "Clearance Sale",
+            "subhead": "",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "",
+            "blockClass": "banners1-womens1",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#banners1-womens2": {
+        "title": "banners1-womens2",
+        "props": {
+            "id": "banners1-womens2",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "",
+            "headline": "Clearance Sale",
+            "subhead": "",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "",
+            "blockClass": "banners1-womens2",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#banners1-womens3": {
+        "title": "banners1-womens3",
+        "props": {
+            "id": "banners1-womens3",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "",
+            "headline": "Clearance Sale",
+            "subhead": "",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "",
+            "blockClass": "banners1-womens3",
+            "textAlignment": "center"
+        }
+    },
+    "flex-layout.row#banners2": {
+        "children": [
+            "info-card#banners2-1",
+            "info-card#banners2-2"
+        ],
+        "props": {
+            "blockClass": "banners2"
+        }
+    },
+    "info-card#banners2-1": {
+        "title": "banners2-1",
+        "props": {
+            "id": "banners2-1",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Summer Sale",
+            "subhead": "Encuentra tus favoritos.",
+            "callToActionText": "SHOP NOW",
+            "callToActionUrl": "",
+            "blockClass": "banners2",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#banners2-2": {
+        "title": "banners2-2",
+        "props": {
+            "id": "banners2-2",
+            "isFullModeStyle": false,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "Fleece your winter",
+            "subhead": "Mantiene el calor por más tiempo. Ahora es más colores.",
+            "callToActionText": "SHOP NOW",
+            "callToActionUrl": "",
+            "blockClass": "banners2",
+            "textAlignment": "center"
+        }
+    },
+    "flex-layout.row#banners3": {
+        "children": [
+            "image#banners3"
+        ],
+        "props": {
+            "blockClass": "banners3"
+        }
+    },
+    "image#banners3": {
+        "title": "banner3",
+        "props": {
+            "src": "",
+            "fullWidth": true,
+            "blockClass": "banners3"
         }
     }
 }

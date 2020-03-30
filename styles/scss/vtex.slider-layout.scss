@@ -52,6 +52,9 @@
       display: none;
     }
   }
+  :global(.vtex-button) {
+    display: none;
+  }
 }
 
 .slideChildrenContainer.slideChildrenContainer--shopbystyle {

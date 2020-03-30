@@ -9,6 +9,9 @@
     "children": [
       "list-context.image-list#demo",
       "__fold__",
+      "flex-layout.row#banners1",
+      "flex-layout.row#banners2",
+      "flex-layout.row#banners3",
       "rich-text#shelf-title",
       "flex-layout.row#shelf"
     ]
