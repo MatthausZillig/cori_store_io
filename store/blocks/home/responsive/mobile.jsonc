@@ -1,18 +1,1 @@
-{
-    "flex-layout.row#mobile-banners3": {
-        "children": [
-            "image#mobile-banners3"
-        ],
-        "props": {
-            "blockClass": "mobile-banners3"
-        }
-    },
-    "image#mobile-banners3": {
-        "title": "mobile-banner3",
-        "props": {
-            "src": "",
-            "fullWidth": true,
-            "blockClass": "mobile-banners3"
-        }
-    }
-}
+{}

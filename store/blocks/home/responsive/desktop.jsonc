@@ -319,20 +319,31 @@
             "textAlignment": "center"
         }
     },
-    "flex-layout.row#banners3": {
+    "list-context.image-list#banners3": {
         "children": [
-            "image#banners3"
+            "slider-layout#banners3"
         ],
         "props": {
-            "blockClass": "banners3"
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://cdn.linets.tech/data/1BANNER_2020/03_MARZO/KDS/2_al_8/kds_banner_dos.jpg",
+                    "mobileImage": "https://cdn.linets.tech/data/1BANNER_2020/03_MARZO/KDS/2_al_8/kds_banner_m_dos.jpg"
+                }
+            ]
         }
     },
-    "image#banners3": {
-        "title": "banner3",
+    "slider-layout#banners3": {
         "props": {
-            "src": "",
-            "fullWidth": true,
-            "blockClass": "banners3"
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": "carousel"
         }
     }
 }
