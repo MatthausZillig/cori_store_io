@@ -78,83 +78,10 @@
             "blockClass": "shelf"
         }
     },
-    "flex-layout.row#banner1": {
-        "children": [
-            "image#banner1",
-            "image#banner2",
-            "image#banner3"
-        ],
+    "flex-layout.row#": {
+        "children": [],
         "props": {
-            "blockClass": "banner1"
-        }
-    },
-    "image#banner1": {
-        "title": "banner1",
-        "props": {
-            "src": "",
-            "maxHeight": "",
-            "maxWidth": "",
-            "blockClass": "banner1"
-        }
-    },
-    "image#banner2": {
-        "title": "banner2",
-        "props": {
-            "src": "",
-            "maxHeight": "",
-            "maxWidth": "",
-            "blockClass": "banner2"
-        }
-    },
-    "image#banner3": {
-        "title": "banner3",
-        "props": {
-            "src": "",
-            "maxHeight": "",
-            "maxWidth": "",
-            "blockClass": "banner3"
-        }
-    },
-    "flex-layout.row#banner2": {
-        "children": [
-            "image#banner4"
-        ]
-    },
-    "image#banner4": {
-        "title": "banner4",
-        "props": {
-            "src": "",
-            "maxHeight": "",
-            "maxWidth": "",
-            "blockClass": "banner4"
-        }
-    },
-    "flex-layout.row#instagram": {
-        "children": [
-            "flex-layout.col#instagram"
-        ]
-    },
-    "flex-layout.col#instagram": {
-        "children": [
-            "rich-text#instagram",
-            "iframe.dynamic-src#insta"
-        ],
-        "props": {
-            "blockClass": "insta-Home"
-        }
-    },
-    "rich-text#instagram": {
-        "props": {
-            "text": "<a href='https://www.instagram.com/'>Instagram - @</a>",
-            "blockClass": "insta-Home"
-        }
-    },
-    "iframe.dynamic-src#insta": {
-        "props": {
-            "dynamicSrc": "https://snapwidget.com/embed/534509",
-            "width": "1900",
-            "height": "400",
-            "title": "insta-Home"
+            "blockClass": ""
         }
     }
 }

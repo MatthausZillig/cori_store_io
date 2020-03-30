@@ -9,9 +9,6 @@
     "children": [
       "list-context.image-list#demo",
       "__fold__",
-      "flex-layout.row#banner1",
-      "flex-layout.row#banner2",
-      "flex-layout.row#instagram",
       "rich-text#shelf-title",
       "flex-layout.row#shelf"
     ]
@@ -20,8 +17,6 @@
     "children": [
       "list-context.image-list#demo",
       "__fold__",
-      "flex-layout.row#mosaico",
-      "flex-layout.row#instagram",
       "rich-text#shelf-title",
       "flex-layout.row#shelf"
     ]
