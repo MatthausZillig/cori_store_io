@@ -10,7 +10,8 @@
                 "href": "/141?map=productClusterIds",
                 "tagTitle": "SALE",
                 "text": "SALE"
-            }
+            },
+            "blockClass": "menu-title-sale"
         }
     },
     "menu-item#menu-ver-carro": {

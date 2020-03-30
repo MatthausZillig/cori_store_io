@@ -223,9 +223,9 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#menu-mobile-mujer",
-      "menu-item#menu-mobile-siluetas",
-      "menu-item#menu-mobile-colaboraciones",
+      "menu-item#menu-mobile-equipment",
+      "menu-item#menu-mobile-men",
+      "menu-item#menu-mobile-women",
       "menu-item#menu-sale",
       "menu-item#menu-ver-carro",
       "menu-item#menu-sigue-compra",
