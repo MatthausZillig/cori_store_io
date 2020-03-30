@@ -151,7 +151,10 @@
   "flex-layout.row#product-tabs": {
     "children": [
       "flex-layout.col#product-tabs"
-    ]
+    ],
+    "props": {
+      "blockClass": "tabs"
+    }
   },
   "flex-layout.col#product-tabs": {
     "children": [

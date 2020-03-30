@@ -3,7 +3,7 @@
 
 .styledLink--footer-menu-item {
   font-size: 14px;
-  color: #666;
+  color: #1f2222;
 }
 
 .menuContainer--topMenu {
@@ -155,13 +155,56 @@
   }
 }
 
-
-
 .menuContainerNav--menu-footer {
   .menuItemInnerDiv {
     .styledLinkContainer {
       :first-child {
         flex-direction: row;
+      }
+    }
+  }
+}
+
+.styledLinkContent--menu-title,
+.styledLinkContent--menu-title-mobile,
+.styledLinkContent--menu-title-sale {
+  font-family: "Bebas Neue";
+  font-size: 18px;
+  color: #1f2222;
+}
+
+.styledLinkContent--menu-title {
+  &:hover {
+    color: #98242d;
+  }
+}
+
+.menuContainer--menu-equipment,
+.menuContainer--menu-men,
+.menuContainer--menu-women {
+  .styledLinkContainer {
+    &:first-child {
+      .styledLink {
+        :first-child {
+          color: #1f2222;
+          font-family: "Bebas Neue";
+          text-transform: uppercase;
+          font-weight: bold;
+          letter-spacing: 0.2rem;
+        }
+      }
+    }
+  }
+  :not(:first-child) {
+    .styledLinkContainer {
+      .styledLink {
+        :first-child {
+          color: #1f2222;
+          font-family: "Roboto";
+          text-transform: capitalize;
+          font-weight: normal;
+          letter-spacing: 0;
+        }
       }
     }
   }

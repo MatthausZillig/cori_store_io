@@ -1,76 +1,76 @@
 {
-    "menu-item#menu-women": {
+    "menu-item#menu-equipment": {
         "props": {
-            "id": "menu-item-menu-women",
+            "id": "menu-item-menu-equipment",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
-                "type": "women",
-                "href": "/women",
-                "tagTitle": "WOMEN",
-                "text": "WOMEN"
+                "type": "equipment",
+                "href": "/equipment",
+                "tagTitle": "EQUIPMENT",
+                "text": "EQUIPMENT"
             },
             "blockClass": "menu-title"
         },
         "blocks": [
-            "submenu#menu-women"
+            "submenu#menu-equipment"
         ]
     },
-    "submenu#menu-women": {
+    "submenu#menu-equipment": {
         "children": [
-            "flex-layout.row#women-1"
+            "flex-layout.row#equipment-1"
         ]
     },
-    "flex-layout.row#women-1": {
+    "flex-layout.row#equipment-1": {
         "children": [
-            "menu#menu-women",
-            "image#menuwomen"
+            "menu#menu-equipment",
+            "image#menuequipment"
         ],
         "props": {
             "blockClass": "flex-row-header"
         }
     },
-    "image#menuwomen": {
+    "image#menuequipment": {
         "props": {
             "src": "//azaleiacl.vteximg.com.br/arquivos/azaleia1.jpg",
             "blockClass": "brands",
             "link": "/"
         }
     },
-    "menu#menu-women": {
+    "menu#menu-equipment": {
         "props": {
             "categoryId": 4,
             "orientation": "vertical",
-            "blockClass": "menu-women"
+            "blockClass": "menu-equipment"
         }
     },
-    "menu-item#menu-mobile-women": {
+    "menu-item#menu-mobile-equipment": {
         "props": {
-            "id": "menu-item-mobile-menu-women",
+            "id": "menu-item-mobile-menu-equipment",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
-                "type": "women",
+                "type": "equipment",
                 "href": "/",
-                "tagTitle": "WOMEN",
-                "text": "WOMEN"
+                "tagTitle": "EQUIPMENT",
+                "text": "EQUIPMENT"
             },
             "blockClass": "menu-title-mobile"
         },
         "blocks": [
-            "submenu.accordion#menu-women"
+            "submenu.accordion#menu-equipment"
         ]
     },
-    "submenu.accordion#menu-women": {
+    "submenu.accordion#menu-equipment": {
         "children": [
-            "flex-layout.row#submenu-mobile-women"
+            "flex-layout.row#submenu-mobile-equipment"
         ]
     },
-    "flex-layout.row#submenu-mobile-women": {
+    "flex-layout.row#submenu-mobile-equipment": {
         "children": [
-            "menu#menu-women"
+            "menu#menu-equipment"
         ],
         "props": {
             "blockClass": "mobile-header"

@@ -9,8 +9,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: .5px;
-    color: $orange;
+    letter-spacing: 0.5px;
+    color: #1f2222;
     justify-content: center;
   }
 
@@ -28,6 +28,10 @@
   }
 
   :global(.vtex-slider-0-x-dotsContainer) {
+    display: none;
+  }
+
+  :global(.vtex-button) {
     display: none;
   }
 }

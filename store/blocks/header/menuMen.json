@@ -1,76 +1,76 @@
 {
-    "menu-item#menu-women": {
+    "menu-item#menu-men": {
         "props": {
-            "id": "menu-item-menu-women",
+            "id": "menu-item-menu-men",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
-                "type": "women",
-                "href": "/women",
-                "tagTitle": "WOMEN",
-                "text": "WOMEN"
+                "type": "men",
+                "href": "/men",
+                "tagTitle": "MEN",
+                "text": "MEN"
             },
             "blockClass": "menu-title"
         },
         "blocks": [
-            "submenu#menu-women"
+            "submenu#menu-men"
         ]
     },
-    "submenu#menu-women": {
+    "submenu#menu-men": {
         "children": [
-            "flex-layout.row#women-1"
+            "flex-layout.row#men-1"
         ]
     },
-    "flex-layout.row#women-1": {
+    "flex-layout.row#men-1": {
         "children": [
-            "menu#menu-women",
-            "image#menuwomen"
+            "menu#menu-men",
+            "image#menumen"
         ],
         "props": {
             "blockClass": "flex-row-header"
         }
     },
-    "image#menuwomen": {
+    "image#menumen": {
         "props": {
             "src": "//azaleiacl.vteximg.com.br/arquivos/azaleia1.jpg",
             "blockClass": "brands",
             "link": "/"
         }
     },
-    "menu#menu-women": {
+    "menu#menu-men": {
         "props": {
-            "categoryId": 4,
+            "categoryId": 1,
             "orientation": "vertical",
-            "blockClass": "menu-women"
+            "blockClass": "menu-men"
         }
     },
-    "menu-item#menu-mobile-women": {
+    "menu-item#menu-mobile-men": {
         "props": {
-            "id": "menu-item-mobile-menu-women",
+            "id": "menu-item-mobile-menu-men",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
-                "type": "women",
+                "type": "men",
                 "href": "/",
-                "tagTitle": "WOMEN",
-                "text": "WOMEN"
+                "tagTitle": "MEN",
+                "text": "MEN"
             },
             "blockClass": "menu-title-mobile"
         },
         "blocks": [
-            "submenu.accordion#menu-women"
+            "submenu.accordion#menu-men"
         ]
     },
-    "submenu.accordion#menu-women": {
+    "submenu.accordion#menu-men": {
         "children": [
-            "flex-layout.row#submenu-mobile-women"
+            "flex-layout.row#submenu-mobile-men"
         ]
     },
-    "flex-layout.row#submenu-mobile-women": {
+    "flex-layout.row#submenu-mobile-men": {
         "children": [
-            "menu#menu-women"
+            "menu#menu-men"
         ],
         "props": {
             "blockClass": "mobile-header"

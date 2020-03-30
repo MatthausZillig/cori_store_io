@@ -23,15 +23,14 @@
       "blockClass": "countries",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "https://www.mountainhardwear.com/countries",
         "tagTitle": "cl",
         "data-country": "cl",
-        "text": "Chile"
+        "text": "Chile",
+        "target": "_blank"
       }
     },
-    "blocks": [
-      "submenu#international"
-    ]
+    "blocks": []
   },
   "menu-item#sigue-compra": {
     "props": {

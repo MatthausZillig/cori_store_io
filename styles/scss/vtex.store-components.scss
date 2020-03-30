@@ -114,13 +114,51 @@
 }
 
 .discountInsideContainer {
-  background: $orange;
+  background: #1f2222;
   border-radius: 50%;
   height: 40px;
   width: 40px;
   font-weight: 500;
   padding-top: 13px;
   padding-left: 5px;
+}
+
+.infoCardContainer--banners2 {
+  display: flex;
+  flex-direction: column-reverse;
+  .infoCardTextContainer--banners2 {
+    .infoCardHeadline--banners2 {
+      color: #1f2222;
+      font-size: 20px;
+      font-family: "Bebas Neue";
+    }
+  }
+  .infoCardImageContainer--banners2 {
+    width: 100%;
+  }
+  &:first-child {
+    margin-right: 20px;
+  }
+  .infoCardCallActionContainer--banners2 {
+    :global(.vtex-button) {
+      color: #fff;
+      background-color: #1f2222;
+      border-radius: 22px;
+      border: thin solid #1f2222;
+    }
+  }
+  &:hover {
+    .infoCardImageContainer--banners2 {
+      opacity: 20%;
+    }
+    .infoCardCallActionContainer--banners2 {
+      :global(.vtex-button) {
+        color: #1f2222;
+        font-weight: 500;
+        background-color: #fff;
+      }
+    }
+  }
 }
 
 /* PRODUCT PAGE */
@@ -207,13 +245,13 @@
 
 .productNameContainer {
   .productBrand {
-    color: $orange;
+    color: #1f2222;
     font-size: 26px;
   }
 }
 
 .sellingPriceValue {
-  color: #3f3f40;
+  color: #1f2222;
   font-weight: 300;
   font-size: 26px;
 }
@@ -256,7 +294,7 @@
 
   .sellingPriceValue {
     font-size: 1.5rem;
-    color: #3f3f40;
+    color: #1f2222;
   }
 
   .price_className.priceContainer {
@@ -299,7 +337,7 @@
 }
 
 .logoImage {
-  width: 130px;
+  width: 160px;
 
   @media (max-width: 768px) {
     width: 80px;

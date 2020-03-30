@@ -15,3 +15,13 @@
     display: none;
   }
 }
+
+.minicartCheckoutButton {
+  :global(.vtex-button) {
+    border-radius: 22px;
+  }
+}
+
+:global(.vtex-button) {
+  border-radius: 22px;
+}

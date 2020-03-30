@@ -1,11 +1,12 @@
 :global(.vtex-store-components-3-x-autoCompleteOuterContainer) {
+  border-bottom: groove;
   .input {
-    background-color: #f5f5f5;
+    background-color: #fff;
   }
   :global(.vtex-input-prefix__group) {
     border: none;
   }
   :global(.vtex-input__prefix) {
-    background-color: #f5f5f5;
+    background-color: #fff;
   }
 }
