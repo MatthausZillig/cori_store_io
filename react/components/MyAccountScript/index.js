@@ -30,7 +30,7 @@ const ScriptAccount = () => {
         setHaveOrders(true)
         const orders = document.querySelectorAll(".vtex-my-orders-app-3-x-orderCard.myo-order-card.w-100.mv7.ba.overflow-hidden.b--muted-4")
 
-        if (orders && orders.length >= 3) {
+        if (orders) {
             orders.forEach(res => {
                 const string = " de "
                 const replace = new RegExp(string, 'g');
@@ -47,7 +47,7 @@ const ScriptAccount = () => {
                     linkTag.setAttribute('href', "https://sistemas.forus.cl/devoluciones/" + orderID);
                     linkTag.setAttribute('target', "_blank");
                     linkTag.innerHTML = "Devolución / Cambio";
-                    linkTag.classList.add("btn_devolucion");
+                    linkTag.classList.add("vtex-btn_devolucion");
 
                     res.childNodes[1].childNodes[1].appendChild(linkTag);
                 }
@@ -70,10 +70,10 @@ const ScriptAccount = () => {
     }
 
     const removeButton = () => {
-        if (!document.querySelectorAll(".btn_devolucion") || document.querySelectorAll(".btn_devolucion").length) {
+        if (!document.querySelectorAll(".vtex-btn_devolucion") || document.querySelectorAll(".vtex-btn_devolucion").length) {
             return
         }
-        document.querySelectorAll(".btn_devolucion").forEach(el => {
+        document.querySelectorAll(".vtex-btn_devolucion").forEach(el => {
             el.remove()
         })
         setHaveOrders(false)

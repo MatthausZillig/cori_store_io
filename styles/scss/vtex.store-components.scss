@@ -415,3 +415,13 @@
     display: none;
   }
 }
+
+:global(.vtex-my-orders-app-3-x-orderCard) {
+  :global(.vtex-btn_devolucion) {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1f2222;
+    display: block;
+    margin-top: 10px;
+  }
+}
