@@ -40,7 +40,7 @@
     },
     "menu#menu-equipment": {
         "props": {
-            "categoryId": 4,
+            "categoryId": 32,
             "orientation": "vertical",
             "blockClass": "menu-equipment"
         }
