@@ -20,6 +20,11 @@
     margin-left: 20px;
     font-size: 20px;
     font-family: "Bebas Neue";
+
+    @media (max-width: 768px) {
+      margin-top: 20px;
+      justify-content: center;
+    }
   }
 
   :global(.vtex-flex-layout-0-x-flexColChild--filterCol) {

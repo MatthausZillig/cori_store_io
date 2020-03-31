@@ -278,7 +278,8 @@
     margin-bottom: 35px;
 
     .productBrand {
-      font-size: 2.2rem;
+      font-size: 35px;
+      font-family: "Bebas Neue";
     }
   }
 
@@ -425,4 +426,9 @@
     display: block;
     margin-top: 10px;
   }
+}
+
+.pointerEventsNone,
+.pointerEventsAuto {
+  display: none;
 }
