@@ -166,8 +166,7 @@
   },
   "flex-layout.row#result": {
     "children": [
-      "flex-layout.row#content-result",
-      "flex-layout.row#text-seo"
+      "flex-layout.row#content-result"
     ],
     "props": {
       "preventHorizontalStretch": true,
