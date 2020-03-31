@@ -1,10 +1,10 @@
 {
     "shelf#home": {
         "blocks": [
-            "product-summary.shelf"
+            "product-summary.shelf#home"
         ]
     },
-    "product-summary.shelf": {
+    "product-summary.shelf#home": {
         "children": [
             "product-summary-name",
             "product-summary-description",
@@ -115,13 +115,13 @@
     },
     "flex-layout.col#banners1-tabs": {
         "children": [
-            "tab-layout#banners-tabs"
+            "tab-layout#tabs-home"
         ],
         "props": {
             "blockClass": "banners1-tabs"
         }
     },
-    "tab-layout#banners-tabs": {
+    "tab-layout#tabs-home": {
         "children": [
             "tab-list#banners-tab-list",
             "tab-content#banners-tab-content"
@@ -132,152 +132,152 @@
     },
     "tab-list#banners-tab-list": {
         "children": [
-            "tab-list.item#detalles-producto",
-            "tab-list.item#comentarios"
+            "tab-list.item#hombre",
+            "tab-list.item#mujer"
         ]
     },
-    "tab-list.item#mens": {
+    "tab-list.item#hombre": {
         "props": {
             "tabId": "banners-tab1",
-            "label": "MEN'S",
+            "label": "HOMBRE",
             "defaultActiveTab": true
         }
     },
-    "tab-list.item#womens": {
+    "tab-list.item#mujer": {
         "props": {
             "tabId": "banners-tab2",
-            "label": "WOMEN'S"
+            "label": "MUJER"
         }
     },
     "tab-content#banners-tab-content": {
         "children": [
-            "tab-content.item#banners-mens",
-            "tab-content.item#banners-womens"
+            "tab-content.item#banners-hombre",
+            "tab-content.item#banners-mujer"
         ]
     },
-    "tab-content.item#banners-mens": {
+    "tab-content.item#banners-hombre": {
         "children": [
-            "flex-layout.row#banners1-mens"
+            "flex-layout.row#banners1-hombre"
         ],
         "props": {
             "tabId": "banners-tab1"
         }
     },
-    "tab-content.item#banners-womens": {
+    "tab-content.item#banners-mujer": {
         "children": [
-            "flex-layout.row#banners1-womens"
+            "flex-layout.row#banners1-mujer"
         ],
         "props": {
             "tabId": "banners-tab2"
         }
     },
-    "flex-layout.row#banners1-mens": {
+    "flex-layout.row#banners1-hombre": {
         "children": [
-            "info-card#banners1-mens1",
-            "info-card#banners1-mens2",
-            "info-card#banners1-mens3"
+            "info-card#banners1-hombre1",
+            "info-card#banners1-hombre2",
+            "info-card#banners1-hombre3"
         ],
         "props": {
             "blockClass": "banners1-infoc"
         }
     },
-    "info-card#banners1-mens1": {
-        "title": "banners1-mens1",
+    "info-card#banners1-hombre1": {
+        "title": "banners1-hombre1",
         "props": {
-            "id": "banners1-mens1",
+            "id": "banners1-hombre1",
             "isFullModeStyle": false,
-            "textPosition": "left",
+            "textPosition": "center",
             "imageUrl": "",
-            "headline": "Clearance Sale",
-            "subhead": "",
-            "callToActionText": "DISCOVER",
+            "headline": "",
+            "subhead": "Men's Exposure/2 Gore-Tex PACLITE Plus Jaket",
+            "callToActionText": "SHOP NOW",
             "callToActionUrl": "",
-            "blockClass": "banners1-mens1",
+            "blockClass": "banners1",
             "textAlignment": "center"
         }
     },
-    "info-card#banners1-mens2": {
-        "title": "banners1-mens2",
+    "info-card#banners1-hombre2": {
+        "title": "banners1-hombre2",
         "props": {
-            "id": "banners1-mens2",
+            "id": "banners1-hombre2",
             "isFullModeStyle": false,
-            "textPosition": "left",
+            "textPosition": "center",
             "imageUrl": "",
-            "headline": "Clearance Sale",
-            "subhead": "",
-            "callToActionText": "DISCOVER",
+            "headline": "",
+            "subhead": "Men's Exposure/2 Gore-Tex PACLITE Plus Jaket",
+            "callToActionText": "SHOP NOW",
             "callToActionUrl": "",
-            "blockClass": "banners1-mens2",
+            "blockClass": "banners1",
             "textAlignment": "center"
         }
     },
-    "info-card#banners1-mens3": {
-        "title": "banners1-mens3",
+    "info-card#banners1-hombre3": {
+        "title": "banners1-hombre3",
         "props": {
-            "id": "banners1-mens3",
+            "id": "banners1-hombre3",
             "isFullModeStyle": false,
-            "textPosition": "left",
+            "textPosition": "center",
             "imageUrl": "",
-            "headline": "Clearance Sale",
-            "subhead": "",
-            "callToActionText": "DISCOVER",
+            "headline": "",
+            "subhead": "Men's Exposure/2 Gore-Tex PACLITE Plus Jaket",
+            "callToActionText": "SHOP NOW",
             "callToActionUrl": "",
-            "blockClass": "banners1-mens3",
+            "blockClass": "banners1",
             "textAlignment": "center"
         }
     },
-    "flex-layout.row#banners1-womens": {
+    "flex-layout.row#banners1-mujer": {
         "children": [
-            "info-card#banners1-womens1",
-            "info-card#banners1-womens2",
-            "info-card#banners1-womens3"
+            "info-card#banners1-mujer1",
+            "info-card#banners1-mujer2",
+            "info-card#banners1-mujer3"
         ],
         "props": {
             "blockClass": "banners1-infoc"
         }
     },
-    "info-card#banners1-womens1": {
-        "title": "banners1-womens1",
+    "info-card#banners1-mujer1": {
+        "title": "banners1-mujer1",
         "props": {
-            "id": "banners1-womens1",
+            "id": "banners1-mujer1",
             "isFullModeStyle": false,
-            "textPosition": "left",
+            "textPosition": "center",
             "imageUrl": "",
-            "headline": "Clearance Sale",
-            "subhead": "",
-            "callToActionText": "DISCOVER",
+            "headline": "",
+            "subhead": "Women's Exposure/2 Gore-Tex PACLITE Plus Jaket",
+            "callToActionText": "SHOP NOW",
             "callToActionUrl": "",
-            "blockClass": "banners1-womens1",
+            "blockClass": "banners1",
             "textAlignment": "center"
         }
     },
-    "info-card#banners1-womens2": {
-        "title": "banners1-womens2",
+    "info-card#banners1-mujer2": {
+        "title": "banners1-mujer2",
         "props": {
-            "id": "banners1-womens2",
+            "id": "banners1-mujer2",
             "isFullModeStyle": false,
-            "textPosition": "left",
+            "textPosition": "center",
             "imageUrl": "",
-            "headline": "Clearance Sale",
-            "subhead": "",
-            "callToActionText": "DISCOVER",
+            "headline": "",
+            "subhead": "Women's Exposure/2 Gore-Tex PACLITE Plus Jaket",
+            "callToActionText": "SHOP NOW",
             "callToActionUrl": "",
-            "blockClass": "banners1-womens2",
+            "blockClass": "banners1",
             "textAlignment": "center"
         }
     },
-    "info-card#banners1-womens3": {
-        "title": "banners1-womens3",
+    "info-card#banners1-mujer3": {
+        "title": "banners1-mujer3",
         "props": {
-            "id": "banners1-womens3",
+            "id": "banners1-mujer3",
             "isFullModeStyle": false,
-            "textPosition": "left",
+            "textPosition": "center",
             "imageUrl": "",
-            "headline": "Clearance Sale",
-            "subhead": "",
-            "callToActionText": "DISCOVER",
+            "headline": "",
+            "subhead": "Women's Exposure/2 Gore-Tex PACLITE Plus Jaket",
+            "callToActionText": "SHOP NOW",
             "callToActionUrl": "",
-            "blockClass": "banners1-womens3",
+            "blockClass": "banners1",
             "textAlignment": "center"
         }
     },

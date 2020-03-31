@@ -88,3 +88,19 @@ $color: #acabb1;
     }
   }
 }
+
+.container--banners-tabs {
+  .listItem {
+    :global(.vtex-button) {
+      color: #1f2222;
+      font-weight: 700;
+    }
+  }
+  .listItemActive {
+    :global(.vtex-button) {
+      background: none;
+      border: none;
+      text-decoration: underline;
+    }
+  }
+}
