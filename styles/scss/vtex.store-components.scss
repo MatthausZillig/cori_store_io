@@ -134,7 +134,6 @@
       font-family: "Bebas Neue";
     }
   }
-  .infoCardContainer--banners1,
   .infoCardImageContainer--banners2 {
     width: 100%;
   }
@@ -161,6 +160,11 @@
       }
     }
   }
+}
+
+.infoCardImageContainer--banners1,
+.infoCardImage--banners1 {
+  width: 100%;
 }
 
 /* PRODUCT PAGE */
