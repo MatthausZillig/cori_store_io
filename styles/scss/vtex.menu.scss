@@ -39,18 +39,6 @@
               &::before {
                 background-position: 0 -485px;
               }
-
-              &::after {
-                content: ">";
-                display: inline-block;
-                transform: rotate(90deg);
-                font-size: 14px;
-                position: absolute;
-                right: -3px;
-                bottom: -2px;
-                line-height: 1;
-                color: $gray-3;
-              }
             }
           }
 
