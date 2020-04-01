@@ -134,33 +134,31 @@
       font-family: "Bebas Neue";
     }
   }
-  .infoCardContainer--banners1,
   .infoCardImageContainer--banners2 {
     width: 100%;
   }
   &:first-child {
     margin-right: 20px;
   }
+  .infoCardCallActionContainer--banners1,
   .infoCardCallActionContainer--banners2 {
     :global(.vtex-button) {
       color: #fff;
       background-color: #1f2222;
       border-radius: 22px;
       border: thin solid #1f2222;
-    }
-  }
-  &:hover {
-    .infoCardImageContainer--banners2 {
-      opacity: 20%;
-    }
-    .infoCardCallActionContainer--banners2 {
-      :global(.vtex-button) {
+      &:hover {
         color: #1f2222;
         font-weight: 500;
         background-color: #fff;
       }
     }
   }
+}
+
+.infoCardImageContainer--banners1,
+.infoCardImage--banners1 {
+  width: 100%;
 }
 
 /* PRODUCT PAGE */
