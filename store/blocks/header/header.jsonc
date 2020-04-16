@@ -13,6 +13,7 @@
   },
   "header-layout.desktop": {
     "children": [
+      "nosto",
       "image#franja-desktop",
       "my-account-script",
       "flex-layout.row#3-desktop",

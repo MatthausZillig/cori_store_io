@@ -13,6 +13,9 @@
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
+  "peerDependencies": {
+    "corebiz.nosto-integration": "1.x"
+  },
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
