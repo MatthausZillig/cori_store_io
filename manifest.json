@@ -1,6 +1,6 @@
 {
   "vendor": "mountainhardwearcl",
-  "name": "store-theme",
+  "name": "store-themes",
   "version": "0.5.4",
   "builders": {
     "styles": "2.x",

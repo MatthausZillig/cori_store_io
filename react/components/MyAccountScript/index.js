@@ -2,7 +2,6 @@ import React, {
   useState,
   useEffect
 } from 'react';
-import './MyAccountScript.global.css';
 
 const ScriptAccount = () => {
 
