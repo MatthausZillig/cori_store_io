@@ -245,6 +245,29 @@
   :global(.vtex-button) {
     border-radius: 22px;
     width: 70%;
+    @media (max-width: 768px) {
+      margin: 0 auto;
+    }
+    &:hover {
+      background-color: #ffffff;
+      border: solid thin #1f2222;
+      :global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
+        &::before {
+          content: "";
+          display: inline-block;
+          margin: auto 0;
+          color: #000;
+          @include shopping_cart(21px);
+          :global(.vtex-add-to-cart-button-0-x-buttonText) {
+            color: #1f2222;
+          }
+        }
+        :global(.vtex-add-to-cart-button-0-x-buttonText) {
+          color: #1f2222;
+          font-weight: 300;
+        }
+      }
+    }
   }
 }
 

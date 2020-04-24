@@ -3,6 +3,7 @@
 .tiendas_stock {
   position: relative;
   font-family: "proxima_novabold", SansSerif, sans-serif;
+  display: flex;
 }
 
 .tiendas_stock * {
@@ -24,6 +25,10 @@
   text-decoration: none;
   width: 70%;
   cursor: pointer;
+  @media (max-width: 768px) {
+    font-size: 14px;
+    margin: 0 auto;
+  }
 }
 
 .tiendas_stock button:hover {
@@ -34,9 +39,9 @@
 
 .tiendas_stock .modal_tiendas {
   position: fixed;
-  top: 15%;
+  top: 25%;
   left: 30%;
-  z-index: 900;
+  z-index: 1000;
   border: 1px solid $light-gray-3;
   background: #fff;
   padding: 20px;

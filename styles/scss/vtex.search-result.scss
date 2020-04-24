@@ -107,3 +107,34 @@
 .orderByOptionsContainer {
   z-index: 10;
 }
+
+.filter__container--c {
+  .categoryParent {
+    :first-child {
+      &:hover {
+        opacity: 100;
+        cursor: default;
+      }
+    }
+  }
+  .categoryItemChildrenContainer {
+    :first-child {
+      border: none;
+      .categoryItemChildren {
+        font-family: inherit;
+        font-size: 13px;
+        color: #1f2222;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.orderByText,
+.orderByOptionItem,
+.filterPopupTitle,
+.totalProducts,
+.totalProductsMessage {
+  font-family: inherit;
+  font-size: 13px;
+}

@@ -94,6 +94,10 @@ $color: #acabb1;
     :global(.vtex-button) {
       color: #1f2222;
       font-weight: 700;
+      &:hover {
+        color: #fff;
+        background-color: #1f2222;
+      }
     }
   }
   .listItemActive {

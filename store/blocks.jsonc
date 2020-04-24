@@ -42,7 +42,7 @@
       },
       "querySchema": {
         "maxItemsPerPage": 24,
-        "orderByField": "OrderByPriceDESC"
+        "orderByField": "OrderByReleaseDateDESC"
       },
       "hiddenFacets": {
         "layoutMode1": "normal",

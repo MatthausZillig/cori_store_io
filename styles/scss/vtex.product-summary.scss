@@ -1,6 +1,28 @@
+@import "./references";
+
 .container {
   :global(.vtex-button) {
     border-radius: 22px;
+    &:hover {
+      background-color: #ffffff;
+      border: solid thin #1f2222;
+      :global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
+        &::before {
+          content: "";
+          display: inline-block;
+          margin: auto 0;
+          color: #000;
+          @include shopping_cart(21px);
+          :global(.vtex-add-to-cart-button-0-x-buttonText) {
+            color: #1f2222;
+          }
+        }
+        :global(.vtex-add-to-cart-button-0-x-buttonText) {
+          color: #1f2222;
+          font-weight: 300;
+        }
+      }
+    }
   }
 }
 
@@ -12,6 +34,10 @@
   .productPriceClass {
     display: flex;
     flex-direction: row;
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
 
     .listPriceContainer {
       .listPriceLabel {

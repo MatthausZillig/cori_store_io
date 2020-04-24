@@ -44,5 +44,8 @@
     },
     "cucarda-descuento": {
         "component": "CucardaDescuento"
+    },
+    "helmet-component": {
+        "component": "HelmetComponent"
     }
 }
