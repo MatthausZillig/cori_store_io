@@ -17,7 +17,6 @@
   appearance: none;
   padding: 0;
   text-transform: uppercase;
-  margin: 0 auto;
   margin-bottom: 40px;
   color: #1f2222;
   border: solid thin #1f2222;
@@ -26,6 +25,10 @@
   text-decoration: none;
   width: 70%;
   cursor: pointer;
+  @media (max-width: 768px) {
+    font-size: 14px;
+    margin: 0 auto;
+  }
 }
 
 .tiendas_stock button:hover {

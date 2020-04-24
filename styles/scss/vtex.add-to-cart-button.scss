@@ -1,7 +1,6 @@
 @import "./iconos";
 
 .buttonDataContainer {
-
   &::before {
     content: "";
     display: inline-block;
@@ -15,5 +14,8 @@
     padding-top: 1px;
     margin-left: 5px;
     font-weight: 300;
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
   }
 }
