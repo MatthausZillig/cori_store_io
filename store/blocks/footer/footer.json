@@ -226,6 +226,8 @@
     "children": [
       "image#site-blindado",
       "image#logo-vtex",
+      "image#logocorebiz",
+      "rich-text#footer-forus",
       "rich-text#footer-copyright"
     ],
     "props": {
@@ -235,16 +237,46 @@
   },
   "image#site-blindado": {
     "props": {
-      "src": "/arquivos/site-blindado.png",
-      "blockClass": "site-blindado-img",
-      "link": "/"
+      "src": "/arquivos/siteblindado.png",
+      "blockClass": "logo-footer-blindado",
+      "maxWidth": "auto",
+      "maxHeight": "18px",
+      "link": {
+        "url": "/",
+        "openNewTab": "true"
+      }
     }
   },
   "image#logo-vtex": {
     "props": {
-      "src": "/arquivos/logo-vtex.png",
-      "blockClass": "logo-vtex-img",
-      "link": "/"
+      "src": "/arquivos/logovtex.png",
+      "blockClass": "logo-footer-vtex",
+      "maxWidth": "auto",
+      "maxHeight": "30px",
+      "link": {
+        "url": "/",
+        "openNewTab": "true"
+      }
+    }
+  },
+  "image#logocorebiz": {
+    "props": {
+      "src": "/arquivos/logo-corebiz.png",
+      "blockClass": "logo-footer-corebiz",
+      "maxWidth": "auto",
+      "maxHeight": "30px",
+      "link": {
+        "url": "http://www.corebiz.ag/",
+        "openNewTab": "true"
+      }
+    }
+  },
+  "rich-text#footer-forus": {
+    "props": {
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "text": "Forus S.A. 2020",
+      "blockClass": "footer-forus"
     }
   },
   "rich-text#footer-copyright": {
@@ -252,8 +284,6 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "text": "© 2020 Mountain Hardwear derechos de autor",
-      "textColor": "c-muted-5",
-      "font": "f2",
       "blockClass": "footer-copyright"
     }
   }
