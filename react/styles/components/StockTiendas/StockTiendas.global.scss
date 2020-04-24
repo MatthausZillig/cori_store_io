@@ -3,6 +3,7 @@
 .tiendas_stock {
   position: relative;
   font-family: "proxima_novabold", SansSerif, sans-serif;
+  display: flex;
 }
 
 .tiendas_stock * {
@@ -16,6 +17,7 @@
   appearance: none;
   padding: 0;
   text-transform: uppercase;
+  margin: 0 auto;
   margin-bottom: 40px;
   color: #1f2222;
   border: solid thin #1f2222;
