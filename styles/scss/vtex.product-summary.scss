@@ -12,6 +12,10 @@
   .productPriceClass {
     display: flex;
     flex-direction: row;
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
 
     .listPriceContainer {
       .listPriceLabel {
