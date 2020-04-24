@@ -408,7 +408,7 @@ class FreshDesk extends Component {
                             <div className="form-group">
                                 <label className="control-label" for="enquiry">Consulta: </label>
                                 <div className="controls">
-                                    <textarea name="enquiry" className="form-control" rows="4" id="enquiry" value={this.state.consulta} onChange={this.handleConsulta}></textarea>
+                                    <textarea name="enquiry" className="form-control" rows="4" id="enquiry" value={this.state.consulta} onChange={this.handleConsulta} required></textarea>
                                 </div>
                             </div>
                             <div className="form-group">
