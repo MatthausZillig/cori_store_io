@@ -157,6 +157,7 @@
   },
   "header-layout.mobile": {
     "children": [
+      "nosto",
       "helmet-component",
       "image#franja-mobile",
       "my-account-script",
