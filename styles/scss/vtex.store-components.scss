@@ -342,8 +342,12 @@
   width: 160px;
 
   @media (max-width: 768px) {
-    width: 80px;
+    width: auto;
   }
+}
+
+.sizeMobile {
+  padding: 0;
 }
 
 .imageElementLink--tiendas {
