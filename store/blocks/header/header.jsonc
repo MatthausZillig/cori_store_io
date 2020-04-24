@@ -14,6 +14,7 @@
   "header-layout.desktop": {
     "children": [
       "nosto",
+      "helmet-component",
       "image#franja-desktop",
       "my-account-script",
       "flex-layout.row#3-desktop",
@@ -156,6 +157,7 @@
   },
   "header-layout.mobile": {
     "children": [
+      "helmet-component",
       "image#franja-mobile",
       "my-account-script",
       "sticky-layout#1-mobile",
