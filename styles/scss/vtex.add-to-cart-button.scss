@@ -1,12 +1,14 @@
 @import "./iconos";
 
 .buttonDataContainer {
-  &::before {
-    content: "";
-    display: inline-block;
-    margin: auto 0;
-    color: white;
-    @include shopping_cart(21px, "b");
+  @media (min-width: 768px) {
+    &::before {
+      content: "";
+      display: inline-block;
+      margin: auto 0;
+      color: white;
+      @include shopping_cart(21px, "b");
+    }
   }
 
   .buttonText {

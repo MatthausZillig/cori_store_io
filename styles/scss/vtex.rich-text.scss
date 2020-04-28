@@ -197,3 +197,15 @@
     margin: 15px auto;
   }
 }
+
+:global(.vtex-toast) {
+  &::before {
+    content: "Producto agregado al carro";
+  }
+  :first-child {
+    display: none;
+  }
+  :last-child {
+    display: block;
+  }
+}
