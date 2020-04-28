@@ -138,3 +138,13 @@
   font-family: inherit;
   font-size: 13px;
 }
+
+.filterClearButtonWrapper--filterNavigator,
+.filterApplyButtonWrapper--filterNavigator {
+  :global(.vtex-button) {
+    background-color: #1f2222;
+    :global(.vtex-button__label) {
+      color: #fff;
+    }
+  }
+}
