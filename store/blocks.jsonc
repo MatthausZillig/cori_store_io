@@ -129,5 +129,46 @@
       "text": "**PAGE NOT FOUND**",
       "font": "t-heading-1"
     }
+  },
+  /********************************
+             Nosto blocks
+  *********************************/
+  /**** HOME ****/
+  "nosto-shelf#frontpage-nosto-1": {
+    "props": {
+      "classe": "frontpage-nosto-1"
+    }
+  },
+  "nosto-shelf#frontpage-nosto-2": {
+    "props": {
+      "classe": "frontpage-nosto-2"
+    }
+  },
+  /**** Product ****/
+  "nosto-shelf#productpage-nosto-1": {
+    "props": {
+      "classe": "productpage-nosto-1"
+    }
+  },
+  "nosto-shelf#productpage-nosto-2": {
+    "props": {
+      "classe": "productpage-nosto-2"
+    }
+  },
+  /**** Categories ****/
+  "nosto-shelf#notfound-nosto-1": {
+    "props": {
+      "classe": "notfound-nosto-1"
+    }
+  },
+  "nosto-shelf#categorypage-nosto-1": {
+    "props": {
+      "classe": "categorypage-nosto-1"
+    }
+  },
+  "nosto-shelf#categorypage-nosto-2": {
+    "props": {
+      "classe": "categorypage-nosto-2"
+    }
   }
 }

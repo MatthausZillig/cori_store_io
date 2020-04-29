@@ -7,7 +7,9 @@
       "flex-layout.row#product-tabs",
       "shelf.relatedProducts",
       "product-questions-and-answers",
-      "shelf.relatedProducts#View"
+      "shelf.relatedProducts#View",
+      "nosto-shelf#productpage-nosto-1",
+      "nosto-shelf#productpage-nosto-2"
     ]
   },
   "flex-layout.row#product-breadcrumb": {

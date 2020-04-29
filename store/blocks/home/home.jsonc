@@ -4,7 +4,9 @@
       "list-context.image-list#demo",
       "__fold__",
       "flex-layout.row#banners1",
+      "nosto-shelf#frontpage-nosto-1",
       "flex-layout.row#banners2",
+      "nosto-shelf#frontpage-nosto-2",
       "list-context.image-list#banners3",
       "rich-text#shelf-title",
       "flex-layout.row#shelf"

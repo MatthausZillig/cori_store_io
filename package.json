@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "concurrently \"sass --watch --no-source-map styles/scss:styles/css --style compressed\" \"sass --watch --no-source-map react/styles:react --style compressed\""
+    "sass": "concurrently \"sass --watch --no-source-map styles/scss:styles/css --style compressed\" \"sass --watch --no-source-map react/styles:react --style compressed\"",
+    "login": "vtex login mountainhardwearcl",
+    "release": "vtex release patch stable"
   },
   "keywords": [],
   "author": "",

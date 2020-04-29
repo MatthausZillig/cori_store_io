@@ -117,7 +117,8 @@
       "blockClass": "tiendas"
     }
   },
-  "search-bar": {
+  /* Descomentar para activar biggy */
+  /* "search-bar": {
     "blocks": [
       "autocomplete-result-list.v2"
     ],
@@ -130,7 +131,7 @@
     "blocks": [
       "product-summary"
     ]
-  },
+  }, */
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"

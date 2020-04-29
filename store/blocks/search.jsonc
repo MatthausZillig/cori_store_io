@@ -89,10 +89,11 @@
       "flex-layout.row#suggestion",
       "flex-layout.row#banner-one",
       "flex-layout.row#productCountDesktop",
-      "flex-layout.row#result"
+      "flex-layout.row#result",
+      "flex-layout.row#categorypage-nosto-2"
     ],
     "props": {
-      "pagination": "infinite-scroll",
+      "pagination": "view-more",
       "preventRouteChange": true,
       "mobileLayout": {
         "mode1": "small",
@@ -102,10 +103,11 @@
   },
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#category"
+      "flex-layout.row#category",
+      "flex-layout.row#categorypage-nosto-2"
     ],
     "props": {
-      "pagination": "infinite-scroll",
+      "pagination": "view-more",
       "blockClass": "searchResultLayoutDesktop",
       "preventRouteChange": true,
       "mobileLayout": {
@@ -127,11 +129,22 @@
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
+      "flex-layout.row#categorypage-nosto-1",
       "flex-layout.row#result"
     ],
     "props": {
       "blockClass": "category"
     }
+  },
+  "flex-layout.row#categorypage-nosto-1": {
+    "children": [
+      "nosto-shelf#categorypage-nosto-1"
+    ]
+  },
+  "flex-layout.row#categorypage-nosto-2": {
+    "children": [
+      "nosto-shelf#categorypage-nosto-2"
+    ]
   },
   "flex-layout.row#didyoumean": {
     "children": [
@@ -308,7 +321,7 @@
       "flex-layout.row#contentmobile"
     ],
     "props": {
-      "pagination": "infinite-scroll",
+      "pagination": "view-more",
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
@@ -324,7 +337,7 @@
       "flex-layout.row#contentmobile"
     ],
     "props": {
-      "pagination": "infinite-scroll",
+      "pagination": "view-more",
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
@@ -394,12 +407,21 @@
   "search-not-found-layout": {
     "children": [
       "flex-layout.row#searchbread",
-      "flex-layout.row#notfound"
+      "flex-layout.row#notfound",
+      "flex-layout.row#notfound-nosto"
     ]
   },
   "flex-layout.row#notfound": {
     "children": [
       "not-found"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#notfound-nosto": {
+    "children": [
+      "nosto-shelf#notfound-nosto-1"
     ],
     "props": {
       "fullWidth": true
