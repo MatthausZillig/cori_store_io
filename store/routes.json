@@ -52,5 +52,8 @@
   },
   "store.custom#retiroTienda": {
     "path": "/retiro-en-tienda"
+  },
+  "store.custom#informacion-importante": {
+    "path": "/informacion-importante"
   }
 }

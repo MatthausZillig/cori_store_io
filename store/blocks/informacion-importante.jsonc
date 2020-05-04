@@ -1,0 +1,40 @@
+{
+    "store.custom#informacion-importante": {
+        "blocks": [
+            "flex-layout.row#informacion-importante"
+        ],
+        "props": {
+            "blockClass": "information-container"
+        }
+    },
+    "flex-layout.row#informacion-importante": {
+        "children": [
+            "flex-layout.col#informacion-importante"
+        ],
+        "props": {
+            "blockClass": "information-row"
+        }
+    },
+    "flex-layout.col#informacion-importante": {
+        "children": [
+            "rich-text#informacion-importante-titlegrande",
+            "rich-text#informacion-importante-titleone"
+        ],
+        "props": {
+            "blockClass": "information-column"
+        }
+    },
+    "rich-text#informacion-importante-titlegrande": {
+        "props": {
+            "textPosition": "CENTER",
+            "text": "**Información Importante**",
+            "blockClass": "information-title"
+        }
+    },
+    "rich-text#informacion-importante-titleone": {
+        "props": {
+            "text": "Durante los próximos días nuestro Servicio de Atención al cliente y los plazos de nuestros despachos podrían verse afectados por la emergencia de salud. ¡Tu salud y la de nuestros colaboradores es lo más importante! \n Agradecemos tu comprensión.",
+            "blockClass": "information-paragraph"
+        }
+    }
+}

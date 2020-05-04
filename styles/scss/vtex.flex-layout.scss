@@ -365,3 +365,12 @@
     font-size: 22px !important;
   }
 }
+//INFORMACION IMPORTANTE
+.flexRow--information-row{
+  width: 80%;
+  margin: 1rem auto;
+
+  :global(.vtex-rich-text-0-x-strong--information-title){
+    font-size: 28px;
+  }
+}
