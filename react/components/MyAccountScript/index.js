@@ -1,7 +1,5 @@
-import React, {
-  useState,
-  useEffect
-} from 'react';
+import React, { useState, useEffect } from 'react';
+// import './MyAccountScript.global.css';
 
 const ScriptAccount = () => {
 
@@ -24,6 +22,14 @@ const ScriptAccount = () => {
     }
 
   }
+  const removeCancelBtn = () => {
+    [...document.querySelectorAll("a")].forEach(element => {
+      if (element.href.includes("cancel")) {
+        element.remove();
+      }
+    });
+  };
+
 
   const appendButton = () => {
     if (haveOrders) {
@@ -73,13 +79,13 @@ const ScriptAccount = () => {
   }
 
   const removeButton = () => {
-    if (!document.querySelectorAll(".vtex-btn_devolucion") || document.querySelectorAll(".vtex-btn_devolucion").length) {
+    if (!document.querySelectorAll(".btn_devolucion") || document.querySelectorAll(".btn_devolucion").length) {
       return
     }
-    document.querySelectorAll(".vtex-btn_devolucion").forEach(el => {
+    document.querySelectorAll(".btn_devolucion").forEach(el => {
       el.remove()
     })
-    setHaveOrders(false);
+    setHaveOrders(false)
   }
 
   useEffect(() => {
@@ -87,6 +93,10 @@ const ScriptAccount = () => {
     ordersElement && ordersElement.length ? appendButton() : waitForOrders()
 
     onhashchange = (hash) => {
+
+      removeCancelBtn();
+      console.log("removed");
+
       if (!hash.newURL.includes("orders")) {
         removeButton()
         return
@@ -95,7 +105,12 @@ const ScriptAccount = () => {
       waitForOrders()
     }
 
-  }, []);
+    setTimeout(() => {
+      removeCancelBtn();
+      console.log("removed-reload");
+    }, 1500);
+
+  }, [])
 
   return null
 }
