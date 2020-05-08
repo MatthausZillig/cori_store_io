@@ -148,3 +148,15 @@
     }
   }
 }
+
+.categoryParent--filterNavigator {
+  &:focus {
+    outline: none;
+  }
+}
+
+.filterAvailable--filterNavigator {
+  :first-child {
+    outline: none;
+  }
+}
