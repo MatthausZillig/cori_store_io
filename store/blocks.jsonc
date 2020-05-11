@@ -41,7 +41,7 @@
         "mode1": "small"
       },
       "querySchema": {
-        "maxItemsPerPage": 24,
+        "maxItemsPerPage": 18,
         "orderByField": "OrderByReleaseDateDESC"
       },
       "hiddenFacets": {
