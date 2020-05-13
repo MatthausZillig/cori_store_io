@@ -1,14 +1,12 @@
 @import "./iconos";
 
 .buttonDataContainer {
-  @media (min-width: 768px) {
-    &::before {
-      content: "";
-      display: inline-block;
-      margin: auto 0;
-      color: white;
-      @include shopping_cart(21px, "b");
-    }
+  &::before {
+    content: "";
+    display: inline-block;
+    margin: auto 0;
+    color: white;
+    @include shopping_cart(21px, "b");
   }
 
   .buttonText {
@@ -16,8 +14,10 @@
     padding-top: 1px;
     margin-left: 5px;
     font-weight: 300;
-    @media (max-width: 768px) {
-      font-size: 14px;
+    @media (max-width: 465px) {
+      font-size: 12px;
+      max-width: 70%;
+      flex-wrap: wrap;
     }
   }
 }

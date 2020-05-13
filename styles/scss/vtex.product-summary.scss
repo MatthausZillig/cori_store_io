@@ -3,6 +3,9 @@
 .container {
   :global(.vtex-button) {
     border-radius: 22px;
+    :global(.vtex-button__label) {
+      padding: 0;
+    }
     &:hover {
       background-color: #ffffff;
       border: solid thin #1f2222;
@@ -13,13 +16,15 @@
           margin: auto 0;
           color: #000;
           @include shopping_cart(21px);
-          :global(.vtex-add-to-cart-button-0-x-buttonText) {
-            color: #1f2222;
-          }
         }
         :global(.vtex-add-to-cart-button-0-x-buttonText) {
           color: #1f2222;
           font-weight: 300;
+          @media (max-width: 465px) {
+            font-size: 12px;
+            max-width: 70%;
+            flex-wrap: wrap;
+          }
         }
       }
     }

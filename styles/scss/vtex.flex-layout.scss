@@ -245,6 +245,9 @@
   :global(.vtex-button) {
     border-radius: 22px;
     width: 70%;
+    :global(.vtex-button__label) {
+      padding: 0;
+    }
     @media (max-width: 768px) {
       margin: 0 auto;
     }
@@ -258,13 +261,15 @@
           margin: auto 0;
           color: #000;
           @include shopping_cart(21px);
-          :global(.vtex-add-to-cart-button-0-x-buttonText) {
-            color: #1f2222;
-          }
         }
         :global(.vtex-add-to-cart-button-0-x-buttonText) {
           color: #1f2222;
           font-weight: 300;
+          @media (max-width: 465px) {
+            font-size: 12px;
+            max-width: 70%;
+            flex-wrap: wrap;
+          }
         }
       }
     }
@@ -366,11 +371,11 @@
   }
 }
 //INFORMACION IMPORTANTE
-.flexRow--information-row{
+.flexRow--information-row {
   width: 80%;
   margin: 1rem auto;
 
-  :global(.vtex-rich-text-0-x-strong--information-title){
+  :global(.vtex-rich-text-0-x-strong--information-title) {
     font-size: 28px;
   }
 }
