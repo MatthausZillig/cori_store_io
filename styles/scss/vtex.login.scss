@@ -12,11 +12,20 @@
     .label {
       font-size: 0;
       display: block;
-
+      @media (min-width: 768px) {
+        &::before {
+          content: "";
+          display: block;
+          @include user(21px);
+        }
+      }
+    }
+    @media (max-width: 768px) {
       &::before {
         content: "";
         display: block;
         @include user(21px);
+        margin-left: 5px;
       }
     }
   }
