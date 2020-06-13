@@ -339,9 +339,9 @@ class FreshDesk extends Component {
                 <div className="col-md-12">
                     <div className="page-header"><h1>Contacto</h1></div>
                     <fieldset>
-                        <dl>
-                            <dt>Teléfono:</dt>
-                            <dd>+56 2 2573 9472</dd>
+                        <dl className="contactarnos">
+                            <dt><b>¿Necesitas contactarnos?</b></dt>
+                            <dd>Sabemos que contactarnos en estos días ha sido un poco complicado, debido al alto flujo de llamados que estamos recibiendo producto de la contingencia. Es por esto, es que como medida temporal, hemos activado el formulario de contacto como canal único para comunicarnos y poder atenderte lo antes posible.</dd>
                         </dl>
                     </fieldset>
                     <fieldset>

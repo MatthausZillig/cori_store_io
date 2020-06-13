@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap");
-@import '../../references';
+@import "../../references";
 
 :global(.render-container.render-route-store-custom-contacto) .freshDesk.container {
   box-sizing: border-box;
@@ -140,34 +140,30 @@ fieldset legend {
 .container {
   width: 100%;
   box-sizing: border-box;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
-@media(min-width: 576px) {
-
+@media (min-width: 576px) {
   .container {
-    width: 540px
+    width: 540px;
   }
 }
 
-@media(min-width: 768px) {
-
+@media (min-width: 768px) {
   .container {
-    width: 720px
+    width: 720px;
   }
 }
 
-@media(min-width: 992px) {
-
+@media (min-width: 992px) {
   .container {
-    width: 960px
+    width: 960px;
   }
 }
 
-@media(min-width: 1200px) {
-
+@media (min-width: 1200px) {
   .container {
-    width: 1140px
+    width: 1140px;
   }
 }
 
@@ -234,4 +230,8 @@ fieldset legend {
   padding: 0;
   line-height: 1;
   font-weight: 300;
+}
+
+.contactarnos {
+  margin-bottom: 15px;
 }
