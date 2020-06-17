@@ -15,9 +15,14 @@
     margin-left: 5px;
     font-weight: 300;
     @media (max-width: 465px) {
+      margin-left: 0;
       font-size: 12px;
       max-width: 70%;
       flex-wrap: wrap;
     }
+  }
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
   }
 }
