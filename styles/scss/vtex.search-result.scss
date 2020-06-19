@@ -160,3 +160,23 @@
     outline: none;
   }
 }
+
+.progressBar,
+.progressBarFiller {
+  height: 5px;
+}
+
+.buttonShowMore {
+  :global(.vtex-button) {
+    outline: none;
+    padding: 0.5em 3em;
+    @media (max-width: 768px) {
+      width: 60%;
+    }
+  }
+}
+
+.showingProducts {
+  color: #3f3f40;
+  font-weight: 700;
+}

@@ -98,7 +98,7 @@
       "flex-layout.row#categorypage-nosto-2"
     ],
     "props": {
-      "pagination": "view-more",
+      "pagination": "show-more",
       "preventRouteChange": true,
       "mobileLayout": {
         "mode1": "small",
@@ -112,7 +112,7 @@
       "flex-layout.row#categorypage-nosto-2"
     ],
     "props": {
-      "pagination": "view-more",
+      "pagination": "show-more",
       "blockClass": "searchResultLayoutDesktop",
       "preventRouteChange": true,
       "mobileLayout": {
@@ -263,10 +263,17 @@
     ]
   },
   "flex-layout.row#fetchmore": {
-    "props": {
-      "marginTop": 3
-    },
     "children": [
+      "flex-layout.col#show-more"
+    ],
+    "props": {
+      "blockClass": "fetchmore"
+    }
+  },
+  "flex-layout.col#show-more": {
+    "children": [
+      "search-products-count-per-page",
+      "search-products-progress-bar",
       "search-fetch-more"
     ]
   },
@@ -323,10 +330,12 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
-      "flex-layout.row#contentmobile"
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#fetchmore"
     ],
     "props": {
-      "pagination": "view-more",
+      "pagination": "show-more",
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
@@ -339,10 +348,12 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
-      "flex-layout.row#contentmobile"
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#fetchmore"
     ],
     "props": {
-      "pagination": "view-more",
+      "pagination": "show-more",
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
