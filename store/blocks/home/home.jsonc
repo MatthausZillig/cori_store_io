@@ -8,8 +8,8 @@
       "flex-layout.row#banners2",
       "nosto-shelf#frontpage-nosto-2",
       "list-context.image-list#banners3",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf"
+      "rich-text#shelf-title"
+      // "flex-layout.row#shelf"
     ]
   },
   "responsive-layout.desktop": {
