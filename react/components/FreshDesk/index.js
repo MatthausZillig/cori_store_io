@@ -132,6 +132,8 @@ class FreshDesk extends Component {
 
     enviaForm = async account => {
         event.preventDefault()
+        const submitButton = document.getElementById('continue');
+        submitButton.disabled = true;
 
         let imagePost = []
         let { nombre,
@@ -208,8 +210,10 @@ class FreshDesk extends Component {
 
         axios(settings).then(response => {
             this.enviado(response.status, response.statusText)
+            submitButton.disabled = false;
         }).catch(() => {
             this.enviado(400, "")
+            submitButton.disabled = false;
         })
     }
 

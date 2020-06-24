@@ -1,0 +1,58 @@
+{
+    "store.custom#contacto": {
+        "blocks": [
+            "flex-layout.row#contacto-banner",
+            "flex-layout.row#contacto-text",
+            "freshdesk"
+        ]
+    },
+    "flex-layout.row#contacto-banner": {
+        "children": [
+            "info-card#contacto-banner"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "contacto-banner"
+        }
+    },
+    "info-card#contacto-banner": {
+        "props": {
+            "callToActionMode": "none"
+        }
+    },
+    "flex-layout.row#contacto-text": {
+        "children": [
+            "rich-text#contacto-text"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "contacto-text"
+        }
+    },
+    "rich-text#contacto-text": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "",
+            "blockClass": "contacto-text"
+          }
+    },
+    "flex-layout.row#contacto-phone": {
+        "children": [
+            "rich-text#contacto-phone"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "contacto-phone"
+        }
+    },
+    "rich-text#contacto-phone": {
+        "props": {
+            "textAlignment": "RIGHT",
+            "textPosition": "RIGHT",
+            "text": "<span class='vtex-contact-label'>Teléfono: </span>\n <span class='vtex-contact-phone'>+56 2 2573 9472</span>",
+            "font": "t-heading-5",
+            "blockClass": "contacto-phone"
+          }
+    }
+}
