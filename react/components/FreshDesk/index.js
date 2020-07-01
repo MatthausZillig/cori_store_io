@@ -190,7 +190,7 @@ class FreshDesk extends Component {
             priority: 1,
             status: 2,
             custom_fields: {
-                nmero_de_orden: parseInt(orden),
+                cf_orden: orden,
             }
         }
 
