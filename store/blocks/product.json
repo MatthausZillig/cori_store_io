@@ -102,7 +102,6 @@
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
-      "initialSelection": "empty",
       "showValueNameForImageVariation": true
     }
   },
