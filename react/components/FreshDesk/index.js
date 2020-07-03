@@ -155,7 +155,7 @@ class FreshDesk extends Component {
         }
 
         if (!orden || !orden.length) {
-            orden = 0
+            orden = ""
         }
 
         const getGroupId = account => {
