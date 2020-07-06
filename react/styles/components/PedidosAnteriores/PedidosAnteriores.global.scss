@@ -93,24 +93,15 @@
       margin-bottom: 0;
     }
   }
-}
+  @media (max-width: 768px) {
+    div {
+      display: flex;
+      flex-direction: column;
 
-@media (max-width: 768px) {
-  div {
-    display: flex;
-    flex-direction: column;
-
-    a,
-    h3 {
-      margin-bottom: 10px !important;
-    }
-  }
-}
-
-:global(.vtex-my-orders-app-3-x-orderDetails) {
-  div {
-    .no-underline {
-      display: none;
+      a,
+      h3 {
+        margin-bottom: 10px !important;
+      }
     }
   }
 }

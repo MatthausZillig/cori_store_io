@@ -7,3 +7,10 @@
 :global(.vtex-my-orders-app-3-x-cancelBtn){
   display: none;
 }
+
+:global(.vtex-order-placed-2-x-orderOptionsWrapper),
+:global(.vtex-account__order-details) {
+  a[href*="/cancel"] {
+    display: none;
+  }
+}
