@@ -13,8 +13,7 @@
   },
   "header-layout.desktop": {
     "children": [
-      //"nostoV2",
-      "nosto",
+      "nostoV2",
       "helmet-component",
       "image#franja-desktop",
       "my-account-script",
@@ -159,8 +158,7 @@
   },
   "header-layout.mobile": {
     "children": [
-      //"nostoV2",
-      "nosto",
+      "nostoV2",
       "helmet-component",
       "image#franja-mobile",
       "my-account-script",
