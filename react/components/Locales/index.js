@@ -143,5 +143,5 @@ const Locales = ({ google }) => {
 }
 
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyA0EawXKSOj5HvGOiVqPnOU6KiqutlbFw8'
+    apiKey: 'AIzaSyBMqBY2MgO0zgkQoIrBNE-WQCpY190k-mc'
 })(Locales)
