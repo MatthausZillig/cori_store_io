@@ -118,20 +118,22 @@
     }
   },
   /* Descomentar para activar biggy */
-  /* "search-bar": {
+  "search-bar": {
     "blocks": [
       "autocomplete-result-list.v2"
     ],
     "props": {
-      "customSearchPageUrl": "/search?_query=${term}",
-      "openAutocompleteOnFocus": true
+      /* "customSearchPageUrl": "/search?_query=${term}", */
+      "openAutocompleteOnFocus": true,
+      "hasIconLeft": true,
+      "placeholder": "¿Qué buscas?"
     }
   },
   "autocomplete-result-list.v2": {
     "blocks": [
       "product-summary"
     ]
-  }, */
+  },
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"

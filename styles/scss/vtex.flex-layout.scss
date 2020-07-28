@@ -460,3 +460,12 @@
     width: 100%;
   }
 }
+
+@media all and (max-width: 768px) {
+    .flexRowContent--3-mobile {
+        :first-child {
+            flex: 1;
+            margin: 0;
+        }
+    }
+}

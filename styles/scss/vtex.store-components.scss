@@ -30,6 +30,8 @@
   }
   @media (max-width: 768px) {
     margin-bottom: 10px;
+    max-width: 90%;
+    margin: 0 auto!important
   }
   :global(.vtex-styleguide-9-x-input) {
     max-width: 308px;
@@ -449,4 +451,11 @@
   .sizeDesktop {
     padding: 0;
   }
+}
+
+.autoCompleteOuterContainer {
+    border: 2px solid #a7a7a7!important;
+    @media all and (max-width: 1025px) {
+        margin-bottom: 20px!important;
+    }
 }

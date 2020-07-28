@@ -1,0 +1,19 @@
+:global(.vtex-input__suffix) {
+    display: none;
+}
+:global(.vtex-input__prefix) {
+    color: #000;
+    padding-top: 3px;
+    @media all and (max-width: 768px) {
+        max-width: 50px;
+    }
+}
+
+@media all and (max-width: 1025px) {
+    .biggy-autocomplete-wrapper {
+        width: 88vw;
+    }
+    .biggy-autocomplete {
+        padding: 0;
+    }
+}
