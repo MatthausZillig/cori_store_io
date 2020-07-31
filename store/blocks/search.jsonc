@@ -7,7 +7,8 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "maxItemsPerPage": 18,
-        "skusFilter": "FIRST_AVAILABLE"
+        "skusFilter": "FIRST_AVAILABLE",
+        "__unstableProductOriginVtex": true
       }
     }
   },
@@ -20,11 +21,12 @@
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 18,
-        "skusFilter": "FIRST_AVAILABLE"
+        "skusFilter": "FIRST_AVAILABLE",
+        "__unstableProductOriginVtex": true
       }
     }
   },
-  "store.search.v2": {
+  /* "store.search.v2": {
     "blocks": [
       "search-result-layout"
     ],
@@ -35,7 +37,7 @@
         "orderByField": "OrderByReleaseDateDESC"
       }
     }
-  },
+  }, */
   "store.search#department": {
     "blocks": [
       "search-result-layout"
@@ -44,7 +46,8 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "maxItemsPerPage": 18,
-        "skusFilter": "FIRST_AVAILABLE"
+        "skusFilter": "FIRST_AVAILABLE",
+        "__unstableProductOriginVtex": true
       }
     }
   },
@@ -56,7 +59,8 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "maxItemsPerPage": 18,
-        "skusFilter": "FIRST_AVAILABLE"
+        "skusFilter": "FIRST_AVAILABLE",
+        "__unstableProductOriginVtex": true
       }
     }
   },
@@ -68,17 +72,18 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "maxItemsPerPage": 18,
-        "skusFilter": "FIRST_AVAILABLE"
+        "skusFilter": "FIRST_AVAILABLE",
+        "__unstableProductOriginVtex": true
       }
     }
   },
-  "search-result-layout#search": {
+  /* "search-result-layout#search": {
     "blocks": [
       "search-result-layout.desktop.enhanced",
       "search-result-layout.mobile.enhanced",
       "search-not-found-layout"
     ]
-  },
+  }, */
   "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop",
@@ -86,27 +91,29 @@
       "search-not-found-layout"
     ]
   },
-  "search-result-layout.desktop.enhanced": {
+  "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#didyoumean",
-      "flex-layout.row#suggestion",
+      /* "flex-layout.row#suggestion", */
       "flex-layout.row#banner-one",
-      "flex-layout.row#productCountDesktop",
-      "flex-layout.row#result",
+      /* "flex-layout.row#productCountDesktop", */
+      /* "flex-layout.row#result", */
+      "flex-layout.row#category",
       "flex-layout.row#categorypage-nosto-2"
     ],
     "props": {
       "pagination": "show-more",
       "preventRouteChange": true,
+      "blockClass": "searchResultLayoutDesktop",
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
       }
     }
   },
-  "search-result-layout.desktop": {
+  /* "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#category",
       "flex-layout.row#categorypage-nosto-2"
@@ -120,7 +127,7 @@
         "mode2": "normal"
       }
     }
-  },
+  }, */
   "flex-layout.row#category": {
     "children": [
       "flex-layout.col#filter",
@@ -132,8 +139,8 @@
   },
   "flex-layout.col#category": {
     "children": [
-      "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
+      /* "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle", */
       "flex-layout.row#categorypage-nosto-1",
       "flex-layout.row#result"
     ],
@@ -321,11 +328,11 @@
       "not-found"
     ]
   },
-  "search-result-layout.mobile.enhanced": {
+  "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchtitle",
       "flex-layout.row#didyoumean",
-      "flex-layout.row#suggestion",
+      /* "flex-layout.row#suggestion", */
       "flex-layout.row#banner-one",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
@@ -342,7 +349,7 @@
       }
     }
   },
-  "search-result-layout.mobile": {
+  /* "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchtitle",
       "flex-layout.row#searchinfomobile",
@@ -359,7 +366,7 @@
         "mode2": "normal"
       }
     }
-  },
+  }, */
   "flex-layout.row#contentmobile": {
     "children": [
       "search-content"
