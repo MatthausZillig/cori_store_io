@@ -132,7 +132,10 @@
   "autocomplete-result-list.v2": {
     "blocks": [
       "product-summary"
-    ]
+    ],
+    "props": {
+        "__unstableProductOriginVtex": true
+    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {

@@ -1,3 +1,16 @@
+.biggy-autocomplete {
+    .tileList {
+        :global(.vtex-button) {
+            width: 80%;
+            &:hover {
+                :global(.vtex-button__label) {
+                    color: #1f2222;
+                }
+            }
+        }
+    }
+}
+
 :global(.vtex-input__suffix) {
     display: none;
 }
@@ -9,11 +22,30 @@
     }
 }
 
-@media all and (max-width: 1025px) {
+@media all and (max-width: 768px) {
     .biggy-autocomplete-wrapper {
         width: 88vw;
     }
     .biggy-autocomplete {
         padding: 0;
+    }
+    .element {
+        .imageContainer,
+        .information {
+            flex: unset;
+        }
+    }
+}
+
+/* Autocomplete del menu mobile */
+
+:global(.vtex-store-drawer-0-x-childrenContainer) {
+    .biggy-autocomplete-wrapper {
+        @media all and (max-width: 1025px) {
+            width: 330px;
+        }
+        @media all and (max-width: 450px) {
+            width: calc(90vw - 60px);
+        }
     }
 }

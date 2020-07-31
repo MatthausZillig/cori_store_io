@@ -46,9 +46,9 @@
   color: #1f2222;
   font-size: 13px;
 
-  :global(.vtex-checkbox__container) {
+  /* :global(.vtex-checkbox__container) {
     display: none;
-  }
+  } */
 }
 :global(.vtex-checkbox__line-container) {
   :last-child {
@@ -81,15 +81,17 @@
     margin-bottom: 5px;
     display: flex;
     position: relative;
-
-    &::after {
-      content: "x";
-      margin-left: auto;
-      color: #fff;
-      position: absolute;
-      right: 10px;
-      z-index: 1;
+    :global(.vtex-checkbox__box) {
+        &::after {
+            content: "x";
+            margin-left: auto;
+            color: #fff;
+            position: absolute;
+            left: 5px;
+            z-index: 0;
+        }
     }
+    
 
     :global(.vtex-checkbox__line-container) {
       width: 100%;
