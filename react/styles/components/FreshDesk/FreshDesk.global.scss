@@ -178,14 +178,23 @@ fieldset legend {
 }
 
 .modal .content {
-  width: 40%;
-  height: 10%;
-  top: 50%;
-  left: 50%;
-  margin-top: -5%;
-  margin-left: -20%;
-  z-index: 900;
-  position: fixed;
+    width: 40%;
+    /* height: 10%; */
+    top: 50%;
+    left: 50%;
+    /* margin-top: -5%;
+    margin-left: -20%; */
+    z-index: 900;
+    position: fixed;
+    height: auto;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    @media all and (max-width: 768px) {
+        width: 85%;
+    }
+    @media all and (max-width: 575px) {
+        width: 95%;
+    }
 }
 
 .modal .content .body_modal {
@@ -202,10 +211,18 @@ fieldset legend {
 
   ul {
     margin-top: 20px;
+    @media all and (max-width: 575px) {
+        padding: 0;
+    }
 
     li {
       display: flex;
       font-weight: 300;
+      @media all and (max-width: 575px) {
+            display: block;
+            line-height: 1em;
+            margin: 5px 0;
+        }
 
       * {
         margin: auto 0;
@@ -230,6 +247,9 @@ fieldset legend {
   padding: 0;
   line-height: 1;
   font-weight: 300;
+  @media all and (max-width: 575px) {
+        font-size: 22px;
+    }
 }
 
 .contactarnos {
