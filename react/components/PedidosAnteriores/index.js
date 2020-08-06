@@ -1,14 +1,22 @@
 import React, { useEffect, useState } from 'react'
-import { useOrderForm } from 'vtex.store-resources/OrderFormContext'
+// import { useOrderForm } from 'vtex.store-resources/OrderFormContext'
+import { useOrderForm } from 'vtex.order-manager/OrderForm'
 import axios from 'axios'
 import "./PedidosAnteriores.global.css"
 
 const ComponentPedidos = () => {
-    const { orderForm } = useOrderForm()
+    const useOf = useOrderForm()
+    const [tries, setTries] = useState(1)
     const [pedidos, setPedidos] = useState([])
     const [activePage, setActivePage] = useState(window.location.hash)
+    const orderForm = useOf ? useOf.orderForm : null
 
     const getPedidos = orderForm => {
+        console.log("ORDER FORM => " + tries, orderForm)
+        if (!orderForm || !orderForm.clientProfileData) {
+            return setTries(tries + 1)
+        }
+
         const mail = orderForm.clientProfileData.email || ""
 
         return axios.get("/api/dataentities/PA/search?_fields=email,order_id,cantidad_de_producto,date_added,shipping_method,total&_where=email=" + mail).then(({ data }) => {
@@ -32,8 +40,10 @@ const ComponentPedidos = () => {
 
     useEffect(() => {
         window.onhashchange = () => changePage()
-        getPedidos(orderForm)
-    }, [])
+        setTimeout(() => {
+            getPedidos(orderForm)
+        }, 2000);
+    }, [tries])
 
     if (!activePage.includes("pedidos-ante")) {
         return null
@@ -46,7 +56,6 @@ const ComponentPedidos = () => {
                 <div className="headerPedidos">
                     <h3 className="title">Pedidos Anteriores</h3>
                     <div>
-                        <a href="https://devoluciones.forus.cl/" target="_blank">Devolución/cambio</a>
                         <a href="https://www.siguetucompra.cl/" target="_blank">Sigue tu compra</a>
                     </div>
                 </div>
