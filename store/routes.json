@@ -55,5 +55,8 @@
   },
   "vtex.store@2.x:store.custom#informacion-importante": {
     "path": "/informacion-importante"
+  },
+  "vtex.store@2.x:store.custom#banners-cyber": {
+    "path": "/banners-cyber"
   }
 }

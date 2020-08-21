@@ -1,0 +1,50 @@
+{
+    "vtex.store@2.x:store.custom#banners-cyber": {
+        "blocks": [
+            "flex-layout.row#banners-cyber-componente1"
+        ]
+    },
+    "flex-layout.row#banners-cyber-componente1": {
+        "children": [
+            "flex-layout.col#banners-cyber-componente1"
+        ],
+        "props": {
+            "blockClass": [
+                "banners-cyber"
+            ]
+        }
+    },
+    "flex-layout.col#banners-cyber-componente1": {
+        "children": [
+            "info-card#banners-cyber-img1",
+            "info-card#banners-cyber-img2"
+        ],
+        "props": {
+            "blockClass": [
+                "banners-cyber"
+            ]
+        }
+    },
+    "info-card#banners-cyber-img1": {
+        "title": "image-1",
+        "props": {
+            "imageUrl": "https://mountainhardwearcl.vtexassets.com/assets/vtex.file-manager-graphql/images/ec6ac7b3-5a48-4961-9b17-9c60732a224c___7331fed6d77ba2dee96ecf35980a1309.jpg",
+            "mobileImageUrl": "https://mountainhardwearcl.vtexassets.com/assets/vtex.file-manager-graphql/images/24ac67fc-0481-4196-a2f9-d7a594d17787___47690bb91b4fbddb25cf681fd675eabf.jpg",
+            "callToActionMode": "none",
+            "blockClass": [
+                "image-full"
+            ]
+        }
+    },
+    "info-card#banners-cyber-img2": {
+        "title": "image-2",
+        "props": {
+            "imageUrl": "https://mountainhardwearcl.vtexassets.com/assets/vtex.file-manager-graphql/images/ec6ac7b3-5a48-4961-9b17-9c60732a224c___7331fed6d77ba2dee96ecf35980a1309.jpg",
+            "mobileImageUrl": "https://mountainhardwearcl.vtexassets.com/assets/vtex.file-manager-graphql/images/24ac67fc-0481-4196-a2f9-d7a594d17787___47690bb91b4fbddb25cf681fd675eabf.jpg",
+            "callToActionMode": "none",
+            "blockClass": [
+                "image-full"
+            ]
+        }
+    }
+}

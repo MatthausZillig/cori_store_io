@@ -31,7 +31,7 @@
   @media (max-width: 768px) {
     margin-bottom: 10px;
     max-width: 90%;
-    margin: 0 auto!important
+    margin: 0 auto !important;
   }
   :global(.vtex-styleguide-9-x-input) {
     max-width: 308px;
@@ -454,8 +454,22 @@
 }
 
 .autoCompleteOuterContainer {
-    border: 2px solid #a7a7a7!important;
-    @media all and (max-width: 1025px) {
-        margin-bottom: 20px!important;
+  border: 2px solid #a7a7a7 !important;
+  @media all and (max-width: 1025px) {
+    margin-bottom: 20px !important;
+  }
+}
+
+.infoCardContainer--image-full {
+  padding: 0;
+  .infoCardImageContainer {
+    font-size: 0;
+    width: 100%;
+    .infoCardImage {
+      width: 100%;
     }
+  }
+  .infoCardTextContainer {
+    display: none;
+  }
 }
