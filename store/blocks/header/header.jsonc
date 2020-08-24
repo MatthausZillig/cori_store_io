@@ -13,6 +13,7 @@
   },
   "header-layout.desktop": {
     "children": [
+      "info-card#cortina-cyber-desktop",
       "nostoV2",
       "helmet-component",
       "image#franja-desktop",
@@ -117,13 +118,11 @@
       "blockClass": "tiendas"
     }
   },
-  /* Descomentar para activar biggy */
   "search-bar": {
     "blocks": [
       "autocomplete-result-list.v2"
     ],
     "props": {
-      /* "customSearchPageUrl": "/search?_query=${term}", */
       "openAutocompleteOnFocus": true,
       "hasIconLeft": true,
       "placeholder": "¿Qué buscas?"
@@ -134,7 +133,7 @@
       "product-summary"
     ],
     "props": {
-        "__unstableProductOriginVtex": true
+      "__unstableProductOriginVtex": true
     }
   },
   "flex-layout.col#logo-desktop": {
@@ -163,6 +162,7 @@
   },
   "header-layout.mobile": {
     "children": [
+      "info-card#cortina-cyber-mobile",
       "nostoV2",
       "helmet-component",
       "image#franja-mobile",
@@ -251,6 +251,30 @@
       "title": "Logo",
       "href": "/",
       "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png"
+    }
+  },
+  "info-card#cortina-cyber-desktop": {
+    "title": "cortina-cyber-desktop",
+    "props": {
+      "imageUrl": "",
+      "mobileImageUrl": "",
+      "callToActionMode": "none",
+      "blockClass": [
+        "cortina-cyber",
+        "image-full"
+      ]
+    }
+  },
+  "info-card#cortina-cyber-mobile": {
+    "title": "cortina-cyber-mobile",
+    "props": {
+      "imageUrl": "",
+      "mobileImageUrl": "",
+      "callToActionMode": "none",
+      "blockClass": [
+        "cortina-cyber",
+        "image-full"
+      ]
     }
   }
 }
