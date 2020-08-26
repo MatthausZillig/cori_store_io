@@ -97,7 +97,8 @@
     "children": [
       "menu-item#terminos-condiciones",
       "menu-item#politicas-despacho",
-      "menu-item#politicas-cambios"
+      "menu-item#politicas-cambios",
+      "menu-item#footer-link-personalizado"
     ]
   },
   "menu-item#terminos-condiciones": {
@@ -144,6 +145,23 @@
         "noFollow": true,
         "tagTitle": "politicas-cambios",
         "text": "Políticas de Cambios y Devoluciones"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer-link-personalizado": {
+    "title": "Link Personalizado",
+    "props": {
+      "id": "menu-item-footer-link-personalizado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": ""
       },
       "blockClass": "footer-menu-item"
     }
