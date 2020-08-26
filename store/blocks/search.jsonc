@@ -87,7 +87,7 @@
   "image#search-banner": {
     "title": "Banner Top - Desktop",
     "props": {
-      "src": "https://billabongcl.vtexassets.com/assets/vtex.file-manager-graphql/images/catint_Hboard___e9ccf1721afab0bcfac413b80d4ece40.jpg",
+      "src": "",
       "minHeight": "auto",
       "blockClass": "category-banner"
     }
@@ -95,7 +95,7 @@
   "image#search-banner-mobile": {
     "title": "Banner Top - Movil",
     "props": {
-      "src": "https://billabongcl.vtexassets.com/arquivos/women-category-banner.jpg",
+      "src": "",
       "minHeight": "auto",
       "blockClass": "category-banner-mobile"
     }
