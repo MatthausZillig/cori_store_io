@@ -473,3 +473,22 @@
     display: none;
   }
 }
+
+/* BANNER CATEGORIA MOBILE */
+:global(.vtex-flex-layout-0-x-flexRowContent--product-banner-image) {
+  flex-wrap: wrap;
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+}
+.imageElement--category-banner {
+  @media all and (max-width: 1050px) {
+    display: none;
+  }
+}
+.imageElement--category-banner-mobile {
+  display: none;
+  @media all and (max-width: 1050px) {
+    display: block;
+  }
+}
