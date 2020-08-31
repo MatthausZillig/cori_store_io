@@ -97,7 +97,10 @@
       "product-summary-image",
       "product-bookmark",
       "product-summary-specification-badges"
-    ]
+    ],
+    "props": {
+      "blockClass": "product-badge"
+    }
   },
   "product-summary-image": {
     "props": {
@@ -106,10 +109,14 @@
   },
   "product-summary-specification-badges": {
     "props": {
-      "specificationGroupName": "Group",
-      "specificationName": "On Sale",
-      "visibleWhen": "True",
-      "displayValue": "SPECIFICATION_NAME"
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "Cyber",
+          "displayValue": "C",
+          "visibleWhen": "Cyber-forus"
+        }
+      ]
     }
   },
   "store.product-review-form": {
