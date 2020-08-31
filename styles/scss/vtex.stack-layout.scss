@@ -3,3 +3,44 @@
 .stackItem--product {
   width: 100%;
 }
+
+.stackItem--product {
+  width: 100%;
+  :global(.vtex-product-specification-badges-0-x-groupContainer) {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+    :global(.vtex-product-specification-badges-0-x-badgeContainer--cyber) {
+      width: 60px;
+      height: 60px;
+      background-image: url("/arquivos/cucarda-cyber.png");
+      background-size: cover;
+      background-color: transparent;
+      :global(.vtex-product-specification-badges-0-x-badgeText) {
+        display: none;
+      }
+    }
+  }
+}
+
+.stackItem--product-badge {
+  width: 100%;
+  :global(.vtex-product-summary-2-x-groupContainer) {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    :global(.vtex-product-summary-2-x-badgeContainer--cyber) {
+      width: 40px;
+      height: 40px;
+      background-image: url(/arquivos/cucarda-cyber.png);
+      background-size: cover;
+      margin: 0 10px;
+      background-color: transparent;
+      :global(.vtex-product-summary-2-x-badgeText) {
+        display: none;
+      }
+    }
+  }
+}

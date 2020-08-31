@@ -8,7 +8,7 @@
         "children": [
             "product-summary-name",
             "product-summary-description",
-            "product-summary-image",
+            "stack-layout#prodsum",
             "product-summary-price",
             "product-summary-sku-selector",
             "product-summary-buy-button"

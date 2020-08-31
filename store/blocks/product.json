@@ -50,17 +50,8 @@
     },
     "children": [
       "flex-layout.row#product-image",
-      "product-bookmark",
-      "product-specification-badges"
+      "product-bookmark"
     ]
-  },
-  "product-specification-badges": {
-    "props": {
-      "specificationGroupName": "Group",
-      "specificationName": "On Sale",
-      "visibleWhen": "True",
-      "displayValue": "SPECIFICATION_NAME"
-    }
   },
   "flex-layout.col#stack": {
     "children": [
@@ -73,8 +64,29 @@
   },
   "flex-layout.row#product-image": {
     "children": [
-      "product-images"
+      "stack-layout#product"
     ]
+  },
+  "stack-layout#product": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "product-images",
+      "product-specification-badges"
+    ]
+  },
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "Cyber",
+          "displayValue": "C",
+          "visibleWhen": "Cyber-forus"
+        }
+      ]
+    }
   },
   "product-images": {
     "props": {
