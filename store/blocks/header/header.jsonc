@@ -13,7 +13,6 @@
   },
   "header-layout.desktop": {
     "children": [
-      "info-card#cortina-cyber-desktop",
       "nostoV2",
       "helmet-component",
       "image#franja-desktop",
@@ -162,7 +161,6 @@
   },
   "header-layout.mobile": {
     "children": [
-      "info-card#cortina-cyber-mobile",
       "nostoV2",
       "helmet-component",
       "image#franja-mobile",
