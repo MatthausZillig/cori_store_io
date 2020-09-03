@@ -112,9 +112,9 @@
       "specificationGroupName": "allSpecifications",
       "specificationsOptions": [
         {
-          "specificationName": "Cyber",
-          "displayValue": "C",
-          "visibleWhen": "Cyber-forus"
+          "specificationName": "",
+          "displayValue": "",
+          "visibleWhen": ""
         }
       ]
     }
