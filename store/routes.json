@@ -11,6 +11,9 @@
   "store.custom#paquetes": {
     "path": "/paquetes/"
   },
+  "store.custom#despachoTiempo": {
+    "path": "/despacho-tiempo/"
+  },
   "store.custom#cambio": {
     "path": "/cambio/"
   },

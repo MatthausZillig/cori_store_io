@@ -21,7 +21,7 @@ class SideMenu extends Component {
                             <li><a href="/opciones-despacho">¿Cuáles Son Las Opciones De Despacho?</a></li>
                             <li><a href="/paquetes">¿Puede Mi Orden Llegar En Diferentes Paquetes?</a></li>
                             <li><a href="/orden">¿Cómo Se Donde Está Mi Orden?</a></li>
-                            <li><a href="#">¿Cuánto Se Demora En Llegar Mi Compra? ¿En Qué Horario?</a></li>
+                            <li><a href="/despacho-tiempo">¿Cuánto Se Demora En Llegar Mi Compra? ¿En Qué Horario?</a></li>
                             <li><a href="/cambio">¿Qué Pasa Si La Talla Me Queda Mal O El Producto No Es Lo Que Esperaba?</a></li>
                             <li><a href="/como-pagar">¿Cómo Puedo Pagar?</a></li>
                             <li><a href="/productos">¿Los Productos Son Los Mismos Que Los De Las Tiendas?</a></li>

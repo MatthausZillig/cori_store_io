@@ -1,0 +1,88 @@
+{
+    "store.custom#despachoTiempo": {
+        "blocks": [
+            "flex-layout.row#despachoTiempo"
+        ],
+        "props": {
+            "blockClass": "despachoTiempo"
+        }
+    },
+    "flex-layout.row#despachoTiempo": {
+        "children": [
+            "flex-layout.row#colunas-despachoTiempo"
+        ],
+        "props": {
+            "blockClass": "fl-despachoTiempo"
+        }
+    },
+    "flex-layout.row#colunas-despachoTiempo": {
+        "children": [
+            "flex-layout.col#col1-body-despachoTiempo",
+            "flex-layout.col#col2-body-despachoTiempo"
+        ],
+        "props": {
+            "blockClass": "colunas-despachoTiempo"
+        }
+    },
+    "flex-layout.col#col1-body-despachoTiempo": {
+        "children": [
+            "image.mountainhardwearcl"
+        ],
+        "props": {
+            "blockClass": "col1-body-despachoTiempo",
+            "width": "20%",
+            "marginRight": 5
+        }
+    },
+    "flex-layout.col#col2-body-despachoTiempo": {
+        "children": [
+            "rich-text#desp-tiempo-titlegrande",
+            "rich-text#desp-tiempo-textone",
+            "rich-text#desp-tiempo-texttwo",
+            "rich-text#desp-tiempo-textthree",
+            "rich-text#desp-tiempo-textfour",
+            "image#desp-tiempo"
+        ],
+        "props": {
+            "blockClass": "col2-body-despachoTiempo",
+            "width": "75%"
+        }
+    },
+    "rich-text#desp-tiempo-titlegrande": {
+        "props": {
+            "text": "**¿Cuánto se demora en llegar mi compra? ¿En qué horario?**",
+            "blockClass": "desp-tiempo-titlegrande"
+        }
+    },
+    "rich-text#desp-tiempo-textone": {
+        "props": {
+            "text": "Si realizaste tu compra antes de las 13:00 de un día hábil, entonces recibirás tu(s) producto(s) en los días hábiles indicados en la siguiente tabla entre las 9:00 y 20:00 horas (no se realizan despachos en horarios particulares). Si realizaste la compra después de las 13:00, entonces debes sumarle un día hábil adicional a lo indicado en la tabla.",
+            "blockClass": "desp-tiempo-textone"
+        }
+    },
+    "rich-text#desp-tiempo-texttwo": {
+        "props": {
+            "text": "Ejemplo 1: Si compraste un lunes a las 16:00 con destino a la Araucanía, recibirás tu compra el jueves o viernes.",
+            "blockClass": "desp-tiempo-texttwo"
+        }
+    },
+    "rich-text#desp-tiempo-textthree": {
+        "props": {
+            "text": "Ejemplo 2: Si compraste un lunes a las 11:00 con destino a la Araucanía, recibirás tu compra el miércoles o jueves.",
+            "blockClass": "desp-tiempo-textthree"
+        }
+    },
+    "rich-text#desp-tiempo-textfour": {
+        "props": {
+            "text": "*REGIÓN DOMICILIO SUCURSALES DE CORREOS DE CHILE AGENCIAS DE CORREOS*",
+            "blockClass": "desp-tiempo-textfour"
+        }
+    },
+    "image#desp-tiempo": {
+        "props": {
+            "src": "https://s3.us-east-2.amazonaws.com/ecom-imagenes.forus-digital.xyz/Landings/COVID/tablaDespachos2.gif",
+            "alt": "Tabla de información de despacho",
+            "blockClass": "tabla-despacho"
+        }
+    }
+}
