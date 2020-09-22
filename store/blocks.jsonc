@@ -104,7 +104,8 @@
   },
   "product-summary-image": {
     "props": {
-      "height": 220
+      "height": 220,
+      "hoverImageLabel": "secondimage"
     }
   },
   "product-summary-specification-badges": {
